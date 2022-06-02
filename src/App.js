@@ -15,7 +15,6 @@ function App() {
   }
 
   const [images, setImages] = useState([]);
-  const [fav, setFav] = useState(0);
 
   useEffect(() => {
     axios
@@ -216,7 +215,7 @@ function App() {
                           >
                             <FaHeart
                               className={`like-icon ${
-                                item.faved == 1 ? "faved" : "not-faved"
+                                item.faved === "1" ? "faved" : "not-faved"
                               }`}
                             />
                           </button>
