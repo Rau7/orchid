@@ -85,6 +85,14 @@ body {
   color: #eb2693;
 }
 
+.like-icon.faved {
+  color: #eb2693;
+}
+
+.like-icon.notfaved {
+  color: #ddd;
+}
+
 /* ---- SEARCH FIELD ---- */
 .search-input {
   background: transparent;

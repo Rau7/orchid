@@ -6,7 +6,16 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 function App() {
+  window.onload = passwordCheck;
+  function passwordCheck() {
+    var password = prompt("Please enter the password.");
+    if (password !== "bello") {
+      passwordCheck();
+    }
+  }
+
   const [images, setImages] = useState([]);
+  const [fav, setFav] = useState(0);
 
   useEffect(() => {
     axios
@@ -16,6 +25,22 @@ function App() {
         setImages(imgs);
       });
   }, []);
+
+  function addDropFav(imageId) {
+    axios
+      .post(`https://admin.reblium.com/add_drop_image_fav/?image_id=${imageId}`)
+      .then((response) => console.log(response))
+      .catch((error) => {
+        this.setState({ errorMessage: error.message });
+        console.error("There was an error!", error);
+      });
+    axios
+      .get(`https://admin.reblium.com/get_xspectar_images_fav`)
+      .then((res) => {
+        const imgs = res.data;
+        setImages(imgs);
+      });
+  }
 
   return (
     <div className="App">
@@ -175,7 +200,6 @@ function App() {
                           <img
                             src={IMAGES[item.id - 1]}
                             className="nft-image"
-                            alt="Item Number 1"
                           ></img>
                         </div>
                         <div className="nft-info">
@@ -186,8 +210,15 @@ function App() {
                           </div>
                         </div>
                         <div className="nft-like-area d-flex justify-content-center">
-                          <button className="btn like-button">
-                            <FaHeart className="like-icon" />
+                          <button
+                            className="btn like-button"
+                            onClick={() => addDropFav(item.id)}
+                          >
+                            <FaHeart
+                              className={`like-icon ${
+                                item.faved == 1 ? "faved" : "not-faved"
+                              }`}
+                            />
                           </button>
                         </div>
                       </div>
