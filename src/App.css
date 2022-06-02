@@ -1,0 +1,188 @@
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #ddd;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Poppins", "sans-serif";
+}
+
+.App {
+  margin-bottom: 3rem;
+}
+
+.content {
+  padding-right: 1rem;
+}
+
+.sidebar {
+  background-color: #000;
+}
+
+.searchbar {
+  background-color: #000;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  margin-top: 2rem;
+}
+
+.main-area {
+  background-color: #000;
+  margin-top: 2rem;
+}
+
+.main-area-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.nft-card {
+  background-color: #333;
+  width: 100%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-top: 2.4rem;
+}
+
+.nft-image {
+  height: auto;
+  width: 100%;
+}
+
+.nft-info {
+  /* top right bottom left */
+  padding: 10px 5px 10px 7px;
+}
+
+.nft-image-name {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.nft-image-description {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* ---- LIKE SECTION ---- */
+.nft-like-area {
+  background-color: #222;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.like-icon {
+  padding: 10px 5px 10px 7px;
+  font-size: 2.75rem;
+  color: #ddd;
+}
+
+.like-icon:hover {
+  color: #eb2693;
+}
+
+/* ---- SEARCH FIELD ---- */
+.search-input {
+  background: transparent;
+  color: #ddd;
+  border: 1px solid #7099cd;
+}
+
+.search-input:focus {
+  border: 1px solid #7099cd;
+  background-color: transparent;
+  color: #ddd;
+}
+
+input[type="date"]:focus:not([readonly]),
+input[type="datetime-local"]:focus:not([readonly]),
+input[type="email"]:focus:not([readonly]),
+input[type="number"]:focus:not([readonly]),
+input[type="password"]:focus:not([readonly]),
+input[type="search-md"]:focus:not([readonly]),
+input[type="search"]:focus:not([readonly]),
+input[type="tel"]:focus:not([readonly]),
+input[type="text"]:focus:not([readonly]),
+input[type="time"]:focus:not([readonly]),
+input[type="url"]:focus:not([readonly]),
+textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #7099cd;
+  box-shadow: none;
+}
+
+.btn-outline-primary {
+  color: #7099cd;
+  border-color: #7099cd;
+}
+
+.search-button:hover,
+.search-button:active {
+  color: #ddd;
+  background-color: #7099cd;
+  border-color: #7099cd;
+}
+
+/* ---- SIDEBAR FIELD ---- */
+.thelogo {
+  height: 14rem;
+  width: auto;
+  margin-top: -3.2rem;
+}
+
+/* ---- ACCORDION ---- */
+
+.accordion-item {
+  background-color: #000;
+}
+
+.accordion-button {
+  background-color: #000;
+  color: #ddd;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23dddddd'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #000;
+  color: #ddd;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23dddddd'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-body {
+  background-color: #000;
+}
+
+.accordion-button:focus {
+  border-color: #ddd;
+  box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%);
+}
+
+/* ----- Accordion Inside ------ */
+
+.accordion-body {
+  padding-left: 20px;
+}
+
+.form-check-label {
+  font-size: 0.95rem;
+}
+
+.form-check-input:checked {
+  background-color: #eb2693;
+  border-color: #eb2693;
+}
+
+.form-check-input:focus {
+  border-color: #000;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
