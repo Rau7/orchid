@@ -170,6 +170,7 @@ function App() {
                             <img
                               src={IMAGES[item.id - 1]}
                               className="nft-image"
+                              alt="NFT Picture"
                             ></img>
                           </div>
                           <div className="nft-info">
