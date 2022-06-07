@@ -112,7 +112,11 @@ function App() {
       for (let j = 0; j < images[i]["attributes"].length; j++) {
         for (let k = 0; k < filterArr.length; k++) {
           let attr = filterArr[k].substring(filterArr[k].lastIndexOf(" ") + 1);
-          if (attr === images[i]["attributes"][j]["value"]) {
+          let trtt = filterArr[k].substring(0, filterArr[k].indexOf(" "));
+          if (
+            attr === images[i]["attributes"][j]["value"] &&
+            trtt === images[i]["attributes"][j]["trait_type"]
+          ) {
             filter_counter++;
           }
         }
