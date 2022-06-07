@@ -1,12 +1,11 @@
 import "./App.css";
 import IMAGES from "./photos";
-import METADATA from "./metadata";
+//import METADATA from "./metadata";
 import logo from "./images/xspectar.png";
 import { FaHeart, FaPlusCircle } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import _, { filter } from "lodash";
-import { motion } from "framer-motion";
+import _ from "lodash";
 
 function App() {
   window.onload = passwordCheck;
@@ -94,7 +93,7 @@ function App() {
           }
         }
       }
-      if (filterArr.length == filter_counter) {
+      if (filterArr.length === filter_counter) {
         lastArr[normal_counter] = images[i];
         normal_counter++;
       }
@@ -215,7 +214,7 @@ function App() {
               </div>
               <div className="main-area-content">
                 <div className="row">
-                  {filteredImgs.length != 0 ? (
+                  {filteredImgs.length !== 0 ? (
                     filteredImgs.map((item) => (
                       <div className="col-xl-3 col-lg-4 col-md-6" key={item.id}>
                         <div className="nft-card">
