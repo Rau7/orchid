@@ -258,7 +258,7 @@ body.modal-open .modal .modal-dialog {
   position: absolute;
   top: 0;
   left: 0;
-  height: 400vh;
+  height: 100vh;
   width: 100%;
   z-index: 99;
 }
@@ -271,4 +271,10 @@ body.modal-open .modal .modal-dialog {
 .at-last {
   font-weight: 600;
   color: red;
+}
+
+.thelogoX {
+  height: 14rem;
+  width: auto;
+  margin-top: -3.2rem;
 }

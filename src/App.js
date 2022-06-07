@@ -8,15 +8,16 @@ import axios from "axios";
 import _ from "lodash";
 
 function App() {
-  window.onload = passwordCheck;
+  /*window.onload = passwordCheck;
   function passwordCheck() {
     var password = prompt("Please enter the password.");
     if (password !== "bello") {
       passwordCheck();
     }
-  }
+  }*/
 
   const [preLoad, setPreLoad] = useState("");
+  const [mainLoad, setMainLoad] = useState("d-none");
   const [passText, setPassText] = useState("Password");
   const [passStyle, setPassStyle] = useState("at-first");
 
@@ -39,6 +40,7 @@ function App() {
   const checkPassword = () => {
     if (pass === "orchid") {
       setPreLoad("d-none");
+      setMainLoad("");
     } else {
       setPassStyle("at-last");
       setPassText("Wrong Password !");
@@ -168,12 +170,12 @@ function App() {
   return (
     <>
       <div className="App">
-        {/*<div
+        <div
           className={`pre-loader d-flex justify-content-center align-items-center ${preLoad}`}
         >
           <div className="login-form">
             <div className="xspectar-image">
-              <img src={logo} className="thelogo" alt="The Logo"></img>
+              <img src={logo} className="thelogoX" alt="The Logo"></img>
             </div>
             <div className="login-area">
               <div className="mb-3">
@@ -202,9 +204,9 @@ function App() {
                 </div>
               </div>
             </div>
-  </div>
-        </div>*/}
-        <div className="row">
+          </div>
+        </div>
+        <div className={`row ${mainLoad}`}>
           <div className="col-xl-2 sidebar ">
             <div className="logo-area d-flex justify-content-center">
               <img src={logo} className="thelogo" alt="The Logo"></img>
