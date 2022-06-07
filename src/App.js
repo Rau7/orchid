@@ -8,13 +8,17 @@ import axios from "axios";
 import _ from "lodash";
 
 function App() {
-  window.onload = passwordCheck;
+  /*window.onload = passwordCheck;
   function passwordCheck() {
     var password = prompt("Please enter the password.");
     if (password !== "bello") {
       passwordCheck();
     }
-  }
+  }*/
+
+  const [preLoad, setPreLoad] = useState("");
+  const [passText, setPassText] = useState("Password");
+  const [passStyle, setPassStyle] = useState("at-first");
 
   const [images, setImages] = useState([]);
   const [traits, setTraits] = useState([]);
@@ -24,6 +28,22 @@ function App() {
   const [filteredImgs, setFilteredImages] = useState([]);
 
   const [searchText, setSearchText] = useState("");
+
+  const [pass, setPass] = useState("");
+
+  const handlePass = (e) => {
+    e.preventDefault();
+    setPass(e.target.value);
+  };
+
+  const checkPassword = () => {
+    if (pass === "orchid") {
+      setPreLoad("d-none");
+    } else {
+      setPassStyle("at-last");
+      setPassText("Wrong Password !");
+    }
+  };
 
   /* 1st PAGE IS LANDED
   get images metadata
@@ -105,6 +125,7 @@ function App() {
   }, [filterArr, images]);
 
   const handleTextChange = (e) => {
+    e.preventDefault();
     setSearchText(e.target.value);
   };
 
@@ -146,6 +167,42 @@ function App() {
   return (
     <>
       <div className="App">
+        <div
+          className={`pre-loader d-flex justify-content-center align-items-center ${preLoad}`}
+        >
+          <div className="login-form">
+            <div className="xspectar-image">
+              <img src={logo} className="thelogo" alt="The Logo"></img>
+            </div>
+            <div className="login-area">
+              <div className="mb-3">
+                <label
+                  htmlFor="exampleFormControlInput1"
+                  className={`form-label ${passStyle}`}
+                >
+                  {passText}
+                </label>
+                <input
+                  onChange={handlePass}
+                  type="password"
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter Password"
+                  value={pass}
+                />
+                <div className="enter-button d-flex justify-content-center mt-5">
+                  <button
+                    onClick={checkPassword}
+                    type="button"
+                    className="btn btn-secondary align-content-center"
+                  >
+                    Enter
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="row">
           <div className="col-xl-2 sidebar ">
             <div className="logo-area d-flex justify-content-center">
