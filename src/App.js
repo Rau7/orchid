@@ -168,10 +168,10 @@ function App() {
   return (
     <>
       <div className="App">
-        <div
+        {/*<div
           className={`pre-loader d-flex justify-content-center align-items-center ${preLoad}`}
         >
-          {/*<div className="login-form">
+          <div className="login-form">
             <div className="xspectar-image">
               <img src={logo} className="thelogo" alt="The Logo"></img>
             </div>
