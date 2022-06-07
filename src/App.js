@@ -8,13 +8,13 @@ import axios from "axios";
 import _ from "lodash";
 
 function App() {
-  /*window.onload = passwordCheck;
+  window.onload = passwordCheck;
   function passwordCheck() {
     var password = prompt("Please enter the password.");
     if (password !== "bello") {
       passwordCheck();
     }
-  }*/
+  }
 
   const [preLoad, setPreLoad] = useState("");
   const [passText, setPassText] = useState("Password");
@@ -171,7 +171,7 @@ function App() {
         <div
           className={`pre-loader d-flex justify-content-center align-items-center ${preLoad}`}
         >
-          <div className="login-form">
+          {/*<div className="login-form">
             <div className="xspectar-image">
               <img src={logo} className="thelogo" alt="The Logo"></img>
             </div>
@@ -202,7 +202,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+  </div>*/}
         </div>
         <div className="row">
           <div className="col-xl-2 sidebar ">
