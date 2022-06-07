@@ -100,7 +100,7 @@ function App() {
     }
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
-  }, [filterArr]);
+  }, [filterArr, images]);
 
   return (
     <>
