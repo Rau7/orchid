@@ -2,7 +2,7 @@ import "./App.css";
 import IMAGES from "./photos";
 //import METADATA from "./metadata";
 import logo from "./images/xspectar.png";
-import { FaHeart, FaPlusCircle } from "react-icons/fa";
+import { FaHeart, FaPlusCircle, FaSearch } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import _ from "lodash";
@@ -22,6 +22,8 @@ function App() {
 
   const [filterArr, setFilterArr] = useState([]);
   const [filteredImgs, setFilteredImages] = useState([]);
+
+  const [searchText, setSearchText] = useState("");
 
   /* 1st PAGE IS LANDED
   get images metadata
@@ -102,6 +104,45 @@ function App() {
     setImageCount(lastArr.length);
   }, [filterArr, images]);
 
+  const handleTextChange = (e) => {
+    setSearchText(e.target.value);
+  };
+
+  useEffect(() => {
+    if (searchText === "") {
+      setFilteredImages(images);
+      setImageCount(images.length);
+    } else {
+      let lastArr = [];
+      let normal_counter = 0;
+      for (let i = 0; i < filteredImgs.length; i++) {
+        if (
+          filteredImgs[i]["name"]
+            .toLowerCase()
+            .includes(searchText.toLowerCase())
+        ) {
+          lastArr[normal_counter] = filteredImgs[i];
+          normal_counter++;
+        }
+        for (let j = 0; j < filteredImgs[i]["attributes"].length; j++) {
+          if (
+            filteredImgs[i]["attributes"][j]["value"]
+              .toLowerCase()
+              .includes(searchText.toLowerCase())
+          ) {
+            lastArr[normal_counter] = filteredImgs[i];
+            normal_counter++;
+          }
+        }
+      }
+      const uniqueArray = lastArr.filter(
+        (v, i, a) => a.findIndex((t) => t.name === v.name) === i
+      );
+      setFilteredImages(uniqueArray);
+      setImageCount(uniqueArray.length);
+    }
+  }, [searchText]);
+
   return (
     <>
       <div className="App">
@@ -176,20 +217,16 @@ function App() {
           <div className="col-xl-10 content">
             <div className="col-lg-12 searchbar container">
               <div className="input-group mb-3">
+                <FaSearch className="search-icon" />
                 <input
+                  onChange={handleTextChange}
                   type="text"
                   className="form-control search-input"
-                  placeholder="Search by name or trait.."
+                  placeholder="Search by item number or trait.."
                   aria-label="Search some"
                   aria-describedby="button-addon2"
+                  value={searchText}
                 />
-                <button
-                  className="btn btn-outline-primary search-button"
-                  type="button"
-                  id="button-addon2"
-                >
-                  Search
-                </button>
               </div>
             </div>
             <div className="col-lg-12 main-area container">
@@ -198,7 +235,7 @@ function App() {
                 <div className="row">
                   {filterArr &&
                     filterArr.map((item) => (
-                      <div className="col-md-3" key={item}>
+                      <div className="" key={item}>
                         <div className="filter-item d-flex justify-content-between align-items-center">
                           {item}
                           <div className="filter-remove-button">
@@ -247,7 +284,7 @@ function App() {
                       </div>
                     ))
                   ) : (
-                    <div>Nothing To Show</div>
+                    <div className="nothing-to-show">Nothing To Show</div>
                   )}
                 </div>
               </div>

@@ -236,3 +236,19 @@ body.modal-open .modal .modal-dialog {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+.nothing-to-show {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  align-content: center;
+  height: 100vh;
+}
+
+.search-icon {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 15px;
+  color: #7099cd;
+}
