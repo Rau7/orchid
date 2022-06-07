@@ -202,8 +202,8 @@ function App() {
                 </div>
               </div>
             </div>
-  </div>*/}
-        </div>
+  </div>
+        </div>*/}
         <div className="row">
           <div className="col-xl-2 sidebar ">
             <div className="logo-area d-flex justify-content-center">
