@@ -2,8 +2,8 @@ const METADATA = [
   0,
   {
     dna: "",
-    name: "88",
-    description: "Rare",
+    name: 1,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -11,7 +11,7 @@ const METADATA = [
     attributes: [
       {
         trait_type: "Avatar",
-        value: "Default_2",
+        value: "Gold",
       },
       {
         trait_type: "Back",
@@ -19,7 +19,7 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
+        value: "Hexagon_Gold",
       },
       {
         trait_type: "Cheeks",
@@ -27,107 +27,7 @@ const METADATA = [
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieRed_R75_Regular_00043.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_4_1_Gold_R75__Regular_00017.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_SteamPunk_R10_00006.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_VRController_R05_00007.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Pink_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "89",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_5_R50_Unique__00006.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_18thCenturyVest_MustardGreen_R75__18thCentury__00028.ass",
+        value: "Tuxedo_White_Shirt_Black",
       },
       {
         trait_type: "Ears",
@@ -135,304 +35,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_1_3_Silver_R75__Regular_00008.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Blue_R05__Cyberpunk__00021.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__FoamFinger_R01_00008.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BaseballCap_R75__Sport__00019.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "90",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Tuxedo_R50__Regular_00001.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_Eye_01__R75_Cyberpunk__00001.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_1_3_Gold_R75__Regular_00007.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Blue_R05__Cyberpunk__00021.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Diamond_R01__Regular_00016.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Fedora_Black__R75__Regular__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "91",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Sweater_Irisid_R75_Regular_00048.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_05__R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Silver_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Farokh_style_R50__Regular_00023.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_VRController_R05_00007.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Fedora_White__R75__Regular__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Gray_R75_Regular_00004.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "92",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_5_R50_Unique__00006.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_CoutureTop_R75__HighFashion__00020.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
+        value: "Regular",
       },
       {
         trait_type: "Eyebrow",
@@ -440,106 +43,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Silver_R75__Regular_00016.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00009.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Axe_R75__Regular__00028.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_xSpectar_R75_80s__00019.ass",
-      },
-      {
-        trait_type: "Lip",
         value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "93",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieMustard_R75_Regular_00045.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Green_Eyes__R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
       },
       {
         trait_type: "Facial_Hair",
@@ -547,407 +51,6 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Silver_R75__Regular_00012.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_SteamPunk_R10_00006.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__PocketWatch_R10_00005.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FlatCap_R75__Sport__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "94",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_18thCenturyJacket_MustardGreen_R75__18thCentury__00027.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Regular_01__R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Silver_R75__Regular_00012.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_ARGlasses_R75_00002.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Pen_Open_R50__Regular_00015.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_MotorcycleHelmet_Red_R75_Sport__00013.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "95",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_7_R50_Regular_00008.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Windbreaker_R75_80s__00017.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_02__R75_Cyberpunk__00002.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_InfinityRing_R75_00002.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R25_00012.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Pipe_R10_00011.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headset_Headphones_R75__Regular__00009.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "96",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_National_01_R75__Nationalities_00013.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Gold_R75__Regular_00019.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_ARGlasses_R75_00002.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_VRController_R05_00007.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_CovidVisor_R75__Corona__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Leather_R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "97",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_9_R50_Regular_00010.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieMustard_R75_Regular_00045.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_R75_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
         value: "Nothing",
       },
       {
@@ -955,210 +58,16 @@ const METADATA = [
         value: "Male",
       },
       {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Rose_R50_Regular_00018.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_MotorcycleHelmet_Black_R75_Sport__00010.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV1_R75_00001.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "98",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Katana_R75_Regular__00003.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Diamonds_Wall__R50_Unique__00015.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_David_Bowie_Tuxedo_R75__Music__00033.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_03__R75_Cyberpunk__00003.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Gold_R75__Regular_00011.ass",
-      },
-      {
         trait_type: "Glasses",
-        value: "SM_EY_Glasses_Visor_R05_00016.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
+        value: "Nothing",
       },
       {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Bald",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Green_R75__HighFashion__00025.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_Mask_Surgical_Mask_R50__Corona__00009.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV2_R75_00002.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "99",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_4_R50_Regular_00005.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Jacket_R75__Cyberpunk_00003.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Green_Eyes__R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Gold_R75__Regular_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY__BitcoinEyes_R01_00008.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_GM_Medium_Long_00004.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Silenced_R05_00006.ass",
+        value: "Diamond",
       },
       {
         trait_type: "Head",
@@ -1182,7 +91,7 @@ const METADATA = [
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
@@ -1192,8 +101,8 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "100",
-    description: "Rare",
+    name: 2,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -1201,7 +110,7 @@ const METADATA = [
     attributes: [
       {
         trait_type: "Avatar",
-        value: "Default_2",
+        value: "Gold",
       },
       {
         trait_type: "Back",
@@ -1209,15 +118,15 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_5_R50_Unique__00006.ass",
+        value: "Hexagon_Gold",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_WhiteFlowerCouture_R75__HighFashion__00026.ass",
+        value: "Blazer_White_Shirt_Black",
       },
       {
         trait_type: "Ears",
@@ -1225,7 +134,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Regular_01__R75_Regular_00006.ass",
+        value: "Regular",
       },
       {
         trait_type: "Eyebrow",
@@ -1233,7 +142,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Facial_Hair",
@@ -1241,23 +150,23 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_2_1_Gold_R75__Regular_00009.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
-        value: "Male",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
       },
       {
         trait_type: "Hair",
-        value: "Brad_Pitt_hair_v0002.ass",
+        value: "Curly_Ponytail_Gold",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
+        value: "Diamond",
       },
       {
         trait_type: "Head",
@@ -1277,403 +186,7 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Blue_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "101",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
         value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Diamonds_Wall__R50_Unique__00015.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodiePurple_R75_Regular_00041.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Brown_Eyes__R75_Regular_00010.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Silver_R75__Regular_00004.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Axe_R75__Regular__00028.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_MotorcycleHelmet_Black_R75_Sport__00010.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "102",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_7_R50_Regular_00008.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_Motorcycle_R75_00014_GEO100033.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_04__R75_Cyberpunk__00004.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_2_1_Gold_R75__Regular_00009.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Rose_R50_Regular_00018.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Yellow_R75_80s__00018.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_Mask_CyberMask_R75_00001.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_BarbellPiercing_R75_00007.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Blue_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "103",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Katana_R75_Regular__00003.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieRed_R75_Regular_00043.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_04__R75_Cyberpunk__00004.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Gold_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_RectangleFrame_R75_00003.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Cigarette_R10_00001.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_BucketHat_Swirl_R75_Regular_00033.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "104",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Chinese_Robe_R75__Nationalities_00006.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Regular_01__R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Gold_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Yellow_R75_80s__00018.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
       },
       {
         trait_type: "Shoulder",
@@ -1687,8 +200,8 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "105",
-    description: "Rare",
+    name: 3,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -1696,7 +209,7 @@ const METADATA = [
     attributes: [
       {
         trait_type: "Avatar",
-        value: "Default_2",
+        value: "Silver",
       },
       {
         trait_type: "Back",
@@ -1704,15 +217,15 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_9_R50_Regular_00010.ass",
+        value: "Hexagon_Gold",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_David_Bowie_Tuxedo_R75__Music__00033.ass",
+        value: "Tuxedo_Gold_Shirt_Black_Tie_White",
       },
       {
         trait_type: "Ears",
@@ -1720,106 +233,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Brown_Eyes__R75_Regular_00010.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Gold_R75__Regular_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Zippe_R05_00008.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_xSpectar_R75_80s__00019.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "106",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_5_R50_Unique__00006.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_VarsityJacket_R75__Sport__00022.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_Eye_01__R75_Cyberpunk__00001.ass",
+        value: "Brown",
       },
       {
         trait_type: "Eyebrow",
@@ -1827,7 +241,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Facial_Hair",
@@ -1838,713 +252,20 @@ const METADATA = [
         value: "Nothing",
       },
       {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Visor_R05_00016.ass",
-      },
-      {
         trait_type: "Gender",
         value: "Male",
       },
       {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_BucketHat_GoldBrown_R75_Regular_00034.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R25_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "107",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_ClassyShirt_R75__Regular_00004.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Silver_R75__Regular_00020.ass",
-      },
-      {
         trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00009.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
+        value: "Nothing",
       },
       {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Bald",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Purple_R75_80s__00017.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "108",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_Shirt_02_R75__Nationalities_00011.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Green_Eyes__R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_R75_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_ARGlasses_R75_00002.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_BucketHat_Swirl_R75_Regular_00033.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_Bag_FannyPack_Gold_Rp1__Regular_00007.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R25_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "109",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_TurtleNeck_Purple_R75__Regular_00039.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Black_Eyes_R75_Regular__00007.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Silver_R75__Regular_00014.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R01_00014.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Chocolate_Doughnut_R75_Regular_00017.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__200026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_PiercingRound_R50_00003.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "110",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_6_R50_Regular_00007.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_WhiteFlowerCouture_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_04__R75_Cyberpunk__00004.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Farokh_style_R50__Regular_00023.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Glock_R75__Regular_00025.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Yellow_R75__HighFashion__00028.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_BarbellPiercing_R75_00007.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "111",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_National_R75__Nationalities_00012.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_RectangleFrame_R75_00003.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_SwirlLollipop_R75_Regular_00023.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Purple_R75_80s__00017.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Blue_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "112",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_WhiteFlowerCouture_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Black_Eyes_R75_Regular__00007.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Silver_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Green_R75__HighFashion__00001.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_Bag_FannyPack_Gold_Rp1__Regular_00007.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "113",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_18thCenturyVest_R75__18thCentury__00015.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_Eye_01__R75_Cyberpunk__00001.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Gold_R75__Regular_00013.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_GM_Domitianus_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Cigarette_R10_00001.ass",
+        value: "Pocketwatch",
       },
       {
         trait_type: "Head",
@@ -2564,106 +285,7 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
         value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "114",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Gold_R50_Unique__00013.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieWhite_R75_Regular_00040.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_04__R75_Cyberpunk__00004.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Gold_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Ski_goggles_R50__Sport__00018.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Banana_R01_00009.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_BucketHat_Swirl_R75_Regular_00033.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
       },
       {
         trait_type: "Shoulder",
@@ -2677,8 +299,8 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "115",
-    description: "Rare",
+    name: 4,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -2686,7 +308,7 @@ const METADATA = [
     attributes: [
       {
         trait_type: "Avatar",
-        value: "Default_2",
+        value: "Silver",
       },
       {
         trait_type: "Back",
@@ -2694,106 +316,7 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Diagonal_Rectangles_Wall_Silver_R50_Unique__00016.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieBlack_R75_Regular_00042.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_02__R75_Cyberpunk__00002.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R01_00014.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FlatCap_R75__Sport__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "116",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
+        value: "Hexagon_Gold",
       },
       {
         trait_type: "Cheeks",
@@ -2801,305 +324,7 @@ const METADATA = [
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Middle_Sweater_Pink_R75__Regular_00036.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Middle_Ring_6_1_Gold_R75__Regular_00021.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R10_00010.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Axe_R75__Regular__00028.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Yellow_R75_80s__00018.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV1_R75_00001.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "117",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_7_R50_Regular_00008.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_Sweater_Green_R75__Regular_00034.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Silver_R75__Regular_00014.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Blue_R05__Cyberpunk__00021.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Banana_R01_00010.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Pink_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Gray_R75_Regular_00004.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "118",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Triangles_Wall_Gold_R50_Unique__00014.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Middle_18thCenturyShirt_Mustard_R75__18thCentury__00029.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Silver_R75__Regular_00012.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Colorful_Doughnut_R75_Regular_00016.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Red_R75_80s__00016.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "119",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_ChineseTraditional_R75__Nationalities_00005.ass",
+        value: "Blazer_Gold_Shirt_Black",
       },
       {
         trait_type: "Ears",
@@ -3107,205 +332,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_GoldenEye_R75_Regular_00012.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Gold_R75__Regular_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R01_00014.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Purple_R75_80s__00017.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "120",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_TurtleNeck_Gray_R75__Regular_00037.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_2_1_Gold_R75__Regular_00009.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Pilot_Motorcycle_Goggles_R05__Regular_00017.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_CovidVisor_R75__Corona__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_Mask_Surgical_Mask_R50__Corona__00009.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "121",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_2_R50_Regular_00003.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_CoutureShirt_R75__HighFashion__00017.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_03__R75_Cyberpunk__00003.ass",
+        value: "Brown",
       },
       {
         trait_type: "Eyebrow",
@@ -3313,205 +340,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Gold_R75__Regular_00019.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Farokh_style_R50__Regular_00023.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Glock_R75__Regular_00025.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Pink_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Lip",
         value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV1_R75_00001.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "122",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieBlue_R75_Regular_00044.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_GoldenEye_R75_Regular_00012.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Chocolate_Doughnut_R75_Regular_00017.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Fedora_Black__R75__Regular__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "123",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Triangles_Wall_Silver_R50_Regular__00018.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_David_Bowie_Tuxedo_R75__Music__00033.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
       },
       {
         trait_type: "Facial_Hair",
@@ -3519,419 +348,23 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Middle_Ring_6_1_Silver_R75__Regular_00022.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Farokh_style_R50__Regular_00023.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Colorful_Doughnut_R75_Regular_00016.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BaseballCap_R75__Sport__00019.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "124",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_10_R50_Regular_00011.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Tuxedo_R50__Regular_00001.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
+        value: "Female",
       },
       {
         trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
+        value: "Nothing",
       },
       {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Cybergirl_Silver",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Gun_Silenced_Gun_Gold_R75__Unique_00027.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__200026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "125",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_TurtleNeck_Purple_R75__Regular_00039.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_GoldenEye_R75_Regular_00012.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Gold_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Drink_White_Cup_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Pink_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "126",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_ArabianStyle_R75__Nationalities_00008.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Gold_R75__Regular_00019.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Axe_R75__Regular__00028.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Red_R75_80s__00016.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "127",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_Shirt_02_R75__Nationalities_00011.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Gold_R75__Regular_00005.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_GM_William_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
+        value: "Rose_Gold",
       },
       {
         trait_type: "Head",
@@ -3951,7 +384,7 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_BarbellPiercing_R75_00007.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
@@ -3959,14 +392,14 @@ const METADATA = [
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R25_00005.ass",
+        value: "Nothing",
       },
     ],
   },
   {
     dna: "",
-    name: "128",
-    description: "Rare",
+    name: 5,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -3974,40 +407,39 @@ const METADATA = [
     attributes: [
       {
         trait_type: "Avatar",
-        value: "Default_2",
+        value: "Default_1",
       },
       {
         trait_type: "Back",
-        value: "SM_BC_Katana_R75_Regular__00003.ass",
+        value: "Angel_Wings_White",
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_2_R50_Regular_00003.ass",
+        value: "Hexagon_Gold_Glow",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_18thCenturyJacket_MustardGreen_R75__18thCentury__00027.ass",
+        value: "JesusRobes_White",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
+        value: "Blue",
       },
       {
         trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Blonde",
       },
       {
         trait_type: "Facial_Hair",
@@ -4015,126 +447,27 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Silver_R75__Regular_00016.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Cyber_Phone_R50_Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__200026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV2_R75_00002.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "129",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_AsianLongGown_R75__Nationalities_00007.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Black_Eyes_R75_Regular__00007.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Silver_R75__Regular_00014.ass",
+        value: "Female",
       },
       {
         trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
+        value: "Nothing",
       },
       {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Long_Wavy_Blonde",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_SwirlLollipop_R75_Regular_00023.ass",
+        value: "Cross_Gold",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__200026.ass",
+        value: "Halo_Gold",
       },
       {
         trait_type: "Lip",
@@ -4154,7 +487,7 @@ const METADATA = [
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Leather_R75_Regular_00006.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
@@ -4164,8 +497,8 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "130",
-    description: "Rare",
+    name: 6,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -4177,110 +510,11 @@ const METADATA = [
       },
       {
         trait_type: "Back",
-        value: "Nothing",
+        value: "Angel_Wings_White",
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_2_R50_Regular_00003.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_Shirt_02_R75__Nationalities_00011.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Brown_Eyes__R75_Regular_00010.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Middle_Ring_6_1_Silver_R75__Regular_00022.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__FoamFinger_R01_00008.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Fedora_Black__R75__Regular__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Green_R75_Regular_00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "131",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_7_R50_Regular_00008.ass",
+        value: "Hexagon_Gold_Glow",
       },
       {
         trait_type: "Cheeks",
@@ -4288,107 +522,7 @@ const METADATA = [
       },
       {
         trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_18thCenturyJacket_MustardGreen_R75__18thCentury__00027.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Gold_R75__Regular_00011.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Orange_R05__Cyberpunk__00022.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_GM_Sobyeol_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Silenced_R05_00006.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_WolfMaskGold_R75_00006.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R25_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "132",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Diagonal_Rectangles_Wall_Gold_R50_Unique__00012.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieOrange_R75_Regular_00046.ass",
+        value: "JesusRobes_White",
       },
       {
         trait_type: "Ears",
@@ -4396,106 +530,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Regular_01__R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Gold_R75__Regular_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Microphone_R25__Music__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Ushanka_R75_00004.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "133",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Katana_R75_Regular__00003.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_CoutureTop_R75__HighFashion__00020.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_05__R75_Cyberpunk__00005.ass",
+        value: "Blue",
       },
       {
         trait_type: "Eyebrow",
@@ -4503,35 +538,35 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
+        value: "Blonde",
       },
       {
         trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Silver_R75__Regular_00014.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Visor_R05_00016.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
         value: "Male",
       },
       {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Parted_Blonde",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_VRController_R05_00007.ass",
+        value: "Cross_Gold",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_CovidVisor_R75__Corona__00014.ass",
+        value: "Halo_Gold",
       },
       {
         trait_type: "Lip",
@@ -4551,18 +586,1998 @@ const METADATA = [
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
+        value: "Nothing",
       },
     ],
   },
   {
     dna: "",
-    name: "134",
-    description: "Rare",
+    name: 7,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Demonic_Wings_Dark",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black_Red",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Tuxedo_Black_Shirt_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Regular",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Blonde",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Parted_Blonde",
+      },
+      {
+        trait_type: "Hand",
+        value: "Martini_Glass_Red",
+      },
+      {
+        trait_type: "Head",
+        value: "Horns_Black",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Watch_01_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 8,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "SmokeyCatEye",
+      },
+      {
+        trait_type: "Back",
+        value: "Demonic_Wings_Dark",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black_Red",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Blazer_Black_Shirt_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Regular",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Blonde",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_03_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Pixie_Cut_Blonde",
+      },
+      {
+        trait_type: "Hand",
+        value: "Martini_Glass_Red",
+      },
+      {
+        trait_type: "Head",
+        value: "Horns_Black",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Barbell_Silver",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Bracelet_01_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 9,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "CyberWings_BrushedMetal",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black_Blue",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "ArabianStyle_White_Gold_Buttons",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Regular",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Sunglasses_Cyberpunk_01_Black",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Golden_Gun",
+      },
+      {
+        trait_type: "Head",
+        value: "CyberOriental_Blue_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Cybermask_01",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Big_Bracelet_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 10,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "CyberWings_BrushedMetal",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black_Blue",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Suit_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Brown",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Cybermask_02",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Golden_Gun",
+      },
+      {
+        trait_type: "Head",
+        value: "CyberOriental_Blue_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Snake_Gold",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Bracelet_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 11,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "SmokeyCatEye",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "ArabianStyle_Brown",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Brown",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Index_Ring_Silver",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "TopFrame_Gold",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "AR_Bag_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Arabian_Style_Brown",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 12,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "ArabianStyle_White_Black_Buttons",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Brown",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_Black",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Index_Ring_Wide_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Aviator_Gold",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Cyberphone",
+      },
+      {
+        trait_type: "Head",
+        value: "ArabianStyle_White_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Watch_01_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 13,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Tuxedo_Black_Shirt_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_02_Black",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Medium_Fade_Black",
+      },
+      {
+        trait_type: "Hand",
+        value: "Golden_Gun_Silenced",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Watch_01_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 14,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "SmokeyCatEye",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "GreekDress_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Red",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Red",
+      },
+      {
+        trait_type: "Hand",
+        value: "Golden_Gun_Silenced",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 15,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Diamond",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "GreekDress_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Brown",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Billie_Eilish_Gold",
+      },
+      {
+        trait_type: "Hand",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 16,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Diamond",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "CoutureTop_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Brown",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Afro_Gold",
+      },
+      {
+        trait_type: "Hand",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 17,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "MichaelJacksonOutfit",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Brown",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Eyebrow_02",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_01_Black",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Afro_Black",
+      },
+      {
+        trait_type: "Hand",
+        value: "Microphone_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Watch_01_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 18,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "SmokeyCatEye",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Jacket_Holographic_Shirt_LightGreen",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_02_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Billie_Eilish",
+      },
+      {
+        trait_type: "Hand",
+        value: "Microphone_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Choker_Xspectar_Gold",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "bracelet_01_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 19,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Vampire",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "ArabianStyle_Black_Brown_Buttons",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "White",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Long_White",
+      },
+      {
+        trait_type: "Hand",
+        value: "MoneyStack",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "BeadBracelet_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 20,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Vampire",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Dress_Asymmetrical_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "White",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Long_Wavy_White",
+      },
+      {
+        trait_type: "Hand",
+        value: "Wine",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 21,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Scar_01",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold_Diamond",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Dress_Asymmetrical_Purple",
+      },
+      {
+        trait_type: "Ears",
+        value: "PearlThread_RingMiddle_RingTop",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Right_Blue_Left_Cyborg_01",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Barbell_Silver",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_Combination_01_Nails_Ombre",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Cybergirl",
+      },
+      {
+        trait_type: "Hand",
+        value: "Snake_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Flower_Gold_Jade_Silver",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Diamond_Sticks_Jade",
+      },
+      {
+        trait_type: "Nose",
+        value: "Stud_Diamond",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 22,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Scar_02",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold_Diamond",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Suit_DarkBlue_Shirt_DarkBlue_Tie_DarkPurple",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Right_Blue_Left_Cyborg_01",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Eyebrow_01",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_01",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Ring_Combination_02",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Cybergirl",
+      },
+      {
+        trait_type: "Hand",
+        value: "Detonator_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Fedora_Darkblue_White_Strap",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 23,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Ice",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Varsity_Jacket_Gold_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Ice_Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Golden_Gun",
+      },
+      {
+        trait_type: "Head",
+        value: "BeanieHat_Silver",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 24,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Ice",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "CoutureTop_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Ice_Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Gun_Silenced_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "BeanieHat_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 25,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Red",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "CropTop_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Earring_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Barbell_Silver",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Pinky_Ring_01_Silver",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Glasses_Hexagon_Gold",
+      },
+      {
+        trait_type: "Hair",
+        value: "Buzzcut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Chocolate_Doughnut",
+      },
+      {
+        trait_type: "Head",
+        value: "Fisherman_Beanie_DarkGreen",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "PiercingRound_Silver",
+      },
+      {
+        trait_type: "Neck",
+        value: "Choker_Xspectar_Gold_Black",
+      },
+      {
+        trait_type: "Nose",
+        value: "PiercingRound_Silver",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "FannyPack_Gold",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Bracelet_02_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 26,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Triangles_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Windbreaker",
+      },
+      {
+        trait_type: "Ears",
+        value: "EarRing_Middle_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Barbell_Silver",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Eyebrow_2",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_01",
+      },
+      {
+        trait_type: "Fingers",
+        value: "InfinityRing_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "RectangleFrame_Black",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Chocolate_Doughnut",
+      },
+      {
+        trait_type: "Head",
+        value: "FishermanBeanie_DarkGreen",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring_02_Gold",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "FannyPack_Gold",
+      },
+      {
+        trait_type: "Wrist",
+        value: "BeadBracelet_Jade",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 27,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -4578,32 +2593,31 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value:
-          "SM_BG_3D_DiagonalRectanglesWall_Cobalt_Blue_R75__Regular_00046.ass",
+        value: "Holographic_04",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00004.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_Dress_R75__18thCentury_00015.ass",
+        value: "AsianTraditional",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_Pearl_Earrings_R75__Regular_00010.ass",
+        value: "Pearl_EarRing",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_02__R75_Cyberpunk__00003.ass",
+        value: "Brown",
       },
       {
         trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Default",
       },
       {
         trait_type: "Facial_Hair",
@@ -4611,27 +2625,27 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_7_1_R75__Regular__00022.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_DiorStellaire_R75_00002.ass",
+        value: "Middle_Ring_01_Silver",
       },
       {
         trait_type: "Gender",
         value: "Female",
       },
       {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
+        value: "Bob_Cut",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Bag_AR_Bag_02_R75_00012.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_White_R75__HighFashion__00019.ass",
+        value: "Flowers_Pink",
       },
       {
         trait_type: "Lip",
@@ -4643,11 +2657,110 @@ const METADATA = [
       },
       {
         trait_type: "Neck",
-        value: "SM_NK_Necklace_Diamond_Sticks_Necklace_R75_00003.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00009.ass",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Chinese_Umbrella",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 28,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_04",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Chinese_Traditional_Green",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Default",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Eyebrow_01",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Glasses_Round_Green",
+      },
+      {
+        trait_type: "Hair",
+        value: "Buzzcut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Katana_Unsheathed",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring_03_Gold",
       },
       {
         trait_type: "Shoulder",
@@ -4661,8 +2774,1196 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "135",
-    description: "Rare",
+    name: 29,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Lava",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black_Orange",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "TurtleNeck_Copper",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Black",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Glasses_Round_Black",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Zippo_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 30,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Lava",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black_Orange",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Dress_Asymmetrical_Copper",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Black",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Glasses_Round_Black",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Banana_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 31,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Gold",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Triangles_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "CoutureTop_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "LongBeamDiamond",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "BlueEyes",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Barbell_Silver",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Gun_Glock",
+      },
+      {
+        trait_type: "Head",
+        value: "BucketHat_Black",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "PiercingRound_Silver",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Long_Gloves_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 32,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Triangles_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "CoutureTop_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "Earring_Low_Ring",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue_Eyes",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Piercing_Barbell",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Index_Ring_01_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Gun_Glock",
+      },
+      {
+        trait_type: "Head",
+        value: "BucketHat_Black",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "PiercingRound_Silver",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Watch_01_Silver",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 33,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Blue",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_06",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "80s_Jacket_Shirt_YellowGold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Pearl_Earrings_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_02",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_01_Gold_Silver",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Ponytail",
+      },
+      {
+        trait_type: "Hand",
+        value: "SwirlLollipop",
+      },
+      {
+        trait_type: "Head",
+        value: "Headband_Yellow_80s",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "PearlChoker_Gold",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "PearlBracelet_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 34,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_06",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Windbreaker_80s",
+      },
+      {
+        trait_type: "Ears",
+        value: "Ring_low_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_02",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default_02",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Ring_Combination_02",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "SwirlLollipop",
+      },
+      {
+        trait_type: "Head",
+        value: "Headband_Yellow_80s",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Big_Bracelet_Black_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 35,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Blue",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "StarFreckles_Yellow_Orange",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Swimsuit_02",
+      },
+      {
+        trait_type: "Ears",
+        value: "LargeDiamondHoops_Silver",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Pinky_Ring_02_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Glasses_Hexagon_Gold",
+      },
+      {
+        trait_type: "Hair",
+        value: "Curly_Ponytail",
+      },
+      {
+        trait_type: "Hand",
+        value: "Rose_Top_Gold_Stem_Green",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Snake_Gold",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "BaguetteBag_White",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 36,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "StarFreckles_Yellow_Orange",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue_Eyes",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default_02",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_02",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Index_Ring_01_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Sunglasses_Round_Red",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Rose_Top_Gold_Stem_Green",
+      },
+      {
+        trait_type: "Head",
+        value: "BucketHat_Swirl",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "FannyPack_Blue",
+      },
+      {
+        trait_type: "Wrist",
+        value: "BeadBracelet_Jade",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 37,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "VarsityJacket_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Default",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Green",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_01_Green",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Messy_Green",
+      },
+      {
+        trait_type: "Hand",
+        value: "FoamFinger_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 38,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Gold",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "VarsityJacket_Gold_Shirt_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Default",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Green",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Long_Wavy_Green",
+      },
+      {
+        trait_type: "Hand",
+        value: "FoamFinger_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 39,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "Angel_Wings_Silver",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "StarFreckles_Silver",
+      },
+      {
+        trait_type: "Clothing",
+        value: "LeeLoo_Outfit_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_01",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Pinky_Ring_02_Silver",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Cybergirl",
+      },
+      {
+        trait_type: "Hand",
+        value: "Nails_Silver",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "BaguetteBag_White",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 40,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Axe_Double",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Turtleneck_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_03",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Piercing_Ring_01_Left",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default_02",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_01",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Short_Curly",
+      },
+      {
+        trait_type: "Hand",
+        value: "VRController",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "PiercingRound_Silver",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 41,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -4678,31 +3979,31 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
+        value: "Diamonds",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_ShirtCasual_R75__Regular_00021.ass",
+        value: "Blazer_Red_Shirt_Gold",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_PearlThreadEarring_R75_00002.ass",
+        value: "PearlThread_01",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_BrownEyes_R75_Regular_00011.ass",
+        value: "Cyborg_01",
       },
       {
         trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Default",
       },
       {
         trait_type: "Facial_Hair",
@@ -4710,27 +4011,27 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_5_3_Gold_R75__Regular_00018.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R50_00008.ass",
+        value: "Rings_04_Gold",
       },
       {
         trait_type: "Gender",
         value: "Female",
       },
       {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
+        value: "Bob_Cut",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Gun_Glock_R75_00010.ass",
+        value: "Lipstick_Gold",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__00018.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Lip",
@@ -4742,11 +4043,209 @@ const METADATA = [
       },
       {
         trait_type: "Neck",
-        value: "SM_NK_Necklace_Pearl_Necklace_Short_R75__Regular_00007.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Bracelet_01_Gold_Diamond",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 42,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diamonds",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Tuxedo_Burgundy_Shirt_Silver_Tie_Burgundy",
+      },
+      {
+        trait_type: "Ears",
+        value: "RingTop",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_01",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Index_Ring_02_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Messy",
+      },
+      {
+        trait_type: "Hand",
+        value: "Zippo_BrushedMetal",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "BeadBracelet_Silver",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 43,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Juggalo",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "LeatherJacket_Red_Hoodie_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Default",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "White",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Afro_Blonde",
+      },
+      {
+        trait_type: "Hand",
+        value: "Cup_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
@@ -4760,8 +4259,503 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "136",
-    description: "Rare",
+    name: 44,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Juggalette",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangle_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Leelo_Outfit_Red",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Default",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "White",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_05_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Afro_Blonde",
+      },
+      {
+        trait_type: "Hand",
+        value: "BaseballBat_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 45,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Yellow",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_04",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "StarFreckles_Yellow_Orange",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Windbreaker_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "DiamondBranche",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Middle_Ring_01_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Wine",
+      },
+      {
+        trait_type: "Head",
+        value: "Beret_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Choker_01_Black_Gold",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring_04_Gold",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Bracelet_01_Gold_Diamond",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 46,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_04",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "StarFreckles_Yellow_Orange",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Windbreaker_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Index_Ring_02_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Buzzcut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Zippo",
+      },
+      {
+        trait_type: "Head",
+        value: "BucketHat_Brown_Pattern",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring_02_Gold",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Watch_03_Silver_Black",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 47,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Blue",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "White_Glow",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Pocketwatch",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 48,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Blue",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "White_Glow",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Pocketwatch",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 49,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -4777,24 +4771,23 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Diamonds_Wall__R50_Unique__00015.ass",
+        value: "Triangles_Green",
       },
       {
         trait_type: "Cheeks",
-        value: "Nothing",
+        value: "StarFreckles_Pink_Blue",
       },
       {
         trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_UkrainianTraditional_004_R75__Nationalities__00038.ass",
+        value: "Jacket_Iridescent_Shirt_Silver",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_LargeDiamondHoops_R75_00005.ass",
+        value: "DiamondBranche",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_05__R75_Cyberpunk__00006.ass",
+        value: "Green",
       },
       {
         trait_type: "Eyebrow",
@@ -4802,7 +4795,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Black",
       },
       {
         trait_type: "Facial_Hair",
@@ -4810,27 +4803,27 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_2_3_R75__Regular_00005.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_DealWithIt_R10_00006.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
         value: "Female",
       },
       {
+        trait_type: "Glasses",
+        value: "TopFrame_Silver",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
+        value: "Bald",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Bag_Balmain_R25_00014.ass",
+        value: "Ball_Glass",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_CyberOriental_Purple_R75__Cyberpunk__00028.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Lip",
@@ -4842,15 +4835,15 @@ const METADATA = [
       },
       {
         trait_type: "Neck",
-        value: "SM_NK_Choker_PearlChoker_R75__Regular_00010.ass",
+        value: "Diamond_Sticks_Silver",
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_BarbellPiercing_R50_00010.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Blue_R75_Regular_00009.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
@@ -4860,8 +4853,107 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "137",
-    description: "Rare",
+    name: 50,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Sweater_Iridescent",
+      },
+      {
+        trait_type: "Ears",
+        value: "Ring_low_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_01",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Retro_Brown",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "BaseballBat_02_Copper",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring_04_Gold",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Big_Bracelet_Gold_Silver",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 51,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -4877,7 +4969,7 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_3D_Hexagon_Wall_Army_Green_R75__Regular_00035.ass",
+        value: "Triangles_Red",
       },
       {
         trait_type: "Cheeks",
@@ -4885,15 +4977,15 @@ const METADATA = [
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_CyberJacket_R75__Cyberpunk_00012.ass",
+        value: "Lolita_Green",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00007.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_GreenEyes_R75_Regular_00010.ass",
+        value: "Brown",
       },
       {
         trait_type: "Eyebrow",
@@ -4901,7 +4993,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Black",
       },
       {
         trait_type: "Facial_Hair",
@@ -4909,28 +5001,27 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value:
-          "SM_FG_Middle_Ring_5_2_Silver_Middle_Phalange_R75__Regular_00017.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_VERSACE_R25_00001.ass",
+        value: "Ring_Middle_Green",
       },
       {
         trait_type: "Gender",
         value: "Female",
       },
       {
+        trait_type: "Glasses",
+        value: "Glasses_Chain_Gold",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
+        value: "Long_Wavy_Gold",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Bag_Paco_R75_00013.ass",
+        value: "Rose_Top_Pink_Stem_Gold",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Headband_Red_R75_80s__00009.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Lip",
@@ -4942,7 +5033,7 @@ const METADATA = [
       },
       {
         trait_type: "Neck",
-        value: "SM_NK_Necklace_GoldSnake_R75__Regular__00008.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Nose",
@@ -4950,18 +5041,1107 @@ const METADATA = [
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00014.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Gloves_LeatherGloves_R50_00005.ass",
+        value: "Bracelet_02_Gold",
       },
     ],
   },
   {
     dna: "",
-    name: "138",
-    description: "Rare",
+    name: 52,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Triangles_Red",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "18thCenturyJacket_Green_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Brown",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Index_Ring_03_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Aviator_Gold_Green",
+      },
+      {
+        trait_type: "Hair",
+        value: "Parted_Gold",
+      },
+      {
+        trait_type: "Hand",
+        value: "Rose_Top_Pink_Stem_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 53,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "Angel_Wings_Black",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Gold_Glow",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "JesusRobes_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Black",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Long_Wavy_Brown",
+      },
+      {
+        trait_type: "Hand",
+        value: "Cross_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Halo_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 54,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Angel_Wings_Black",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Gold_Glow",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "JesusRobes_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Black",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Parted_Brown",
+      },
+      {
+        trait_type: "Hand",
+        value: "Cross_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Halo_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 55,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Blue",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diamonds",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Dress_Ruched_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Earrings_Letters_Black",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Black",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Black",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Curly_Ponytail_Black",
+      },
+      {
+        trait_type: "Hand",
+        value: "Martini_Blue",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "PiercingRound_Black",
+      },
+      {
+        trait_type: "Neck",
+        value: "Pearl_Necklace_Black",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Gloves_Long_Black",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 56,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diamonds",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Sweater_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Ring_Middle_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Black",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Index_Ring_01_Black_Silver",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Cybermale",
+      },
+      {
+        trait_type: "Hand",
+        value: "SilencedGun_Iridescent",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "PiercingRound_Black",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Big_Bracelet_Black_Silver",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 57,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Demonic_Wings_Light",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black_Red",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Tuxedo_White_Shirt_Black_Tie_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Blonde",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Parted_Blonde",
+      },
+      {
+        trait_type: "Hand",
+        value: "Martini_Red",
+      },
+      {
+        trait_type: "Head",
+        value: "Horns_White",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 58,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "Demonic_Wings_Light",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black_Red",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Blazer_White_Shirt_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Blonde",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_03_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Pixie_Bob",
+      },
+      {
+        trait_type: "Hand",
+        value: "Wine",
+      },
+      {
+        trait_type: "Head",
+        value: "Horns_Black",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Barbell_Silver",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Bracelet_01_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 59,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Gold",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Triangles_LightRed",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Dress_Asymmetrical_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "LongBeamDiamond",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Black",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bob_Cut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Mimosa_Diamond",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "BaguetteBag_WhiteGold",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 60,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "ClassyShirt_White_Shiny",
+      },
+      {
+        trait_type: "Ears",
+        value: "Ring_low_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Afro_Brown",
+      },
+      {
+        trait_type: "Hand",
+        value: "Rose_Top_Diamond_Silver",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Watch_02_Smart",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 61,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "NeonFestMakeUp",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_10",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "StarFreckles_Silver",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Iridescent_Jacket",
+      },
+      {
+        trait_type: "Ears",
+        value: "Earring_Letters_Pink",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "RingFinger_Ring_01_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "SwirlLollipop",
+      },
+      {
+        trait_type: "Head",
+        value: "BucketHat_Mermaid",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "PearlChoker_White",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring_04_Gold",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 62,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_10",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "StarFreckles_Silver",
+      },
+      {
+        trait_type: "Clothing",
+        value: "HazmatSuit_Iridescent",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_01",
+      },
+      {
+        trait_type: "Fingers",
+        value: "RingFinger_Ring_02_Silver",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Visor",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Colorful_Doughnut",
+      },
+      {
+        trait_type: "Head",
+        value: "Headband_xSpectar",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring_Right_Gold",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 63,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -4977,31 +6157,31 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_3_R50_Regular_00004.ass",
+        value: "Holographic_09",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_DressRuched_R75__Regular_00018.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_LongBeamDiamond_R50_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_BrownEyes_R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
         value: "Nothing",
       },
       {
+        trait_type: "Clothing",
+        value: "Leeloo_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Pearl_Earrings_Black",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Regular",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Default",
+      },
+      {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Facial_Hair",
@@ -5009,27 +6189,27 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_6_1_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_VRSet_Rp1_00004.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
         value: "Female",
       },
       {
+        trait_type: "Glasses",
+        value: "Sunglasses_Diamonds_Black",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
+        value: "Bald",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Bag_Paco_R75_00013.ass",
+        value: "Gold_Doughnut",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_MotorcycleHelmet_RED_R75__Sport__00004.ass",
+        value: "Beret_Gold",
       },
       {
         trait_type: "Lip",
@@ -5037,30 +6217,30 @@ const METADATA = [
       },
       {
         trait_type: "Mouth",
-        value: "Nothing",
+        value: "PiercingRound_Gold",
       },
       {
         trait_type: "Neck",
-        value: "Nothing",
+        value: "HeartChoker_Black",
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingV1_R75_00004.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00014.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Bracelete_2_R50_00002.ass",
+        value: "LeatherGloves_Black",
       },
     ],
   },
   {
     dna: "",
-    name: "139",
-    description: "Rare",
+    name: 64,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -5076,24 +6256,23 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value:
-          "SM_BG_3D_DiagonalRectanglesWall_Army_Green_R75__Regular_00034.ass",
+        value: "Holographic_09",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_LeatherAndShirt_R75__Regular_00002.ass",
+        value: "ClassyShirt_White_Gold_Buttons",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
+        value: "Ring_Middle_Black",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
+        value: "Brown",
       },
       {
         trait_type: "Eyebrow",
@@ -5101,35 +6280,233 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
+        value: "Default",
       },
       {
         trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_2_1_Gold_R75__Regular_00009.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
         value: "Male",
       },
       {
+        trait_type: "Glasses",
+        value: "Retro_Gold",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Bald",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_MoneyStack_R50_Regular_00020.ass",
+        value: "Doughnut_Gold",
       },
       {
         trait_type: "Head",
+        value: "FlatCap_Gold",
+      },
+      {
+        trait_type: "Lip",
         value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "PiercingRound_Gold",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Big_Bracelet_Black",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 65,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Red",
+      },
+      {
+        trait_type: "Back",
+        value: "Demonic_Wings_Dark",
+      },
+      {
+        trait_type: "Background",
+        value: "Diamonds_Red",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Dress_Ruched_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Ring_Top_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Black",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Barbell_Silver",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Black",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Cybergirl",
+      },
+      {
+        trait_type: "Hand",
+        value: "Wine",
+      },
+      {
+        trait_type: "Head",
+        value: "Horns_Black",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Choker_01_Black_Gold",
+      },
+      {
+        trait_type: "Nose",
+        value: "Ring_05_Gold",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Long_Gloves_Black",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 66,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Red",
+      },
+      {
+        trait_type: "Back",
+        value: "Demonic_Wings_Dark",
+      },
+      {
+        trait_type: "Background",
+        value: "Diamonds_Red",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "CoutureShirt_Black",
+      },
+      {
+        trait_type: "Ears",
+        value: "Ring_Top_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Black",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Barbell_Silver",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "MiddleFinger_Ring_01_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Short_Curly",
+      },
+      {
+        trait_type: "Hand",
+        value: "PocketWatch",
+      },
+      {
+        trait_type: "Head",
+        value: "Horns_Black",
       },
       {
         trait_type: "Lip",
@@ -5145,11 +6522,11 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
@@ -5159,8 +6536,107 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "140",
-    description: "Rare",
+    name: 67,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "GraphicLiner_Yellow",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "GreekDress_Gold_Silk",
+      },
+      {
+        trait_type: "Ears",
+        value: "LargeDiamondHoops_Gold",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Head",
+        value: "Beach_Hat_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Snake_Gold",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Bracelet_01_Gold",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 68,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -5176,59 +6652,59 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Diagonal_Rectangles_Wall_Gold_R50_Unique__00012.ass",
+        value: "Holographic_05",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_LeatherAndShirt_R75__Regular_00002.ass",
+        value: "Ukrainian_Shirt_White_and_Black",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Brown_Eyes__R75_Regular_00010.ass",
+        value: "Blue",
       },
       {
         trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
+        value: "Default",
       },
       {
         trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Silver_R75__Regular_00004.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
         value: "Male",
       },
       {
+        trait_type: "Glasses",
+        value: "Retro_White",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Afro_Brown",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
+        value: "Pipe",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Yellow_R75__HighFashion__00028.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Lip",
@@ -5236,7 +6712,7 @@ const METADATA = [
       },
       {
         trait_type: "Mouth",
-        value: "Nothing",
+        value: "PiercingRound_Silver",
       },
       {
         trait_type: "Neck",
@@ -5244,22 +6720,22 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
+        value: "Watch_03_Silver_Black",
       },
     ],
   },
   {
     dna: "",
-    name: "141",
-    description: "Rare",
+    name: 69,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -5271,19 +6747,19 @@ const METADATA = [
       },
       {
         trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
+        value: "Katana_Gold",
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
+        value: "Hexagon_Black_Red",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_VarsityJacket_R75__Sport__00022.ass",
+        value: "Tuxedo_White_Shirt_Black_Tie_White",
       },
       {
         trait_type: "Ears",
@@ -5291,43 +6767,43 @@ const METADATA = [
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
+        value: "Right_Cyborg_01_Left_Blue",
       },
       {
         trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Default",
       },
       {
         trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Silver_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "Nothing",
+        value: "Ring_Combination_03_Gold",
       },
       {
         trait_type: "Gender",
         value: "Male",
       },
       {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Bald",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Rose_R50_Regular_00018.ass",
+        value: "Gun_Silenced_Gold",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Headband_xSpectar_R75_80s__00019.ass",
+        value: "Silver_Plate",
       },
       {
         trait_type: "Lip",
@@ -5343,22 +6819,22 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingV2_R75_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
+        value: "Nothing",
       },
     ],
   },
   {
     dna: "",
-    name: "142",
-    description: "Rare",
+    name: 70,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -5366,15 +6842,15 @@ const METADATA = [
     attributes: [
       {
         trait_type: "Avatar",
-        value: "Default_2",
+        value: "Default_1",
       },
       {
         trait_type: "Back",
-        value: "Nothing",
+        value: "Katana_Gold",
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_6_R50_Regular_00007.ass",
+        value: "Hexagon_Black_Red",
       },
       {
         trait_type: "Cheeks",
@@ -5382,7 +6858,7 @@ const METADATA = [
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_RedVarsityJacket_R75__Sport__00023.ass",
+        value: "White_Blazer_Black_Shirt",
       },
       {
         trait_type: "Ears",
@@ -5390,7 +6866,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
+        value: "Right_Cyborg_01_Left_Blue",
       },
       {
         trait_type: "Eyebrow",
@@ -5398,602 +6874,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Colorful_Doughnut_R75_Regular_00016.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Red_R75_80s__00016.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "88",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieRed_R75_Regular_00043.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_4_1_Gold_R75__Regular_00017.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_SteamPunk_R10_00006.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_VRController_R05_00007.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Pink_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "89",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_5_R50_Unique__00006.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_18thCenturyVest_MustardGreen_R75__18thCentury__00028.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_1_3_Silver_R75__Regular_00008.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Blue_R05__Cyberpunk__00021.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__FoamFinger_R01_00008.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BaseballCap_R75__Sport__00019.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "90",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Tuxedo_R50__Regular_00001.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_Eye_01__R75_Cyberpunk__00001.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_1_3_Gold_R75__Regular_00007.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Blue_R05__Cyberpunk__00021.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Diamond_R01__Regular_00016.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Fedora_Black__R75__Regular__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "91",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Sweater_Irisid_R75_Regular_00048.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_05__R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Silver_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Farokh_style_R50__Regular_00023.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_VRController_R05_00007.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Fedora_White__R75__Regular__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Gray_R75_Regular_00004.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "92",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_5_R50_Unique__00006.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_CoutureTop_R75__HighFashion__00020.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Silver_R75__Regular_00016.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00009.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Axe_R75__Regular__00028.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_xSpectar_R75_80s__00019.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "93",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieMustard_R75_Regular_00045.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Green_Eyes__R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
+        value: "Default",
       },
       {
         trait_type: "Facial_Hair",
@@ -6001,618 +6882,23 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Silver_R75__Regular_00012.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_SteamPunk_R10_00006.ass",
+        value: "Rings_05_Gold",
       },
       {
         trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__PocketWatch_R10_00005.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FlatCap_R75__Sport__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "94",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_18thCenturyJacket_MustardGreen_R75__18thCentury__00027.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Regular_01__R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Silver_R75__Regular_00012.ass",
+        value: "Female",
       },
       {
         trait_type: "Glasses",
-        value: "SM_EY_Glasses_ARGlasses_R75_00002.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
+        value: "Silver_Plate",
       },
       {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Bald",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD__Pen_Open_R50__Regular_00015.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_MotorcycleHelmet_Red_R75_Sport__00013.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "95",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_7_R50_Regular_00008.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Windbreaker_R75_80s__00017.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_02__R75_Cyberpunk__00002.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_InfinityRing_R75_00002.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R25_00012.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Pipe_R10_00011.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headset_Headphones_R75__Regular__00009.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "96",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_National_01_R75__Nationalities_00013.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Gold_R75__Regular_00019.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_ARGlasses_R75_00002.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_VRController_R05_00007.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_CovidVisor_R75__Corona__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Leather_R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "97",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_9_R50_Regular_00010.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieMustard_R75_Regular_00045.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_R75_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Rose_R50_Regular_00018.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_MotorcycleHelmet_Black_R75_Sport__00010.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV1_R75_00001.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "98",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Katana_R75_Regular__00003.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Diamonds_Wall__R50_Unique__00015.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_David_Bowie_Tuxedo_R75__Music__00033.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_03__R75_Cyberpunk__00003.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Gold_R75__Regular_00011.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Visor_R05_00016.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Green_R75__HighFashion__00025.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_Mask_Surgical_Mask_R50__Corona__00009.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV2_R75_00002.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "99",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_4_R50_Regular_00005.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Jacket_R75__Cyberpunk_00003.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Green_Eyes__R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Gold_R75__Regular_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY__BitcoinEyes_R01_00008.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_GM_Medium_Long_00004.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Silenced_R05_00006.ass",
+        value: "Gun_Silenced_Gold",
       },
       {
         trait_type: "Head",
@@ -6636,501 +6922,6 @@ const METADATA = [
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "100",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_5_R50_Unique__00006.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_WhiteFlowerCouture_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Regular_01__R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_2_1_Gold_R75__Regular_00009.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "Brad_Pitt_hair_v0002.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Blue_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "101",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Diamonds_Wall__R50_Unique__00015.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodiePurple_R75_Regular_00041.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Brown_Eyes__R75_Regular_00010.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Silver_R75__Regular_00004.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Axe_R75__Regular__00028.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_MotorcycleHelmet_Black_R75_Sport__00010.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "102",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_7_R50_Regular_00008.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_Motorcycle_R75_00014_GEO100033.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_04__R75_Cyberpunk__00004.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_2_1_Gold_R75__Regular_00009.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Rose_R50_Regular_00018.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Yellow_R75_80s__00018.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_Mask_CyberMask_R75_00001.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_BarbellPiercing_R75_00007.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Blue_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "103",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Katana_R75_Regular__00003.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieRed_R75_Regular_00043.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_04__R75_Cyberpunk__00004.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Gold_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_RectangleFrame_R75_00003.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Cigarette_R10_00001.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_BucketHat_Swirl_R75_Regular_00033.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "104",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Chinese_Robe_R75__Nationalities_00006.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Regular_01__R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Gold_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Yellow_R75_80s__00018.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
         value: "Nothing",
       },
       {
@@ -7141,2882 +6932,8 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "105",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_9_R50_Regular_00010.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_David_Bowie_Tuxedo_R75__Music__00033.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Brown_Eyes__R75_Regular_00010.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Gold_R75__Regular_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Zippe_R05_00008.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_xSpectar_R75_80s__00019.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "106",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_5_R50_Unique__00006.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_VarsityJacket_R75__Sport__00022.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_Eye_01__R75_Cyberpunk__00001.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Visor_R05_00016.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_BucketHat_GoldBrown_R75_Regular_00034.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R25_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "107",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_ClassyShirt_R75__Regular_00004.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Silver_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00009.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Purple_R75_80s__00017.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "108",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_Shirt_02_R75__Nationalities_00011.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Green_Eyes__R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_R75_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_ARGlasses_R75_00002.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_BucketHat_Swirl_R75_Regular_00033.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_Bag_FannyPack_Gold_Rp1__Regular_00007.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R25_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "109",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_TurtleNeck_Purple_R75__Regular_00039.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Black_Eyes_R75_Regular__00007.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Silver_R75__Regular_00014.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R01_00014.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Chocolate_Doughnut_R75_Regular_00017.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__200026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_PiercingRound_R50_00003.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "110",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_6_R50_Regular_00007.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_WhiteFlowerCouture_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_04__R75_Cyberpunk__00004.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Farokh_style_R50__Regular_00023.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Glock_R75__Regular_00025.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Yellow_R75__HighFashion__00028.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_BarbellPiercing_R75_00007.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "111",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_National_R75__Nationalities_00012.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_RectangleFrame_R75_00003.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_SwirlLollipop_R75_Regular_00023.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Purple_R75_80s__00017.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Blue_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "112",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_WhiteFlowerCouture_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Black_Eyes_R75_Regular__00007.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Silver_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Green_R75__HighFashion__00001.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_Bag_FannyPack_Gold_Rp1__Regular_00007.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "113",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_18thCenturyVest_R75__18thCentury__00015.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_Eye_01__R75_Cyberpunk__00001.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Gold_R75__Regular_00013.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_GM_Domitianus_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Cigarette_R10_00001.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "114",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Gold_R50_Unique__00013.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieWhite_R75_Regular_00040.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_04__R75_Cyberpunk__00004.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Gold_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Ski_goggles_R50__Sport__00018.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Banana_R01_00009.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_BucketHat_Swirl_R75_Regular_00033.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "115",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Diagonal_Rectangles_Wall_Silver_R50_Unique__00016.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieBlack_R75_Regular_00042.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_02__R75_Cyberpunk__00002.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R01_00014.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FlatCap_R75__Sport__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "116",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_Sweater_Pink_R75__Regular_00036.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Middle_Ring_6_1_Gold_R75__Regular_00021.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R10_00010.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Axe_R75__Regular__00028.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Yellow_R75_80s__00018.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV1_R75_00001.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "117",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_7_R50_Regular_00008.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_Sweater_Green_R75__Regular_00034.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Silver_R75__Regular_00014.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Blue_R05__Cyberpunk__00021.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Banana_R01_00010.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Pink_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Gray_R75_Regular_00004.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "118",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Triangles_Wall_Gold_R50_Unique__00014.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Middle_18thCenturyShirt_Mustard_R75__18thCentury__00029.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Silver_R75__Regular_00012.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Colorful_Doughnut_R75_Regular_00016.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Red_R75_80s__00016.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "119",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_ChineseTraditional_R75__Nationalities_00005.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_GoldenEye_R75_Regular_00012.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Gold_R75__Regular_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R01_00014.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__BaseballBat_R25__Sport__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Purple_R75_80s__00017.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch02_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "120",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_TurtleNeck_Gray_R75__Regular_00037.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_2_1_Gold_R75__Regular_00009.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Pilot_Motorcycle_Goggles_R05__Regular_00017.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_CovidVisor_R75__Corona__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_Mask_Surgical_Mask_R50__Corona__00009.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "121",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_2_R50_Regular_00003.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_CoutureShirt_R75__HighFashion__00017.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_03__R75_Cyberpunk__00003.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Gold_R75__Regular_00019.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Farokh_style_R50__Regular_00023.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Glock_R75__Regular_00025.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Pink_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV1_R75_00001.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "122",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieBlue_R75_Regular_00044.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_GoldenEye_R75_Regular_00012.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Chocolate_Doughnut_R75_Regular_00017.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Fedora_Black__R75__Regular__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "123",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Triangles_Wall_Silver_R50_Regular__00018.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_David_Bowie_Tuxedo_R75__Music__00033.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Middle_Ring_6_1_Silver_R75__Regular_00022.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Farokh_style_R50__Regular_00023.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Colorful_Doughnut_R75_Regular_00016.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BaseballCap_R75__Sport__00019.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "124",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_10_R50_Regular_00011.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Tuxedo_R50__Regular_00001.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Silenced_Gun_Gold_R75__Unique_00027.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__200026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "125",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_background_8_R50_Regular_00009.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_TurtleNeck_Purple_R75__Regular_00039.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_GoldenEye_R75_Regular_00012.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Gold_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Drink_White_Cup_R75__Regular_00015.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Pink_R75__HighFashion__00026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "126",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_ArabianStyle_R75__Nationalities_00008.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Gold_R75__Regular_00019.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Axe_R75__Regular__00028.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Red_R75_80s__00016.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "127",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG__3DWall_R05_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_Shirt_02_R75__Nationalities_00011.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Gold_R75__Regular_00005.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_GM_William_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_BarbellPiercing_R75_00007.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R25_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "128",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Katana_R75_Regular__00003.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_2_R50_Regular_00003.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_18thCenturyJacket_MustardGreen_R75__18thCentury__00027.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_3_2_Silver_R75__Regular_00016.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Cyber_Phone_R50_Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__200026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV2_R75_00002.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "129",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Hexagons_Wall_Silver_R50_Unique__00017.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_AsianLongGown_R75__Nationalities_00007.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Black_Eyes_R75_Regular__00007.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Silver_R75__Regular_00014.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_SwirlLollipop_R75_Regular_00023.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__200026.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Leather_R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "130",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_2_R50_Regular_00003.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_Ukrainian_Shirt_02_R75__Nationalities_00011.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Brown_Eyes__R75_Regular_00010.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Middle_Ring_6_1_Silver_R75__Regular_00022.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R05_00013.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__FoamFinger_R01_00008.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Fedora_Black__R75__Regular__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00008.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Green_R75_Regular_00005.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "131",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_7_R50_Regular_00008.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_18thCenturyJacket_MustardGreen_R75__18thCentury__00027.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_2_2_Gold_R75__Regular_00011.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Orange_R05__Cyberpunk__00022.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_GM_Sobyeol_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Silenced_R05_00006.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "SM_MH_WolfMaskGold_R75_00006.ass",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingRight_R10_00006.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R25_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "132",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Diagonal_Rectangles_Wall_Gold_R50_Unique__00012.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Jacket_HoodieOrange_R75_Regular_00046.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Regular_01__R75_Regular_00006.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Gold_R75__Regular_00003.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_Aviator_R75_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD__Microphone_R25__Music__00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_Ushanka_R75_00004.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "133",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_2",
-      },
-      {
-        trait_type: "Back",
-        value: "SM_BC_Katana_R75_Regular__00003.ass",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Middle_CoutureTop_R75__HighFashion__00020.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_05__R75_Cyberpunk__00005.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "SM_BE_Mustache_R75_01.ass",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_3_1_Silver_R75__Regular_00014.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Visor_R05_00016.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Male",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_VRController_R05_00007.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_CovidVisor_R75__Corona__00014.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Nose",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00006.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Bracelet_BeadBraceletJade_R75_00006.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "134",
-    description: "Rare",
+    name: 71,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -10032,223 +6949,23 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value:
-          "SM_BG_3D_DiagonalRectanglesWall_Cobalt_Blue_R75__Regular_00046.ass",
+        value: "Diagonal_Rectangles_Silver",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Purple_R75_Regular_00004.ass",
+        value: "StarFreckles_Silver",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_Dress_R75__18thCentury_00015.ass",
+        value: "CoutureDress_Gold",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_Pearl_Earrings_R75__Regular_00010.ass",
+        value: "DiamondBranche_Gold",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_02__R75_Cyberpunk__00003.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_Barbell_R25_00003.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Ring_Ring_7_1_R75__Regular__00022.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_DiorStellaire_R75_00002.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Female",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Bag_AR_Bag_02_R75_00012.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_White_R75__HighFashion__00019.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "SM_NK_Necklace_Diamond_Sticks_Necklace_R75_00003.ass",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_PiercingRound_R50_00009.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "135",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_1",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00002.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_ShirtCasual_R75__Regular_00021.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_PearlThreadEarring_R75_00002.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_BrownEyes_R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00001.ass",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_5_3_Gold_R75__Regular_00018.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R50_00008.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Female",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Gun_Glock_R75_00010.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_FishermanBeanie_Orange_R75__HighFashion__00018.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "SM_NK_Necklace_Pearl_Necklace_Short_R75__Regular_00007.ass",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "136",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_1",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Diamonds_Wall__R50_Unique__00015.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value:
-          "SM_CL_Upper_UkrainianTraditional_004_R75__Nationalities__00038.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_LargeDiamondHoops_R75_00005.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_Cyborg_05__R75_Cyberpunk__00006.ass",
+        value: "Brown",
       },
       {
         trait_type: "Eyebrow",
@@ -10256,7 +6973,7 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Default",
       },
       {
         trait_type: "Facial_Hair",
@@ -10264,27 +6981,27 @@ const METADATA = [
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_2_3_R75__Regular_00005.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_DealWithIt_R10_00006.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Gender",
         value: "Female",
       },
       {
+        trait_type: "Glasses",
+        value: "Eyepatch_Gold",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
+        value: "Ponytail",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Bag_Balmain_R25_00014.ass",
+        value: "Wine",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_CyberOriental_Purple_R75__Cyberpunk__00028.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Lip",
@@ -10292,206 +7009,7 @@ const METADATA = [
       },
       {
         trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "SM_NK_Choker_PearlChoker_R75__Regular_00010.ass",
-      },
-      {
-        trait_type: "Nose",
-        value: "SM_NO_BarbellPiercing_R50_00010.ass",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_FannyPack_Blue_R75_Regular_00009.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "Nothing",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "137",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_1",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_3D_Hexagon_Wall_Army_Green_R75__Regular_00035.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_CyberJacket_R75__Cyberpunk_00012.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_RingMiddle_R75_00007.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_GreenEyes_R75_Regular_00010.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value:
-          "SM_FG_Middle_Ring_5_2_Silver_Middle_Phalange_R75__Regular_00017.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_VERSACE_R25_00001.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Female",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Bag_Paco_R75_00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Headband_Red_R75_80s__00009.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Neck",
-        value: "SM_NK_Necklace_GoldSnake_R75__Regular__00008.ass",
-      },
-      {
-        trait_type: "Nose",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00014.ass",
-      },
-      {
-        trait_type: "Wrist",
-        value: "SM_WR_Gloves_LeatherGloves_R50_00005.ass",
-      },
-    ],
-  },
-  {
-    dna: "",
-    name: "138",
-    description: "Rare",
-    image: "",
-    imageHash: "",
-    edition: 1,
-    date: 0,
-    attributes: [
-      {
-        trait_type: "Avatar",
-        value: "Default_1",
-      },
-      {
-        trait_type: "Back",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Background",
-        value: "SM_BG_Holographic_Background_3_R50_Regular_00004.ass",
-      },
-      {
-        trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00003.ass",
-      },
-      {
-        trait_type: "Clothing",
-        value: "SM_CL_Upper_DressRuched_R75__Regular_00018.ass",
-      },
-      {
-        trait_type: "Ears",
-        value: "SM_ER_Earring_LongBeamDiamond_R50_00003.ass",
-      },
-      {
-        trait_type: "Eyeball",
-        value: "SM_EA_BrownEyes_R75_Regular_00011.ass",
-      },
-      {
-        trait_type: "Eyebrow",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
-      },
-      {
-        trait_type: "Facial_Hair",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_6_1_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_VRSet_Rp1_00004.ass",
-      },
-      {
-        trait_type: "Gender",
-        value: "Female",
-      },
-      {
-        trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00002.ass",
-      },
-      {
-        trait_type: "Hand",
-        value: "SM_HD_Bag_Paco_R75_00013.ass",
-      },
-      {
-        trait_type: "Head",
-        value: "SM_HE_Hat_MotorcycleHelmet_RED_R75__Sport__00004.ass",
-      },
-      {
-        trait_type: "Lip",
-        value: "Nothing",
-      },
-      {
-        trait_type: "Mouth",
-        value: "Nothing",
+        value: "PiercingRound_Gold",
       },
       {
         trait_type: "Neck",
@@ -10499,22 +7017,22 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingV1_R75_00004.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmor_R75_Cyberpunk__00014.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Bracelete_2_R50_00002.ass",
+        value: "Long_Gloves_Silver",
       },
     ],
   },
   {
     dna: "",
-    name: "139",
-    description: "Rare",
+    name: 72,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -10530,24 +7048,23 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value:
-          "SM_BG_3D_DiagonalRectanglesWall_Army_Green_R75__Regular_00034.ass",
+        value: "Diagonal_Rectangles_Silver",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_Silver_R75_Regular_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_LeatherAndShirt_R75__Regular_00002.ass",
+        value: "Sweater_Iridescent",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_Ring_R75_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
+        value: "Cyborg_02",
       },
       {
         trait_type: "Eyebrow",
@@ -10555,31 +7072,31 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
+        value: "Gold",
       },
       {
         trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
+        value: "Beard_02_Gold",
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_2_1_Gold_R75__Regular_00009.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
+        value: "Rings_Combination_04_Silver_Gold",
       },
       {
         trait_type: "Gender",
         value: "Male",
       },
       {
+        trait_type: "Glasses",
+        value: "Retro_Silver",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Medium_Fade_Gold",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_MoneyStack_R50_Regular_00020.ass",
+        value: "Fanned_Out_Money",
       },
       {
         trait_type: "Head",
@@ -10599,11 +7116,11 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingLeft_R10_00005.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
+        value: "FannyPack_Gold",
       },
       {
         trait_type: "Wrist",
@@ -10613,8 +7130,107 @@ const METADATA = [
   },
   {
     dna: "",
-    name: "140",
-    description: "Rare",
+    name: 73,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_07",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Upper_Dress_Blue",
+      },
+      {
+        trait_type: "Ears",
+        value: "Pearl_Earrings_White",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Blue",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Pilot_Motorcycle_Goggles_White_Gold",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bob_Cut_Pink",
+      },
+      {
+        trait_type: "Hand",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Chinese_Umbrella_Blue",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Lether_Gloves_White",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 74,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -10630,59 +7246,59 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Diagonal_Rectangles_Wall_Gold_R50_Unique__00012.ass",
+        value: "Holographic_07",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_LeatherAndShirt_R75__Regular_00002.ass",
+        value: "Sweater_Pink",
       },
       {
         trait_type: "Ears",
-        value: "SM_ER_Earring_RingTop_R75_00002.ass",
+        value: "Ring_Low_Gold",
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_Brown_Eyes__R75_Regular_00010.ass",
+        value: "Blue",
       },
       {
         trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingRight_R05_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_William_Eyebrow_R75_00001.ass",
+        value: "Blue",
       },
       {
         trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_1_1_Silver_R75__Regular_00004.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Glasses_Neon_Glasses_Green_R05__Cyberpunk__00019.ass",
+        value: "Index_Ring_03_Silver",
       },
       {
         trait_type: "Gender",
         value: "Male",
       },
       {
+        trait_type: "Glasses",
+        value: "Pilot_Motorcycle_Goggles_White_Gold",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Parted_Blue",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_BaseBall_R25_Sport__00014.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Hat_BeanieHat_Yellow_R75__HighFashion__00028.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Lip",
@@ -10698,22 +7314,220 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingV4_R10_00004.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
+        value: "BaseballBat",
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Watch_Watch_R75_00005.ass",
+        value: "Watch_01_Silver",
       },
     ],
   },
   {
     dna: "",
-    name: "141",
-    description: "Rare",
+    name: 75,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Black",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diamonds",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "ArabianStyle_Gold_Gold_Buttons",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Gold",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Long_Gold",
+      },
+      {
+        trait_type: "Hand",
+        value: "Diamond",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 76,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Black",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diamonds",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Dress_Asymmetrical_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Gold",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Long_Wavy_Gold",
+      },
+      {
+        trait_type: "Hand",
+        value: "Doughnut_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 77,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -10725,19 +7539,19 @@ const METADATA = [
       },
       {
         trait_type: "Back",
-        value: "SM_BC_Axe_R75_Regular__00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_1_R50_Regular_00002.ass",
+        value: "Hexagon_Gold",
       },
       {
         trait_type: "Cheeks",
-        value: "SM_CH_StarFreckles_YellowOrange_R75_Regular_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_VarsityJacket_R75__Sport__00022.ass",
+        value: "TurtleNeck_Iridescent",
       },
       {
         trait_type: "Ears",
@@ -10745,26 +7559,22 @@ const METADATA = [
       },
       {
         trait_type: "Eyeball",
-        value: "SM_EA_White_Eyes__R75_Regular_00008.ass",
+        value: "Blue",
       },
       {
         trait_type: "Eyebrow",
-        value: "SM_EB_Piercing_RingLeft_R05_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Default",
       },
       {
         trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
+        value: "Beard_02",
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Index_Ring_5_1_Silver_R75__Regular_00020.ass",
-      },
-      {
-        trait_type: "Glasses",
         value: "Nothing",
       },
       {
@@ -10772,16 +7582,119 @@ const METADATA = [
         value: "Male",
       },
       {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "BuzzCut",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Rose_R50_Regular_00018.ass",
+        value: "Zippo_Gold",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Headband_xSpectar_R75_80s__00019.ass",
+        value: "Ushanka_Iridescent",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Cigarette",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 78,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagons_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "HazmatSuit_Iridescent",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Brown",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "DealWithIt_Gold",
+      },
+      {
+        trait_type: "Hair",
+        value: "BuzzCut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Doughnut_Chocolate_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
       },
       {
         trait_type: "Lip",
@@ -10797,22 +7710,319 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingV2_R75_00002.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Shoulder",
-        value: "SM_SH_ShoulderArmorwithTubes_R75_Cyberpunk__00005.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Wrist",
-        value: "SM_WR_Bracelet_Metal_R75_00006.ass",
+        value: "Nothing",
       },
     ],
   },
   {
     dna: "",
-    name: "142",
-    description: "Rare",
+    name: 79,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Jade",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangles_Silver",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "AsianLongGown_Gold_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Cyber_Phone",
+      },
+      {
+        trait_type: "Head",
+        value: "Oriental_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 80,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Jade",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangles_Silver",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "AsianTraditional_Gold_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Green",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_05_Gold",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "Cyber_Phone",
+      },
+      {
+        trait_type: "Head",
+        value: "AsianOriental_Gold",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 81,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Triangles_Gold",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Bra_Silver",
+      },
+      {
+        trait_type: "Ears",
+        value: "DiamondHoops",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_02",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Silver",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_06_Silver",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Curly_Ponytail_Silver",
+      },
+      {
+        trait_type: "Hand",
+        value: "HandFan_Gold",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "PearlBracelet_Silver",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 82,
+    description: "Unique",
     image: "",
     imageHash: "",
     edition: 1,
@@ -10828,7 +8038,7 @@ const METADATA = [
       },
       {
         trait_type: "Background",
-        value: "SM_BG_Holographic_Background_6_R50_Regular_00007.ass",
+        value: "Triangles_Gold",
       },
       {
         trait_type: "Cheeks",
@@ -10836,15 +8046,15 @@ const METADATA = [
       },
       {
         trait_type: "Clothing",
-        value: "SM_CL_Upper_RedVarsityJacket_R75__Sport__00023.ass",
-      },
-      {
-        trait_type: "Ears",
         value: "Nothing",
       },
       {
+        trait_type: "Ears",
+        value: "Ring",
+      },
+      {
         trait_type: "Eyeball",
-        value: "SM_EA_Blue_Eyes__R75_Regular_00009.ass",
+        value: "Cyborg_03",
       },
       {
         trait_type: "Eyebrow",
@@ -10852,35 +8062,35 @@ const METADATA = [
       },
       {
         trait_type: "Eyebrow_Groom",
-        value: "SM_EG_Eyebrow_R75_00001.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Facial_Hair",
-        value: "SM_BE_Ara_Mustache_R75_01.ass",
+        value: "Nothing",
       },
       {
         trait_type: "Fingers",
-        value: "SM_FG_Little_Ring_1_2_Silver_R75__Regular_00006.ass",
-      },
-      {
-        trait_type: "Glasses",
-        value: "SM_EY_Sunglasses_CyberPunk_R75_00001.ass",
+        value: "Rings_Combination_04_Silver",
       },
       {
         trait_type: "Gender",
         value: "Male",
       },
       {
+        trait_type: "Glasses",
+        value: "Ski_Goggles_Silver_DarkBlue",
+      },
+      {
         trait_type: "Hair",
-        value: "SM_HR_BuzzCut_R75_00001.ass",
+        value: "Buzzcut_Silver",
       },
       {
         trait_type: "Hand",
-        value: "SM_HD_Colorful_Doughnut_R75_Regular_00016.ass",
+        value: "HandFan_Gold",
       },
       {
         trait_type: "Head",
-        value: "SM_HE_Headband_Red_R75_80s__00016.ass",
+        value: "Fisherman_Beanie_Silver",
       },
       {
         trait_type: "Lip",
@@ -10896,7 +8106,601 @@ const METADATA = [
       },
       {
         trait_type: "Nose",
-        value: "SM_NO_RingV3_R75_00003.ass",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Big_Bracelet_Silver",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 83,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Cyberwings_Neon_Blue",
+      },
+      {
+        trait_type: "Background",
+        value: "Diagonal_Rectangles_Silver",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Sweater_Iridescent",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_01",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Brown",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_Combination_04_Neon_Blue",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Neon_Glasses_Blue",
+      },
+      {
+        trait_type: "Hair",
+        value: "Afro_Brown",
+      },
+      {
+        trait_type: "Hand",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Head",
+        value: "Gold_Plate",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Shoulder_Armor_Neon_Blue",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 84,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Hexagon_Black",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Bikini_Tropical_Gold",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_01",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Rings_06_Neon_Blue",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Neon_Glasses_Blue",
+      },
+      {
+        trait_type: "Hair",
+        value: "Ponytail_Brown",
+      },
+      {
+        trait_type: "Hand",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Head",
+        value: "Gold_Matte_Plate",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Shoulder_Armor_Neon_Purple",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 85,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "SmokeyCatEye",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Greek_Dress_Purple",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_01",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Black",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Cybergirl",
+      },
+      {
+        trait_type: "Hand",
+        value: "Mug_Xspectar",
+      },
+      {
+        trait_type: "Head",
+        value: "Headband_XSpectar",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Choker_XSpectar_Pink",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 86,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Holographic_05",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Varsity_Jacket_Blue_Purple",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Cyborg_01",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Cybergirl",
+      },
+      {
+        trait_type: "Hand",
+        value: "Mug_XSpectar",
+      },
+      {
+        trait_type: "Head",
+        value: "Headband_Xspectar",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 87,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_2",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Triangles_Silver",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "ArabianStyle_Black_White_Black_Buttons",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Default",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Beard_02",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Male",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bald",
+      },
+      {
+        trait_type: "Hand",
+        value: "VRController_Silver",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "Nose_Piercings_Combination_01",
+      },
+      {
+        trait_type: "Shoulder",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Wrist",
+        value: "Nothing",
+      },
+    ],
+  },
+  {
+    dna: "",
+    name: 88,
+    description: "Unique",
+    image: "",
+    imageHash: "",
+    edition: 1,
+    date: 0,
+    attributes: [
+      {
+        trait_type: "Avatar",
+        value: "Default_1",
+      },
+      {
+        trait_type: "Back",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Background",
+        value: "Triangles_Silver",
+      },
+      {
+        trait_type: "Cheeks",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Clothing",
+        value: "Shortsleeve_Zipper_Black_White",
+      },
+      {
+        trait_type: "Ears",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyeball",
+        value: "Blue",
+      },
+      {
+        trait_type: "Eyebrow",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Eyebrow_Groom",
+        value: "Black",
+      },
+      {
+        trait_type: "Facial_Hair",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Fingers",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Gender",
+        value: "Female",
+      },
+      {
+        trait_type: "Glasses",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Hair",
+        value: "Bob_Cut",
+      },
+      {
+        trait_type: "Hand",
+        value: "Rose_Top_Silver_Stem_Silver",
+      },
+      {
+        trait_type: "Head",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Lip",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Mouth",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Neck",
+        value: "Nothing",
+      },
+      {
+        trait_type: "Nose",
+        value: "PiercingRound_Silver",
       },
       {
         trait_type: "Shoulder",

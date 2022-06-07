@@ -1,6 +1,6 @@
 import "./App.css";
 import IMAGES from "./photos";
-//import METADATA from "./metadata";
+import METADATA from "./metadata";
 import logo from "./images/xspectar.png";
 import { FaHeart, FaPlusCircle, FaSearch } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
@@ -139,6 +139,7 @@ function App() {
       for (let i = 0; i < filteredImgs.length; i++) {
         if (
           filteredImgs[i]["name"]
+            .toString()
             .toLowerCase()
             .includes(searchText.toLowerCase())
         ) {
@@ -310,19 +311,22 @@ function App() {
                 <div className="row">
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.map((item) => (
-                      <div className="col-xl-3 col-lg-4 col-md-6" key={item.id}>
+                      <div
+                        className="col-xl-3 col-lg-4 col-md-6"
+                        key={item.name}
+                      >
                         <div className="nft-card">
                           <div className="nft-image-area">
                             <img
-                              src={IMAGES[item.id]}
+                              src={IMAGES[item.name]}
                               className="nft-image"
                               alt="NFT Text"
                             ></img>
                           </div>
                           <div className="nft-info">
-                            <div className="nft-image-name">{`Item ${item.id}`}</div>
+                            <div className="nft-image-name">{`Item ${item.name}`}</div>
                             <div className="nft-image-description">
-                              Description : Rare
+                              Description : {METADATA[item.name].description}
                             </div>
                           </div>
                           <div className="nft-like-area d-flex justify-content-center">
