@@ -247,7 +247,7 @@ function App() {
                               <div className="form-check" key={att}>
                                 <label
                                   className="form-check-label"
-                                  htmlFor="flexCheckDefault"
+                                  htmlFor={`flexCheckDefault${att}`}
                                 >
                                   {att}
                                 </label>
@@ -255,7 +255,7 @@ function App() {
                                   className="form-check-input"
                                   type="checkbox"
                                   defaultValue
-                                  id="flexCheckDefault"
+                                  id={`flexCheckDefault${att}`}
                                   checked={
                                     filterArr.indexOf(
                                       item.trait_type + " : " + att
