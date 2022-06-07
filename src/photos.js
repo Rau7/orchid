@@ -1,4 +1,5 @@
 const IMAGES = [
+  0,
   require("./images/1.png"),
   require("./images/2.png"),
   require("./images/3.png"),
