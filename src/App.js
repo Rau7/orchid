@@ -131,6 +131,7 @@ function App() {
 
   const handleTextChange = (e) => {
     e.preventDefault();
+    setFilteredImages(images);
     setSearchText(e.target.value);
   };
 
