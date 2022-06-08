@@ -4,18 +4,11 @@ import METADATA from "./metadata";
 import logo from "./images/xspectar.png";
 import { FaHeart, FaPlusCircle, FaSearch } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import _ from "lodash";
+import axios from "axios";
+import Modals from "./components/Modals";
 
 function App() {
-  /*window.onload = passwordCheck;
-  function passwordCheck() {
-    var password = prompt("Please enter the password.");
-    if (password !== "bello") {
-      passwordCheck();
-    }
-  }*/
-
   const [preLoad, setPreLoad] = useState("");
   const [mainLoad, setMainLoad] = useState("d-none");
   const [passText, setPassText] = useState("Password");
@@ -32,6 +25,8 @@ function App() {
 
   const [pass, setPass] = useState("");
 
+  const [clickedImage, setClickedImage] = useState("");
+
   const handlePass = (e) => {
     e.preventDefault();
     setPass(e.target.value);
@@ -45,6 +40,10 @@ function App() {
       setPassStyle("at-last");
       setPassText("Wrong Password !");
     }
+  };
+
+  const handleImageClick = (e) => {
+    setClickedImage(e);
   };
 
   /* 1st PAGE IS LANDED
@@ -325,6 +324,7 @@ function App() {
                       <div
                         className="col-xxl-3 col-xl-4 col-lg-6 col-md-6"
                         key={item.name}
+                        onClick={() => handleImageClick(item.name)}
                       >
                         <div className="nft-card">
                           <div className="nft-image-area">
@@ -392,7 +392,7 @@ function App() {
                           <div className="nft-like-area d-flex justify-content-center">
                             <button
                               className="btn like-button"
-                              onClick={() => addDropFav(item.id)}
+                              onClick={() => addDropFav(item.name)}
                             >
                               <FaHeart
                                 className={`like-icon ${
@@ -412,6 +412,7 @@ function App() {
             </div>
           </div>
         </div>
+        {/*<Modals imageList={images} clickedId={clickedImage} />*/}
       </div>
     </>
   );
