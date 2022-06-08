@@ -323,7 +323,7 @@ function App() {
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.map((item) => (
                       <div
-                        className="col-xl-3 col-lg-6 col-md-6"
+                        className="col-xxl-3 col-xl-4 col-lg-6 col-md-6"
                         key={item.name}
                       >
                         <div className="nft-card">
