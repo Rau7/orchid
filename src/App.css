@@ -183,7 +183,7 @@ textarea.md-textarea:focus:not([readonly]) {
 }
 
 .form-check-label {
-  font-size: 0.95rem;
+  font-size: 14px;
 }
 
 .form-check-input:checked {
@@ -277,4 +277,19 @@ body.modal-open .modal .modal-dialog {
   height: 14rem;
   width: auto;
   margin-top: -3.2rem;
+}
+
+/*.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}*/
+
+.traits-area {
+  padding-left: 3.05rem;
+  padding-right: 0;
+}
+
+.content {
+  padding-left: 0;
+  padding-right: 5rem;
 }

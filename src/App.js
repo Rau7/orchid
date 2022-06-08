@@ -211,7 +211,7 @@ function App() {
           </div>
         </div>
         <div className={`row ${mainLoad}`}>
-          <div className="col-xl-2 sidebar ">
+          <div className="col-xl-3 col-lg-4 sidebar padding-0">
             <div className="logo-area d-flex justify-content-center">
               <img src={logo} className="thelogo" alt="The Logo"></img>
             </div>
@@ -242,35 +242,40 @@ function App() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          {item.attributes &&
-                            item.attributes.map((att) => (
-                              <div className="form-check" key={att}>
-                                <label
-                                  className="form-check-label"
-                                  htmlFor={`flexCheckDefault${att}`}
-                                >
-                                  {att}
-                                </label>
-                                <input
-                                  className="form-check-input"
-                                  type="checkbox"
-                                  defaultValue
-                                  id={`flexCheckDefault${att}`}
-                                  checked={
-                                    filterArr.indexOf(
-                                      item.trait_type + " : " + att
-                                    ) === -1
-                                      ? ""
-                                      : "checked"
-                                  }
-                                  onChange={() =>
-                                    addDropFilterList(
-                                      item.trait_type + " : " + att
-                                    )
-                                  }
-                                />
-                              </div>
-                            ))}
+                          <div className="row">
+                            {item.attributes &&
+                              item.attributes.map((att) => (
+                                <div className="col-md-12 attrs-list" key={att}>
+                                  <div className="form-check mt-3">
+                                    <label
+                                      className="form-check-label"
+                                      htmlFor={`flexCheckDefault${att}`}
+                                    >
+                                      {att}
+
+                                      <input
+                                        className="form-check-input"
+                                        type="checkbox"
+                                        defaultValue
+                                        id={`flexCheckDefault${att}`}
+                                        checked={
+                                          filterArr.indexOf(
+                                            item.trait_type + " : " + att
+                                          ) === -1
+                                            ? ""
+                                            : "checked"
+                                        }
+                                        onChange={() =>
+                                          addDropFilterList(
+                                            item.trait_type + " : " + att
+                                          )
+                                        }
+                                      />
+                                    </label>
+                                  </div>
+                                </div>
+                              ))}
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -278,7 +283,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-xl-10 content">
+          <div className="col-xl-9 col-lg-8 content padding-0">
             <div className="col-lg-12 searchbar container">
               <div className="input-group mb-3">
                 <FaSearch className="search-icon" />
