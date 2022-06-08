@@ -323,7 +323,7 @@ function App() {
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.map((item) => (
                       <div
-                        className="col-xl-3 col-lg-4 col-md-6"
+                        className="col-xl-3 col-lg-6 col-md-6"
                         key={item.name}
                       >
                         <div className="nft-card">
@@ -337,7 +337,56 @@ function App() {
                           <div className="nft-info">
                             <div className="nft-image-name">{`Item ${item.name}`}</div>
                             <div className="nft-image-description">
-                              Description : {METADATA[item.name].description}
+                              {/*Description : {METADATA[item.name].description}*/}
+                              <div
+                                className="accordion"
+                                id={`metainfoaccord${METADATA[item.name].name}`}
+                              >
+                                <div className="accordion-item">
+                                  <h2
+                                    className="accordion-header"
+                                    id={`item${METADATA[item.name].name}`}
+                                  >
+                                    <button
+                                      className="accordion-button collapsed"
+                                      type="button"
+                                      data-bs-toggle="collapse"
+                                      data-bs-target={`#collapse${
+                                        METADATA[item.name].name
+                                      }`}
+                                      aria-expanded="false"
+                                      aria-controls={`collapse${
+                                        METADATA[item.name].name
+                                      }`}
+                                    >
+                                      Traits & Attributes
+                                    </button>
+                                  </h2>
+                                  <div
+                                    id={`collapse${METADATA[item.name].name}`}
+                                    className="accordion-collapse collapse"
+                                    aria-labelledby={`item${
+                                      METADATA[item.name].name
+                                    }`}
+                                    data-bs-parent={`#metainfoaccord${
+                                      METADATA[item.name].name
+                                    }`}
+                                  >
+                                    <div className="accordion-body">
+                                      {METADATA[item.name].attributes.map(
+                                        (attr) => (
+                                          <div className="each-attribute">
+                                            <span className="trait-name">
+                                              {attr.trait_type}
+                                            </span>{" "}
+                                            : {attr.value}
+                                          </div>
+                                        )
+                                      )}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
                           <div className="nft-like-area d-flex justify-content-center">

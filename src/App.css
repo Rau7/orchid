@@ -293,3 +293,12 @@ body.modal-open .modal .modal-dialog {
   padding-left: 0;
   padding-right: 5rem;
 }
+
+.trait-name {
+  font-weight: 600;
+  color: #eee;
+}
+
+.each-attribute {
+  margin-top: 5px;
+}
