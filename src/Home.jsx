@@ -215,7 +215,9 @@ function Home() {
               <img src={logo} className="thelogo" alt="The Logo"></img>
             </div>
             <div className="liked-images-link d-flex justify-content-center">
-              <a href="/liked_images">Liked Images</a>
+              <a href="/liked_images" className="navigation-button">
+                Liked Images
+              </a>
             </div>
             <div className="traits-area traits-area-md">
               <div className="accordion" id="accordionExample">
