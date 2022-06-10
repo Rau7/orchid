@@ -6,6 +6,7 @@ import { FaHeart, FaPlusCircle, FaSearch } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 import _ from "lodash";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function LikedImages() {
   const [preLoad, setPreLoad] = useState("");
@@ -60,10 +61,12 @@ function LikedImages() {
         setImageCount(imgs.length);
       });
 
-    axios.get(`https://admin.reblium.com/attrs_traits`).then((res) => {
-      const trts = res.data;
-      setTraits(trts);
-    });
+    axios
+      .get(`https://admin.reblium.com/attrs_traits_for_liked`)
+      .then((res) => {
+        const trts = res.data;
+        setTraits(trts);
+      });
   }, []);
 
   /* 
@@ -85,6 +88,15 @@ function LikedImages() {
         console.error("There was an error!", error);
       });
   }
+
+  useEffect(() => {
+    axios
+      .get(`https://admin.reblium.com/attrs_traits_for_liked`)
+      .then((res) => {
+        const trts = res.data;
+        setTraits(trts);
+      });
+  }, [filteredImgs]);
 
   /*
   SET FILTER ARRAY ADD AND DROP
@@ -215,9 +227,9 @@ function LikedImages() {
               <img src={logo} className="thelogo" alt="The Logo"></img>
             </div>
             <div className="liked-images-link d-flex justify-content-center">
-              <a href="/" className="navigation-button">
+              <Link to="/" className="navigation-button">
                 Home
-              </a>
+              </Link>
             </div>
             <div className="traits-area traits-area-md">
               <div className="accordion" id="accordionExample">
@@ -236,7 +248,7 @@ function LikedImages() {
                           aria-expanded="false"
                           aria-controls={`collapseOne${item.trait_type}`}
                         >
-                          {item.trait_type}
+                          {`${item.trait_type} (${item.attributes.length})`}
                         </button>
                       </h2>
                       <div

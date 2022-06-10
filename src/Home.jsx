@@ -217,7 +217,9 @@ function Home() {
               <img src={logo} className="thelogo" alt="The Logo"></img>
             </div>
             <div className="liked-images-link d-flex justify-content-center">
-              <Link to="/liked_images">Liked Images</Link>
+              <Link to="/liked_images" className="navigation-button">
+                Liked Images
+              </Link>
             </div>
             <div className="traits-area traits-area-md">
               <div className="accordion" id="accordionExample">
@@ -236,7 +238,7 @@ function Home() {
                           aria-expanded="false"
                           aria-controls={`collapseOne${item.trait_type}`}
                         >
-                          {item.trait_type}
+                          {`${item.trait_type} (${item.attributes.length})`}
                         </button>
                       </h2>
                       <div
