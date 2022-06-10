@@ -4,8 +4,10 @@ import METADATA from "./metadata";
 import logo from "./images/xspectar.png";
 import { FaHeart, FaPlusCircle, FaSearch } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import _ from "lodash";
 import axios from "axios";
+import LikedImages from "./LikedImages";
 
 function Home() {
   const [preLoad, setPreLoad] = useState("");
@@ -215,9 +217,7 @@ function Home() {
               <img src={logo} className="thelogo" alt="The Logo"></img>
             </div>
             <div className="liked-images-link d-flex justify-content-center">
-              <a href="/liked_images" className="navigation-button">
-                Liked Images
-              </a>
+              <Link to="/liked_images">Liked Images</Link>
             </div>
             <div className="traits-area traits-area-md">
               <div className="accordion" id="accordionExample">
