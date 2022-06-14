@@ -396,16 +396,18 @@ function LikedImages() {
                                       }`}
                                     >
                                       <div className="accordion-body">
-                                        {METADATA[item.name].attributes.map(
-                                          (attr) => (
+                                        {METADATA[item.name].attributes
+                                          .filter(
+                                            (attri) => attri.value !== "Nothing"
+                                          )
+                                          .map((attr) => (
                                             <div className="each-attribute">
                                               <span className="trait-name">
                                                 {attr.trait_type}
                                               </span>{" "}
                                               : {attr.value}
                                             </div>
-                                          )
-                                        )}
+                                          ))}
                                       </div>
                                     </div>
                                   </div>

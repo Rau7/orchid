@@ -172,6 +172,23 @@ function Home() {
     }
   }, [searchText]);
 
+  function traitDisplay(attributes) {
+    let display_str = "";
+
+    attributes.forEach((attr) => {
+      display_str += attr.trait_type + ": " + attr.value + ", ";
+    });
+    display_str = display_str.slice(0, -2);
+
+    return <div>{display_str}</div>;
+  }
+
+  function padLeadingZeros(num, size) {
+    var s = num + "";
+    while (s.length < size) s = "0" + s;
+    return s;
+  }
+
   return (
     <>
       <div className="App">
@@ -340,73 +357,31 @@ function Home() {
                               className="nft-image"
                               alt="NFT Text"
                             ></img>
-                          </div>
-                          <div className="nft-info">
-                            <div className="nft-image-name">{`Item ${item.name}`}</div>
-                            <div className="nft-image-description">
-                              {/*Description : {METADATA[item.name].description}*/}
-                              <div
-                                className="accordion"
-                                id={`metainfoaccord${METADATA[item.name].name}`}
+                            <div className="nft-image-name">
+                              #{padLeadingZeros(item.name, 4)}
+                            </div>
+                            <div className="nft-like-area">
+                              <button
+                                className="btn like-button"
+                                onClick={() => addDropFav(item.name)}
                               >
-                                <div className="accordion-item">
-                                  <h2
-                                    className="accordion-header"
-                                    id={`item${METADATA[item.name].name}`}
-                                  >
-                                    <button
-                                      className="accordion-button collapsed"
-                                      type="button"
-                                      data-bs-toggle="collapse"
-                                      data-bs-target={`#collapse${
-                                        METADATA[item.name].name
-                                      }`}
-                                      aria-expanded="false"
-                                      aria-controls={`collapse${
-                                        METADATA[item.name].name
-                                      }`}
-                                    >
-                                      Traits & Attributes
-                                    </button>
-                                  </h2>
-                                  <div
-                                    id={`collapse${METADATA[item.name].name}`}
-                                    className="accordion-collapse collapse"
-                                    aria-labelledby={`item${
-                                      METADATA[item.name].name
-                                    }`}
-                                    data-bs-parent={`#metainfoaccord${
-                                      METADATA[item.name].name
-                                    }`}
-                                  >
-                                    <div className="accordion-body">
-                                      {METADATA[item.name].attributes.map(
-                                        (attr) => (
-                                          <div className="each-attribute">
-                                            <span className="trait-name">
-                                              {attr.trait_type}
-                                            </span>{" "}
-                                            : {attr.value}
-                                          </div>
-                                        )
-                                      )}
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                                <FaHeart
+                                  className={`like-icon ${
+                                    item.faved === "1" ? "faved" : "not-faved"
+                                  }`}
+                                />
+                              </button>
                             </div>
                           </div>
-                          <div className="nft-like-area d-flex justify-content-center">
-                            <button
-                              className="btn like-button"
-                              onClick={() => addDropFav(item.name)}
-                            >
-                              <FaHeart
-                                className={`like-icon ${
-                                  item.faved === "1" ? "faved" : "not-faved"
-                                }`}
-                              />
-                            </button>
+                          <div className="nft-info">
+                            <div className="nft-image-description">
+                              {/*Description : {METADATA[item.name].description}*/}
+                              {traitDisplay(
+                                METADATA[item.name].attributes.filter(
+                                  (attri) => attri.value !== "Nothing"
+                                )
+                              )}
+                            </div>
                           </div>
                         </div>
                       </div>

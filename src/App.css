@@ -41,6 +41,10 @@ body {
   font-weight: 600;
 }
 
+.nft-image-area {
+  position: relative;
+}
+
 .nft-card {
   background-color: #333;
   width: 100%;
@@ -60,9 +64,12 @@ body {
 }
 
 .nft-image-name {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  display: inline;
+  padding: 5px 5px;
 }
 
 .nft-image-description {
@@ -72,14 +79,14 @@ body {
 
 /* ---- LIKE SECTION ---- */
 .nft-like-area {
-  background-color: #222;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .like-icon {
   padding: 10px 5px 10px 7px;
-  font-size: 2.75rem;
+  font-size: 3rem;
   color: #ddd;
 }
 
