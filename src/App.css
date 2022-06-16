@@ -292,11 +292,6 @@ body.modal-open .modal .modal-dialog {
   padding-left: 0;
 }*/
 
-.trait-name {
-  font-weight: 600;
-  color: #eee;
-}
-
 .modal-content {
   position: fixed;
   top: 0;
@@ -421,4 +416,18 @@ body.modal-open .modal .modal-dialog {
   margin: 8px 10px 12px;
   background-position: right center;
   color: #fff;
+}
+
+.trait-span:not(:first-child)::before {
+  content: ", ";
+}
+
+.trait-name {
+  font-weight: 500;
+  color: #eee;
+}
+
+.trait-attr {
+  font-weight: 400;
+  font-size: 0.8rem !important;
 }

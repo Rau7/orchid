@@ -388,11 +388,20 @@ function Home() {
                           <div className="nft-info">
                             <div className="nft-image-description">
                               {/*Description : {METADATA[item.name].description}*/}
-                              {traitDisplay(
-                                METADATA[item.name].attributes.filter(
-                                  (attri) => attri.value !== "Nothing"
-                                )
-                              )}
+                              <div className="each-attribute">
+                                {METADATA[item.name].attributes
+                                  .filter((attri) => attri.value !== "Nothing")
+                                  .map((attr) => (
+                                    <span className="trait-span">
+                                      <span className="trait-name">
+                                        {attr.trait_type}
+                                      </span>
+                                      <span className="trait-attr">
+                                        : {attr.value}
+                                      </span>
+                                    </span>
+                                  ))}
+                              </div>
                             </div>
                           </div>
                         </div>
