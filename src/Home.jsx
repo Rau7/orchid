@@ -28,6 +28,9 @@ function Home() {
 
   const [clickedImage, setClickedImage] = useState("");
 
+  const [loadDis, setLoadDis] = useState("");
+  const [endIndex, setEndIndex] = useState(20);
+
   const handlePass = (e) => {
     e.preventDefault();
     setPass(e.target.value);
@@ -189,6 +192,15 @@ function Home() {
     return s;
   }
 
+  function loadMore() {
+    var newIndex = endIndex + 20;
+    if (newIndex >= 800) {
+      newIndex = 800;
+      setLoadDis("d-none");
+    }
+    setEndIndex(newIndex);
+  }
+
   return (
     <>
       <div className="App">
@@ -344,7 +356,7 @@ function Home() {
               <div className="main-area-content">
                 <div className="row">
                   {filteredImgs.length !== 0 ? (
-                    filteredImgs.map((item) => (
+                    filteredImgs.slice(0, endIndex).map((item) => (
                       <div
                         className="col-xxl-3 col-xl-4 col-lg-6 col-md-6"
                         key={item.name}
@@ -389,6 +401,13 @@ function Home() {
                   ) : (
                     <div className="nothing-to-show">Nothing To Show</div>
                   )}
+                </div>
+                <div
+                  className={`load-area d-flex justify-content-center mt-5 ${loadDis}`}
+                >
+                  <button className="load-more" onClick={() => loadMore()}>
+                    Load More
+                  </button>
                 </div>
               </div>
             </div>
