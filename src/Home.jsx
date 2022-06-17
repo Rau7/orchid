@@ -32,9 +32,9 @@ function Home() {
   const [endIndex, setEndIndex] = useState(20);
 
   /*Listing Icons */
-  const [gridList, setGridList] = useState("grid-list");
+  const [gridList, setGridList] = useState("");
   const [gridIcon, setGridIcon] = useState("showing");
-  const [listList, setListList] = useState("list-list");
+  const [listList, setListList] = useState("d-none");
   const [listIcon, setListIcon] = useState("not-showing");
 
   const handlePass = (e) => {
@@ -207,6 +207,22 @@ function Home() {
     setEndIndex(newIndex);
   }
 
+  function convertToGrid() {
+    setGridIcon("showing");
+    setGridList("");
+    setListIcon("not-showing");
+    setListList("d-none");
+    setEndIndex(20);
+  }
+
+  function convertToList() {
+    setGridIcon("not-showing");
+    setGridList("d-none");
+    setListIcon("showing");
+    setListList("");
+    setEndIndex(20);
+  }
+
   return (
     <>
       <div className="App">
@@ -342,10 +358,16 @@ function Home() {
             <div className="col-lg-12 main-area container">
               <div className="main-area-header">{imageCount} Items Listed</div>
               <div className="list-buttons">
-                <button className="btn list-button">
+                <button
+                  className="btn list-button"
+                  onClick={() => convertToGrid()}
+                >
                   <FaTh className={`list-icon ${gridIcon}`} />
                 </button>
-                <button className="btn list-button">
+                <button
+                  className="btn list-button"
+                  onClick={() => convertToList()}
+                >
                   <FaBars className={`list-icon ${listIcon}`} />
                 </button>
               </div>
@@ -369,7 +391,7 @@ function Home() {
                 </div>
               </div>
               <div className="main-area-content">
-                <div className="row">
+                <div className={`row ${gridList}`}>
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.slice(0, endIndex).map((item) => (
                       <div
@@ -418,6 +440,42 @@ function Home() {
                                   ))}
                               </div>
                             </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))
+                  ) : (
+                    <div className="nothing-to-show">Nothing To Show</div>
+                  )}
+                </div>
+                <div className={`row ${listList}`}>
+                  {filteredImgs.length !== 0 ? (
+                    filteredImgs.slice(0, 1).map((item) => (
+                      <div className="col-12" key={item.name}>
+                        <div className="nft-list-card d-flex">
+                          <div className="nft-list-image-area">
+                            <img
+                              src={IMAGES[item.name]}
+                              className="nft-list-image"
+                              alt="NFT Text"
+                            ></img>
+                            <div className="nft-image-name">
+                              #{padLeadingZeros(item.name, 4)}
+                            </div>
+                          </div>
+                          <div className="each-attribute-list">
+                            {METADATA[item.name].attributes
+                              .filter((attri) => attri.value !== "Nothing")
+                              .map((attr) => (
+                                <span className="trait-span">
+                                  <span className="trait-name">
+                                    {attr.trait_type}
+                                  </span>
+                                  <span className="trait-attr">
+                                    : {attr.value}
+                                  </span>
+                                </span>
+                              ))}
                           </div>
                         </div>
                       </div>
