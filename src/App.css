@@ -480,19 +480,27 @@ body.modal-open .modal .modal-dialog {
   margin-bottom: 2rem;
 }*/
 
+.nft-listing {
+  margin-top: 2rem;
+}
+
 .nft-list-image {
   height: auto;
   width: 100%;
 }
 
-.nft-list-area-small {
+.nft-list-area {
   background-color: #333;
-  border-bottom-right-radius: 7%;
-  border-top-right-radius: 7%;
 }
 
 .nft-list-image-area {
   margin-left: -12px;
+}
+
+.nft-list-text {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  background-color: #333;
 }
 
 @media screen and (max-width: 568px) {
@@ -502,6 +510,15 @@ body.modal-open .modal .modal-dialog {
     padding-left: 1rem;
     margin-right: auto;
     margin-left: auto;
+  }
+  .trait-attr {
+    font-size: 0.75rem;
+  }
+  .trait-name {
+    font-size: 0.85rem;
+  }
+  .nft-list-text {
+    margin-top: 1rem;
   }
 }
 

@@ -355,7 +355,7 @@ function Home() {
                 />
               </div>
             </div>
-            <div className="col-lg-12 main-area">
+            <div className="col-lg-12 main-area container">
               <div className="main-area-header">{imageCount} Items Listed</div>
               <div className="list-buttons">
                 <button
@@ -450,17 +450,17 @@ function Home() {
                 </div>
                 <div className={`row ${listList}`}>
                   {filteredImgs.length !== 0 ? (
-                    filteredImgs.slice(0, 1).map((item) => (
-                      <div className="col-12" key={item.name}>
-                        <div className="row nft-list-area-small">
-                          <div className="col-6 nft-list-image-area">
+                    filteredImgs.slice(0, 20).map((item) => (
+                      <div className="col-12 nft-listing" key={item.name}>
+                        <div className="row nft-list-area">
+                          <div className="col-md-3 nft-list-image-area">
                             <img
                               src={IMAGES[item.name]}
                               className="nft-list-image"
                               alt="NFT ALT Text"
                             />
                           </div>
-                          <div className="col-6">
+                          <div className="col-md-9">
                             <div className="nft-list-text">
                               {METADATA[item.name].attributes
                                 .filter((attri) => attri.value !== "Nothing")
