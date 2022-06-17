@@ -452,15 +452,15 @@ function Home() {
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.slice(0, 1).map((item) => (
                       <div className="col-12" key={item.name}>
-                        <div className="row nft-list-area-big">
-                          <div className="col-3 nft-list-image-area">
+                        <div className="row nft-list-area-small">
+                          <div className="col-6 nft-list-image-area">
                             <img
                               src={IMAGES[item.name]}
                               className="nft-list-image"
                               alt="NFT ALT Text"
                             />
                           </div>
-                          <div className="col-9">
+                          <div className="col-6">
                             <div className="nft-list-text">
                               {METADATA[item.name].attributes
                                 .filter((attri) => attri.value !== "Nothing")
