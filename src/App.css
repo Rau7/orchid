@@ -457,7 +457,7 @@ body.modal-open .modal .modal-dialog {
 
 /* -- NFT LIST CARD -- */
 
-.nft-list-card {
+/*.nft-list-card {
   height: 200px;
   background-color: #333;
   border-bottom-right-radius: 5%;
@@ -478,4 +478,19 @@ body.modal-open .modal .modal-dialog {
   padding-right: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}*/
+
+.nft-list-image {
+  height: auto;
+  width: 100%;
+}
+
+.nft-list-area {
+  background-color: #333;
+  border-bottom-right-radius: 7%;
+  border-top-right-radius: 7%;
+}
+
+.nft-list-image-area {
+  margin-left: -12px;
 }

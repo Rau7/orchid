@@ -452,30 +452,29 @@ function Home() {
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.slice(0, 1).map((item) => (
                       <div className="col-12" key={item.name}>
-                        <div className="nft-list-card d-flex">
-                          <div className="nft-list-image-area">
+                        <div className="row nft-list-area">
+                          <div className="col-3 nft-list-image-area">
                             <img
                               src={IMAGES[item.name]}
                               className="nft-list-image"
-                              alt="NFT Text"
-                            ></img>
-                            <div className="nft-image-name">
-                              #{padLeadingZeros(item.name, 4)}
-                            </div>
+                              alt="NFT ALT Text"
+                            />
                           </div>
-                          <div className="each-attribute-list">
-                            {METADATA[item.name].attributes
-                              .filter((attri) => attri.value !== "Nothing")
-                              .map((attr) => (
-                                <span className="trait-span">
-                                  <span className="trait-name">
-                                    {attr.trait_type}
+                          <div className="col-9">
+                            <div className="nft-list-text">
+                              {METADATA[item.name].attributes
+                                .filter((attri) => attri.value !== "Nothing")
+                                .map((attr) => (
+                                  <span className="trait-span">
+                                    <span className="trait-name">
+                                      {attr.trait_type}
+                                    </span>
+                                    <span className="trait-attr">
+                                      : {attr.value}
+                                    </span>
                                   </span>
-                                  <span className="trait-attr">
-                                    : {attr.value}
-                                  </span>
-                                </span>
-                              ))}
+                                ))}
+                            </div>
                           </div>
                         </div>
                       </div>
