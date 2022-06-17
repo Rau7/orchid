@@ -431,3 +431,26 @@ body.modal-open .modal .modal-dialog {
   font-weight: 400;
   font-size: 0.8rem !important;
 }
+
+.list-icon {
+  padding: 10px 5px 10px 7px;
+  font-size: 3rem;
+  color: #ddd;
+}
+
+.list-icon:hover {
+  color: #eb2693;
+}
+
+.list-icon.showing {
+  color: #eb2693;
+}
+
+.list-icon.not-showing {
+  color: #ddd;
+}
+
+.list-buttons {
+  margin-left: -21px;
+  margin-top: 1rem;
+}

@@ -2,7 +2,7 @@ import "./App.css";
 import IMAGES from "./photos";
 import METADATA from "./metadata";
 import logo from "./images/xspectar.png";
-import { FaHeart, FaPlusCircle, FaSearch } from "react-icons/fa";
+import { FaHeart, FaPlusCircle, FaSearch, FaBars, FaTh } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import _ from "lodash";
@@ -30,6 +30,12 @@ function Home() {
 
   const [loadDis, setLoadDis] = useState("");
   const [endIndex, setEndIndex] = useState(20);
+
+  /*Listing Icons */
+  const [gridList, setGridList] = useState("grid-list");
+  const [gridIcon, setGridIcon] = useState("showing");
+  const [listList, setListList] = useState("list-list");
+  const [listIcon, setListIcon] = useState("not-showing");
 
   const handlePass = (e) => {
     e.preventDefault();
@@ -335,6 +341,15 @@ function Home() {
             </div>
             <div className="col-lg-12 main-area container">
               <div className="main-area-header">{imageCount} Items Listed</div>
+              <div className="list-buttons">
+                <button className="btn list-button">
+                  <FaTh className={`list-icon ${gridIcon}`} />
+                </button>
+                <button className="btn list-button">
+                  <FaBars className={`list-icon ${listIcon}`} />
+                </button>
+              </div>
+
               <div className="filter-section">
                 <div className="row">
                   {filterArr &&
