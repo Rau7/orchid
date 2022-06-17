@@ -355,7 +355,7 @@ function Home() {
                 />
               </div>
             </div>
-            <div className="col-lg-12 main-area container">
+            <div className="col-lg-12 main-area">
               <div className="main-area-header">{imageCount} Items Listed</div>
               <div className="list-buttons">
                 <button
@@ -452,7 +452,7 @@ function Home() {
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.slice(0, 1).map((item) => (
                       <div className="col-12" key={item.name}>
-                        <div className="row nft-list-area">
+                        <div className="row nft-list-area-big">
                           <div className="col-3 nft-list-image-area">
                             <img
                               src={IMAGES[item.name]}

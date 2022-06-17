@@ -485,7 +485,7 @@ body.modal-open .modal .modal-dialog {
   width: 100%;
 }
 
-.nft-list-area {
+.nft-list-area-big {
   background-color: #333;
   border-bottom-right-radius: 7%;
   border-top-right-radius: 7%;
@@ -493,4 +493,25 @@ body.modal-open .modal .modal-dialog {
 
 .nft-list-image-area {
   margin-left: -12px;
+}
+
+@media screen and (max-width: 568px) {
+  .main-area {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* -- ust */
+@media screen and (min-width: 567px) {
+  .main-area {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
