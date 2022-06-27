@@ -536,6 +536,7 @@ body.modal-open .modal .modal-dialog {
 
 .trait-lists {
   list-style: none;
+  padding-left: 0.2rem;
 }
 
 ul > li {
