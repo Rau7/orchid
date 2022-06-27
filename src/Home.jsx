@@ -555,25 +555,6 @@ function Home() {
                     ></button>
                   </div>
                 </div>
-                <div className="nft-info">
-                  <div className="nft-image-description">
-                    {/*Description : {METADATA[item.name].description}*/}
-                    <div className="each-attribute">
-                      <ul className="trait-lists">
-                        {METADATA[item.name].attributes
-                          .filter((attri) => attri.value !== "Nothing")
-                          .map((attr) => (
-                            <li>
-                              <span className="trait-name">
-                                {attr.trait_type}
-                              </span>
-                              <span className="trait-attr">: {attr.value}</span>
-                            </li>
-                          ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
