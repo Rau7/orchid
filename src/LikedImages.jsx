@@ -27,6 +27,9 @@ function LikedImages() {
 
   const [clickedImage, setClickedImage] = useState("");
 
+  const [loadDis, setLoadDis] = useState("");
+  const [endIndex, setEndIndex] = useState(20);
+
   const handlePass = (e) => {
     e.preventDefault();
     setPass(e.target.value);
@@ -181,6 +184,21 @@ function LikedImages() {
       setImageCount(uniqueArray.length);
     }
   }, [searchText]);
+
+  function padLeadingZeros(num, size) {
+    var s = num + "";
+    while (s.length < size) s = "0" + s;
+    return s;
+  }
+
+  function loadMore() {
+    var newIndex = endIndex + 20;
+    if (newIndex >= 800) {
+      newIndex = 800;
+      setLoadDis("d-none");
+    }
+    setEndIndex(newIndex);
+  }
 
   return (
     <>
@@ -340,81 +358,23 @@ function LikedImages() {
               <div className="main-area-content">
                 <div className="row">
                   {filteredImgs.length !== 0 ? (
-                    filteredImgs.map((item) =>
-                      item.faved == 1 ? (
-                        <div
-                          className="col-xxl-3 col-xl-4 col-lg-6 col-md-6"
-                          key={item.name}
-                          onClick={() => handleImageClick(item.name)}
-                        >
-                          <div className="nft-card">
-                            <div className="nft-image-area">
-                              <img
-                                src={IMAGES[item.name]}
-                                className="nft-image"
-                                alt="NFT Text"
-                              ></img>
+                    filteredImgs.slice(0, endIndex).map((item) => (
+                      <div
+                        className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 d-flex"
+                        key={item.name}
+                        onClick={() => handleImageClick(item.name)}
+                      >
+                        <div className="nft-card">
+                          <div className="nft-image-area">
+                            <img
+                              src={IMAGES[item.name]}
+                              className="nft-image"
+                              alt="NFT Text"
+                            ></img>
+                            <div className="nft-image-name">
+                              #{padLeadingZeros(item.name, 4)}
                             </div>
-                            <div className="nft-info">
-                              <div className="nft-image-name">{`Item ${item.name}`}</div>
-                              <div className="nft-image-description">
-                                {/*Description : {METADATA[item.name].description}*/}
-                                <div
-                                  className="accordion"
-                                  id={`metainfoaccord${
-                                    METADATA[item.name].name
-                                  }`}
-                                >
-                                  <div className="accordion-item">
-                                    <h2
-                                      className="accordion-header"
-                                      id={`item${METADATA[item.name].name}`}
-                                    >
-                                      <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target={`#collapse${
-                                          METADATA[item.name].name
-                                        }`}
-                                        aria-expanded="false"
-                                        aria-controls={`collapse${
-                                          METADATA[item.name].name
-                                        }`}
-                                      >
-                                        Traits & Attributes
-                                      </button>
-                                    </h2>
-                                    <div
-                                      id={`collapse${METADATA[item.name].name}`}
-                                      className="accordion-collapse collapse"
-                                      aria-labelledby={`item${
-                                        METADATA[item.name].name
-                                      }`}
-                                      data-bs-parent={`#metainfoaccord${
-                                        METADATA[item.name].name
-                                      }`}
-                                    >
-                                      <div className="accordion-body">
-                                        {METADATA[item.name].attributes
-                                          .filter(
-                                            (attri) => attri.value !== "Nothing"
-                                          )
-                                          .map((attr) => (
-                                            <div className="each-attribute">
-                                              <span className="trait-name">
-                                                {attr.trait_type}
-                                              </span>{" "}
-                                              : {attr.value}
-                                            </div>
-                                          ))}
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="nft-like-area d-flex justify-content-center">
+                            <div className="nft-like-area">
                               <button
                                 className="btn like-button"
                                 onClick={() => addDropFav(item.name)}
@@ -427,11 +387,32 @@ function LikedImages() {
                               </button>
                             </div>
                           </div>
+                          <div className="nft-info">
+                            <div className="nft-image-description">
+                              {/*Description : {METADATA[item.name].description}*/}
+                              <div className="each-attribute">
+                                <ul className="trait-lists">
+                                  {METADATA[item.name].attributes
+                                    .filter(
+                                      (attri) => attri.value !== "Nothing"
+                                    )
+                                    .map((attr) => (
+                                      <li>
+                                        <span className="trait-name">
+                                          {attr.trait_type}
+                                        </span>
+                                        <span className="trait-attr">
+                                          : {attr.value}
+                                        </span>
+                                      </li>
+                                    ))}
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      ) : (
-                        ""
-                      )
-                    )
+                      </div>
+                    ))
                   ) : (
                     <div className="nothing-to-show">Nothing To Show</div>
                   )}

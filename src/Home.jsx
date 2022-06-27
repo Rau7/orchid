@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import _ from "lodash";
 import axios from "axios";
 import LikedImages from "./LikedImages";
+import MODAL_ARR from "./modal_arr";
 
 function Home() {
   const [preLoad, setPreLoad] = useState("");
@@ -36,6 +37,9 @@ function Home() {
   const [gridIcon, setGridIcon] = useState("showing");
   const [listList, setListList] = useState("d-none");
   const [listIcon, setListIcon] = useState("not-showing");
+
+  /*Modal Open Close */
+  const [modalArr, setModalArr] = useState(MODAL_ARR);
 
   const handlePass = (e) => {
     e.preventDefault();
@@ -223,6 +227,18 @@ function Home() {
     setEndIndex(20);
   }
 
+  function closeModal(image_id) {
+    let newArr = [...modalArr];
+    newArr[image_id] = false;
+    setModalArr(newArr);
+  }
+
+  function openModal(image_id) {
+    let newArr = [...modalArr];
+    newArr[image_id] = true;
+    setModalArr(newArr);
+  }
+
   return (
     <>
       <div className="App">
@@ -357,7 +373,7 @@ function Home() {
             </div>
             <div className="col-lg-12 main-area container">
               <div className="main-area-header">{imageCount} Items Listed</div>
-              <div className="list-buttons">
+              <div className="list-buttons d-none">
                 <button
                   className="btn list-button"
                   onClick={() => convertToGrid()}
@@ -395,9 +411,9 @@ function Home() {
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.slice(0, endIndex).map((item) => (
                       <div
-                        className="col-xxl-3 col-xl-4 col-lg-6 col-md-6"
+                        className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 d-flex"
                         key={item.name}
-                        onClick={() => handleImageClick(item.name)}
+                        onClick={() => openModal(item.name)}
                       >
                         <div className="nft-card">
                           <div className="nft-image-area">
@@ -426,18 +442,22 @@ function Home() {
                             <div className="nft-image-description">
                               {/*Description : {METADATA[item.name].description}*/}
                               <div className="each-attribute">
-                                {METADATA[item.name].attributes
-                                  .filter((attri) => attri.value !== "Nothing")
-                                  .map((attr) => (
-                                    <span className="trait-span">
-                                      <span className="trait-name">
-                                        {attr.trait_type}
-                                      </span>
-                                      <span className="trait-attr">
-                                        : {attr.value}
-                                      </span>
-                                    </span>
-                                  ))}
+                                <ul className="trait-lists">
+                                  {METADATA[item.name].attributes
+                                    .filter(
+                                      (attri) => attri.value !== "Nothing"
+                                    )
+                                    .map((attr) => (
+                                      <li>
+                                        <span className="trait-name">
+                                          {attr.trait_type}
+                                        </span>
+                                        <span className="trait-attr">
+                                          : {attr.value}
+                                        </span>
+                                      </li>
+                                    ))}
+                                </ul>
                               </div>
                             </div>
                           </div>
@@ -462,18 +482,20 @@ function Home() {
                           </div>
                           <div className="col-md-9">
                             <div className="nft-list-text">
-                              {METADATA[item.name].attributes
-                                .filter((attri) => attri.value !== "Nothing")
-                                .map((attr) => (
-                                  <span className="trait-span">
-                                    <span className="trait-name">
-                                      {attr.trait_type}
-                                    </span>
-                                    <span className="trait-attr">
-                                      : {attr.value}
-                                    </span>
-                                  </span>
-                                ))}
+                              <ul>
+                                {METADATA[item.name].attributes
+                                  .filter((attri) => attri.value !== "Nothing")
+                                  .map((attr) => (
+                                    <li>
+                                      <span className="trait-name">
+                                        {attr.trait_type}
+                                      </span>
+                                      <span className="trait-attr">
+                                        : {attr.value}
+                                      </span>
+                                    </li>
+                                  ))}
+                              </ul>
                             </div>
                           </div>
                         </div>
@@ -495,6 +517,67 @@ function Home() {
           </div>
         </div>
         {/*<Modals imageList={images} clickedId={clickedImage} />*/}
+        {images.map((item) => (
+          <div
+            className={`modal d-flex justify-content-center align-items-center ${
+              modalArr[item.name] === false ? "d-none" : ""
+            }`}
+          >
+            <div className="modal-area">
+              <div className="modal-card">
+                <div className="nft-image-area">
+                  <img
+                    src={IMAGES[item.name]}
+                    className="modal-image"
+                    alt="NFT Text"
+                  ></img>
+                  <div className="nft-image-name">
+                    #{padLeadingZeros(item.name, 4)}
+                  </div>
+                  <div className="nft-like-area">
+                    <button
+                      className="btn like-button"
+                      onClick={() => addDropFav(item.name)}
+                    >
+                      <FaHeart
+                        className={`like-icon ${
+                          item.faved === "1" ? "faved" : "not-faved"
+                        }`}
+                      />
+                    </button>
+                  </div>
+                  <div className="close-area">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      aria-label="Close"
+                      onClick={() => closeModal(item.name)}
+                    ></button>
+                  </div>
+                </div>
+                <div className="nft-info">
+                  <div className="nft-image-description">
+                    {/*Description : {METADATA[item.name].description}*/}
+                    <div className="each-attribute">
+                      <ul className="trait-lists">
+                        {METADATA[item.name].attributes
+                          .filter((attri) => attri.value !== "Nothing")
+                          .map((attr) => (
+                            <li>
+                              <span className="trait-name">
+                                {attr.trait_type}
+                              </span>
+                              <span className="trait-attr">: {attr.value}</span>
+                            </li>
+                          ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   );
