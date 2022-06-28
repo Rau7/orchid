@@ -145,6 +145,7 @@ function Home() {
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
     setStartIndex(0);
+    setLoadBeforeDis("d-none");
   }, [filterArr, images]);
 
   const handleTextChange = (e) => {
@@ -186,6 +187,7 @@ function Home() {
       );
       setFilteredImages(uniqueArray);
       setStartIndex(0);
+      setLoadBeforeDis("d-none");
       setImageCount(uniqueArray.length);
     }
   }, [searchText]);
