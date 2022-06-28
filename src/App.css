@@ -426,11 +426,12 @@ body.modal-open .modal .modal-dialog {
 .trait-name {
   font-weight: 500;
   color: #eee;
+  font-size: 11px;
 }
 
 .trait-attr {
   font-weight: 400;
-  font-size: 0.8rem !important;
+  font-size: 10px !important;
 }
 
 .list-icon {
@@ -672,4 +673,12 @@ ul > li {
   50% {
     box-shadow: 0px 0px 16px 20px rgba(235, 38, 147, 0.7);
   }
+}
+
+.accordion-button {
+  font-size: 14px;
+}
+
+.form-check-label {
+  font-size: 9px;
 }
