@@ -409,7 +409,7 @@ function Home() {
               <div className="main-area-content">
                 <div className={`row ${gridList}`}>
                   {filteredImgs.length !== 0 ? (
-                    filteredImgs.slice(0, endIndex).map((item) => (
+                    filteredImgs.slice(0, 20).map((item) => (
                       <div
                         className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 d-flex"
                         key={item.name}
@@ -470,7 +470,7 @@ function Home() {
                 </div>
                 <div className={`row ${listList}`}>
                   {filteredImgs.length !== 0 ? (
-                    filteredImgs.slice(0, 20).map((item) => (
+                    filteredImgs.slice(0, endIndex).map((item) => (
                       <div className="col-12 nft-listing" key={item.name}>
                         <div className="row nft-list-area">
                           <div className="col-md-3 nft-list-image-area">
@@ -549,7 +549,7 @@ function Home() {
                   <div className="close-area">
                     <button
                       type="button"
-                      class="btn-close"
+                      className="btn-close"
                       aria-label="Close"
                       onClick={() => closeModal(item.name)}
                     ></button>
