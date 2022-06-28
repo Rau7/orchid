@@ -409,7 +409,7 @@ function Home() {
               <div className="main-area-content">
                 <div className={`row ${gridList}`}>
                   {filteredImgs.length !== 0 ? (
-                    filteredImgs.slice(0, 20).map((item) => (
+                    filteredImgs.slice(0, endIndex).map((item) => (
                       <div
                         className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 d-flex"
                         key={item.name}
