@@ -576,7 +576,7 @@ ul > li {
 
 @media screen and (max-width: 510px) {
   .modal-image {
-    height: 35vh;
+    height: 40vh;
   }
 }
 

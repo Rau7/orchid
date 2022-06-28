@@ -11,8 +11,8 @@ import LikedImages from "./LikedImages";
 import MODAL_ARR from "./modal_arr";
 
 function Home() {
-  const [preLoad, setPreLoad] = useState("");
-  const [mainLoad, setMainLoad] = useState("d-none");
+  const [preLoad, setPreLoad] = useState("d-none");
+  const [mainLoad, setMainLoad] = useState("");
   const [passText, setPassText] = useState("Password");
   const [passStyle, setPassStyle] = useState("at-first");
 
