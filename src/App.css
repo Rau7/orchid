@@ -604,3 +604,72 @@ ul > li {
     url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
     center/1em auto no-repeat;
 }
+
+.go-top-area {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 0.75rem;
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+
+.move-buttons {
+  position: fixed;
+  right: 0;
+  bottom: 45%;
+  margin-right: 0.75rem;
+  z-index: 2;
+}
+
+.move-btn {
+  margin-top: 0.5rem;
+}
+
+.cstm-btn {
+  background-color: #eb2693;
+  color: #000;
+  border-radius: 25px;
+}
+
+.cstm-btn:hover {
+  background-color: #871956;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.color-area-500 {
+  animation: mymove;
+  animation-fill-mode: forwards;
+  animation-duration: 7s;
+}
+
+.color-area-200 {
+  animation: mymove;
+  animation-fill-mode: forwards;
+  animation-duration: 7s;
+}
+
+.color-area-350 {
+  animation: mymove;
+  animation-fill-mode: forwards;
+  animation-duration: 7s;
+}
+
+.color-area-650 {
+  animation: mymove;
+  animation-fill-mode: forwards;
+  animation-duration: 7s;
+}
+
+.color-area-800 {
+  animation: mymove;
+  animation-fill-mode: forwards;
+  animation-duration: 7s;
+}
+
+@keyframes mymove {
+  50% {
+    box-shadow: 0px 0px 16px 20px rgba(235, 38, 147, 0.7);
+  }
+}

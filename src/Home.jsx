@@ -29,8 +29,11 @@ function Home() {
 
   const [clickedImage, setClickedImage] = useState("");
 
-  const [loadDis, setLoadDis] = useState("");
+  const [startIndex, setStartIndex] = useState(0);
   const [endIndex, setEndIndex] = useState(20);
+  const [loadDis, setLoadDis] = useState("");
+  const [loadBeforeDis, setLoadBeforeDis] = useState("d-none");
+  const [coloring, setColoring] = useState("");
 
   /*Listing Icons */
   const [gridList, setGridList] = useState("");
@@ -211,6 +214,17 @@ function Home() {
     setEndIndex(newIndex);
   }
 
+  function loadBefore() {
+    var newIndex = startIndex - 20;
+    if (startIndex <= 0) {
+      startIndex = 0;
+      setLoadBeforeDis("d-none");
+    } else {
+      setLoadBeforeDis("");
+    }
+    setStartIndex(newIndex);
+  }
+
   function convertToGrid() {
     setGridIcon("showing");
     setGridList("");
@@ -237,6 +251,30 @@ function Home() {
     let newArr = [...modalArr];
     newArr[image_id] = true;
     setModalArr(newArr);
+  }
+
+  async function expandAndScroll(id) {
+    loadForScroll(id);
+  }
+
+  async function topExpand() {
+    setLoadBeforeDis("d-none");
+    setStartIndex(0);
+    setEndIndex(20);
+  }
+
+  function loadForScroll(id) {
+    setLoadBeforeDis("");
+    setStartIndex(id - 20);
+    setEndIndex(id + 20);
+  }
+
+  async function scrollPage(num) {
+    document.getElementById(num).scrollIntoView({ block: "center" });
+  }
+
+  function colorTheFirstCol(id) {
+    setColoring(`color-area`);
   }
 
   return (
@@ -357,6 +395,90 @@ function Home() {
             </div>
           </div>
           <div className="col-xl-9 col-lg-8 content padding-0">
+            <div className="go-top-area">
+              <button
+                className="cstm-btn"
+                onClick={() => {
+                  topExpand().then((e) => {
+                    document.getElementById("root").scrollIntoView();
+                  });
+                }}
+              >
+                Top
+              </button>
+            </div>
+            <div className="move-buttons">
+              <div className="move-btn">
+                <button
+                  className="cstm-btn"
+                  onClick={() => {
+                    expandAndScroll(150).then((e) => {
+                      scrollPage(150).then((f) => {
+                        colorTheFirstCol(150);
+                      });
+                    });
+                  }}
+                >
+                  150
+                </button>
+              </div>
+              <div className="move-btn">
+                <button
+                  className="cstm-btn"
+                  onClick={() => {
+                    expandAndScroll(300).then((e) => {
+                      scrollPage(300).then((f) => {
+                        colorTheFirstCol(300);
+                      });
+                    });
+                  }}
+                >
+                  300
+                </button>
+              </div>
+              <div className="move-btn">
+                <button
+                  className="cstm-btn"
+                  onClick={() => {
+                    expandAndScroll(450).then((e) => {
+                      scrollPage(450).then((f) => {
+                        colorTheFirstCol(450);
+                      });
+                    });
+                  }}
+                >
+                  450
+                </button>
+              </div>
+              <div className="move-btn">
+                <button
+                  className="cstm-btn"
+                  onClick={() => {
+                    expandAndScroll(600).then((e) => {
+                      scrollPage(600).then((f) => {
+                        colorTheFirstCol(600);
+                      });
+                    });
+                  }}
+                >
+                  600
+                </button>
+              </div>
+              <div className="move-btn">
+                <button
+                  className="cstm-btn"
+                  onClick={() => {
+                    expandAndScroll(750).then((e) => {
+                      scrollPage(750).then((f) => {
+                        colorTheFirstCol(750);
+                      });
+                    });
+                  }}
+                >
+                  750
+                </button>
+              </div>
+            </div>
             <div className="col-lg-12 searchbar container">
               <div className="input-group mb-3">
                 <FaSearch className="search-icon" />
@@ -387,7 +509,13 @@ function Home() {
                   <FaBars className={`list-icon ${listIcon}`} />
                 </button>
               </div>
-
+              <div
+                className={`load-area d-flex justify-content-center mt-5 ${loadBeforeDis}`}
+              >
+                <button className="load-more" onClick={() => loadBefore()}>
+                  Load Before
+                </button>
+              </div>
               <div className="filter-section">
                 <div className="row">
                   {filterArr &&
@@ -409,17 +537,20 @@ function Home() {
               <div className="main-area-content">
                 <div className={`row ${gridList}`}>
                   {filteredImgs.length !== 0 ? (
-                    filteredImgs.slice(0, endIndex).map((item) => (
+                    filteredImgs.slice(startIndex, endIndex).map((item) => (
                       <div
                         className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 d-flex"
                         key={item.name}
+                        id={item.name}
                         onClick={() => openModal(item.name)}
                       >
                         <div className="nft-card">
                           <div className="nft-image-area">
                             <img
                               src={IMAGES[item.name]}
-                              className="nft-image"
+                              className={`nft-image ${
+                                coloring + "-" + item.name
+                              }`}
                               alt="NFT Text"
                             ></img>
                             <div className="nft-image-name">
@@ -517,7 +648,7 @@ function Home() {
           </div>
         </div>
         {/*<Modals imageList={images} clickedId={clickedImage} />*/}
-        {filteredImgs.slice(0, endIndex).map((item) => (
+        {filteredImgs.slice(startIndex, endIndex).map((item) => (
           <div
             className={`modal d-flex justify-content-center align-items-center ${
               modalArr[item.name] === false ? "d-none" : ""
