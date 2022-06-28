@@ -144,6 +144,7 @@ function Home() {
     }
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
+    setStartIndex(0);
   }, [filterArr, images]);
 
   const handleTextChange = (e) => {
@@ -184,6 +185,7 @@ function Home() {
         (v, i, a) => a.findIndex((t) => t.name === v.name) === i
       );
       setFilteredImages(uniqueArray);
+      setStartIndex(0);
       setImageCount(uniqueArray.length);
     }
   }, [searchText]);
