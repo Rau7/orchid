@@ -517,7 +517,7 @@ function Home() {
           </div>
         </div>
         {/*<Modals imageList={images} clickedId={clickedImage} />*/}
-        {images.map((item) => (
+        {filteredImgs.slice(0, endIndex).map((item) => (
           <div
             className={`modal d-flex justify-content-center align-items-center ${
               modalArr[item.name] === false ? "d-none" : ""
