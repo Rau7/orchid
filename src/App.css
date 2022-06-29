@@ -714,6 +714,7 @@ label > input {
 
 .header-area {
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .card-area {
@@ -730,6 +731,7 @@ label > input {
   box-shadow: 0px 0px 20px 10px rgba(113, 203, 255, 0.7);
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
+  background-color: #333;
 }
 
 .card-area .nft-card {
@@ -753,19 +755,19 @@ label > input {
   }
 }
 
-@keyframes fade_out_show {
-  0% {
-    opacity: 1;
-    transform: scale(0);
-  }
-
-  100% {
-    opacity: 0;
-    transform: scale(1);
-  }
+.trait-list-item {
+  word-break: break-all;
 }
 
-.card-area .nft-card {
-  display: none;
-  animation: fade_out_show 1s;
+.form-check-input {
+  margin-right: 0.2rem;
+}
+
+.main-area-content {
+  margin-left: 1rem;
+}
+
+.filter-section {
+  margin-top: 2rem;
+  margin-left: 1rem;
 }

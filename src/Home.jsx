@@ -286,13 +286,60 @@ function Home() {
     setClickedImage(image_id);
   }
 
+  function showAll() {
+    setFilteredImages(images);
+    setImageCount(images.length);
+  }
+
+  function showFemale() {
+    let normal_counter = 0;
+    let filter_counter = 0;
+    let lastArr = [];
+    for (let i = 0; i < images.length; i++) {
+      filter_counter = 0;
+      for (let j = 0; j < images[i]["attributes"].length; j++) {
+        if (
+          images[i]["attributes"][j]["trait_type"] === "Gender" &&
+          images[i]["attributes"][j]["value"] === "Female"
+        ) {
+          lastArr[normal_counter] = images[i];
+          normal_counter++;
+        }
+      }
+    }
+    setFilteredImages(lastArr);
+    setImageCount(lastArr.length);
+  }
+
+  function showMale() {
+    let normal_counter = 0;
+    let filter_counter = 0;
+    let lastArr = [];
+    for (let i = 0; i < images.length; i++) {
+      filter_counter = 0;
+      for (let j = 0; j < images[i]["attributes"].length; j++) {
+        if (
+          images[i]["attributes"][j]["trait_type"] === "Gender" &&
+          images[i]["attributes"][j]["value"] === "Male"
+        ) {
+          lastArr[normal_counter] = images[i];
+          normal_counter++;
+        }
+      }
+    }
+    setFilteredImages(lastArr);
+    setImageCount(lastArr.length);
+  }
+
   return (
     <>
       <div className="App">
         <div className={`row ${mainLoad}`}>
           <div className="col-12 sidebar padding-0">
             <div className="logo-area d-flex justify-content-center">
-              <img src={logo} className="thelogo" alt="The Logo"></img>
+              <a href="https://xspectar.com/" target="_blank">
+                <img src={logo} className="thelogo" alt="The Logo"></img>
+              </a>
             </div>
             <div className="trait-filters container">
               {traits &&
@@ -313,13 +360,11 @@ function Home() {
                     >
                       {item.attributes &&
                         item.attributes.map((att) => (
-                          <li key={att}>
+                          <li key={att} className="trait-list-item">
                             <label
                               className="form-check-label"
                               htmlFor={`flexCheckDefault${att}`}
                             >
-                              {att}
-
                               <input
                                 className="form-check-input"
                                 type="checkbox"
@@ -338,6 +383,7 @@ function Home() {
                                   )
                                 }
                               />
+                              {att}
                             </label>
                           </li>
                         ))}
@@ -446,7 +492,7 @@ function Home() {
               </div>
             </div>
             <div className="col-lg-12 main-area container">
-              <div className="header-area d-flex align-items-center justify-content-start">
+              <div className="header-area container d-flex align-items-center justify-content-start">
                 <div className="main-area-header">
                   {imageCount} Items Listed
                 </div>
@@ -454,6 +500,39 @@ function Home() {
                   <Link to="/liked_images" className="navigation-button">
                     Liked Images
                   </Link>
+                </div>
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    onClick={() => {
+                      showAll();
+                    }}
+                  >
+                    All
+                  </button>
+                </div>
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    onClick={() => {
+                      showFemale();
+                    }}
+                  >
+                    Female
+                  </button>
+                </div>
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    onClick={() => {
+                      showMale();
+                    }}
+                  >
+                    Male
+                  </button>
                 </div>
               </div>
               <div className="list-buttons d-none">
