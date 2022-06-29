@@ -9,6 +9,7 @@ import _ from "lodash";
 import axios from "axios";
 import LikedImages from "./LikedImages";
 import MODAL_ARR from "./modal_arr";
+import Modals from "./components/Modals";
 
 function Home() {
   const [preLoad, setPreLoad] = useState("d-none");
@@ -281,6 +282,10 @@ function Home() {
     setColoring(`color-area`);
   }
 
+  function openNewModal(image_id) {
+    setClickedImage(image_id);
+  }
+
   return (
     <>
       <div className="App">
@@ -546,11 +551,11 @@ function Home() {
                         className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 d-flex"
                         key={item.name}
                         id={item.name}
-                        onClick={() => openModal(item.name)}
                       >
                         <div className="nft-card">
                           <div className="nft-image-area">
                             <img
+                              onClick={() => openNewModal(item.name)}
                               src={IMAGES[item.name]}
                               className={`nft-image ${
                                 coloring + "-" + item.name
@@ -652,7 +657,13 @@ function Home() {
           </div>
         </div>
         {/*<Modals imageList={images} clickedId={clickedImage} />*/}
-        {filteredImgs.slice(startIndex, endIndex).map((item) => (
+        <Modals
+          image_id={clickedImage}
+          faved={images[clickedImage - 1]}
+          faving={() => addDropFav(clickedImage)}
+          click_img_fn={() => setClickedImage()}
+        />
+        {/*filteredImgs.slice(startIndex, endIndex).map((item) => (
           <div
             className={`modal d-flex justify-content-center align-items-center ${
               modalArr[item.name] === false ? "d-none" : ""
@@ -693,7 +704,7 @@ function Home() {
               </div>
             </div>
           </div>
-        ))}
+                      ))*/}
       </div>
     </>
   );

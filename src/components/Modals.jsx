@@ -4,96 +4,85 @@ import { FaHeart } from "react-icons/fa";
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import _ from "lodash";
+import MODAL_ARR from "../modal_arr";
 
-function Modals({ imageList, clickedId }) {
-  const [images, setImages] = useState(imageList);
+function Modals({ image_id, faved, faving, click_img_fn }) {
+  const [modalArr, setModalArr] = useState(MODAL_ARR);
+  const [imageID, setImageID] = useState(image_id);
+  const [imageFaved, setImageFaved] = useState(0);
+  const [favState, setFavState] = useState();
 
-  function addDropFav(imageId) {
-    axios
-      .post(`https://admin.reblium.com/add_drop_image_fav/?image_id=${imageId}`)
-      .then((response) => {
-        let newArr = [...images];
-        let b = _.findIndex(newArr, function (el) {
-          return el.name === imageId;
-        });
-        newArr[b].faved = response.data;
-        setImages(newArr);
-      })
-      .catch((error) => {
-        this.setState({ errorMessage: error.message });
-        console.error("There was an error!", error);
-      });
+  useEffect(() => {
+    if (typeof faved === "undefined") {
+      setImageFaved(0);
+    } else {
+      setImageFaved(faved.faved);
+    }
+    setImageID(image_id);
+  }, [image_id]);
+
+  function padLeadingZeros(num, size) {
+    var s = num + "";
+    while (s.length < size) s = "0" + s;
+    return s;
   }
 
-  if (clickedId === "") {
-    return "";
-  } else {
-    return (
-      <div className="modals-area">
-        <div className="modal-content d-flex justify-content-center align-items-center">
-          <div className="row d-flex justify-content-center">
-            <div className="col-md-5">
-              <div className="modal-nft-card">
-                <div className="modal-nft-image-area">
-                  <img
-                    src={IMAGES[clickedId]}
-                    className="modal-nft-image"
-                    alt="NFT Text"
-                  ></img>
-                </div>
-                <div className="modal-nft-info">
-                  <div className="modal-nft-image-name">{`Item ${clickedId}`}</div>
-                  <div className="modal-nft-image-description">
-                    {/*Description : {METADATA[clickedId].description}*/}
-                    <div className="modal-attr-trts">
-                      <div className="row">
-                        <div className="col-6">
-                          {METADATA[clickedId].attributes
-                            .slice(0, 11)
-                            .map((attr) => (
-                              <div className="each-attribute">
-                                <span className="trait-name">
-                                  {attr.trait_type}
-                                </span>{" "}
-                                : {attr.value}
-                              </div>
-                            ))}
-                        </div>
-                        <div className="col-6">
-                          {METADATA[clickedId].attributes
-                            .slice(12, 22)
-                            .map((attr) => (
-                              <div className="each-attribute">
-                                <span className="trait-name">
-                                  {attr.trait_type}
-                                </span>{" "}
-                                : {attr.value}
-                              </div>
-                            ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="nft-like-area d-flex justify-content-center">
-                  <button
-                    className="btn like-button"
-                    onClick={() => addDropFav(clickedId)}
-                  >
-                    <FaHeart
-                      className={`like-icon ${
-                        images[clickedId].faved === "1" ? "faved" : "not-faved"
-                      }`}
-                    />
-                  </button>
-                </div>
+  function closeModal() {
+    setImageID("");
+    click_img_fn("");
+  }
+
+  function favornot() {
+    setImageFaved(imageFaved === "0" ? "1" : "0");
+    faving(imageID);
+  }
+
+  return (
+    <div>
+      <div
+        className={`modal d-flex justify-content-center align-items-center ${
+          imageID === "" || typeof imageID === "undefined" ? "d-none" : ""
+        }`}
+      >
+        <div className="modal-area">
+          <div className="modal-card">
+            <div className="nft-image-area">
+              <img
+                src={IMAGES[imageID]}
+                className="modal-image"
+                alt="NFT Text"
+              ></img>
+              <div className="nft-image-name">
+                #{padLeadingZeros(imageID, 4)}
+              </div>
+              <div className="nft-like-area">
+                <button
+                  className="btn like-button"
+                  onClick={() => {
+                    favornot();
+                  }}
+                >
+                  <FaHeart
+                    className={`like-icon ${
+                      imageFaved === "1" ? "faved" : "not-faved"
+                    }`}
+                  />
+                </button>
+              </div>
+              <div className="close-area">
+                <button
+                  type="button"
+                  className="btn-close"
+                  aria-label="Close"
+                  onClick={() => closeModal(imageID)}
+                ></button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default Modals;

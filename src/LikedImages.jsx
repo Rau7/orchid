@@ -8,6 +8,7 @@ import _ from "lodash";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import MODAL_ARR from "./modal_arr";
+import Modals from "./components/Modals";
 
 function LikedImages() {
   const [preLoad, setPreLoad] = useState("d-none");
@@ -209,10 +210,8 @@ function LikedImages() {
     setModalArr(newArr);
   }
 
-  function openModal(image_id) {
-    let newArr = [...modalArr];
-    newArr[image_id] = true;
-    setModalArr(newArr);
+  function openNewModal(image_id) {
+    setClickedImage(image_id);
   }
 
   return (
@@ -377,7 +376,6 @@ function LikedImages() {
                       <div
                         className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 d-flex"
                         key={item.name}
-                        onClick={() => openModal(item.name)}
                       >
                         <div className="nft-card">
                           <div className="nft-image-area">
@@ -385,6 +383,7 @@ function LikedImages() {
                               src={IMAGES[item.name]}
                               className="nft-image"
                               alt="NFT Text"
+                              onClick={() => openNewModal(item.name)}
                             ></img>
                             <div className="nft-image-name">
                               #{padLeadingZeros(item.name, 4)}
@@ -437,48 +436,12 @@ function LikedImages() {
           </div>
         </div>
         {/*<Modals imageList={images} clickedId={clickedImage} />*/}
-        {images.map((item) => (
-          <div
-            className={`modal d-flex justify-content-center align-items-center ${
-              modalArr[item.name] === false ? "d-none" : ""
-            }`}
-          >
-            <div className="modal-area">
-              <div className="modal-card">
-                <div className="nft-image-area">
-                  <img
-                    src={IMAGES[item.name]}
-                    className="modal-image"
-                    alt="NFT Text"
-                  ></img>
-                  <div className="nft-image-name">
-                    #{padLeadingZeros(item.name, 4)}
-                  </div>
-                  <div className="nft-like-area">
-                    <button
-                      className="btn like-button"
-                      onClick={() => addDropFav(item.name)}
-                    >
-                      <FaHeart
-                        className={`like-icon ${
-                          item.faved === "1" ? "faved" : "not-faved"
-                        }`}
-                      />
-                    </button>
-                  </div>
-                  <div className="close-area">
-                    <button
-                      type="button"
-                      class="btn-close"
-                      aria-label="Close"
-                      onClick={() => closeModal(item.name)}
-                    ></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
+        <Modals
+          image_id={clickedImage}
+          faved={filteredImgs[clickedImage - 2]}
+          faving={() => addDropFav(clickedImage)}
+          click_img_fn={() => setClickedImage()}
+        />
       </div>
     </>
   );
