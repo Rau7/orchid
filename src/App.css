@@ -50,7 +50,6 @@ body {
   width: 100%;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  margin-top: 2.4rem;
 }
 
 .nft-image {
@@ -206,12 +205,6 @@ textarea.md-textarea:focus:not([readonly]) {
   box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
 }
 
-.nft-card:hover {
-  cursor: pointer;
-  transform: translateY(-5px);
-  box-shadow: 0px 0px 20px 10px rgba(113, 203, 255, 0.7);
-}
-
 body.modal-open .modal {
   display: flex !important;
   height: 100%;
@@ -346,24 +339,19 @@ body.modal-open .modal .modal-dialog {
   border-bottom-right-radius: 25px;
 }
 
-.liked-images-link {
-  margin-bottom: 2rem;
-}
-
 .navigation-button {
   text-decoration: none;
   margin: 10px;
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 600;
   padding: 15px;
   text-align: center;
-  text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: #fff;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
-  width: 200px;
+  width: 150px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
   cursor: pointer;
@@ -681,7 +669,7 @@ ul > li {
 }
 
 .form-check-label {
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .sidebar {
@@ -689,4 +677,95 @@ ul > li {
 }
 .content {
   padding-left: 0px;
+}
+
+ul > li {
+  margin-top: -0.3rem;
+}
+
+.trait-filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trait-filters > .dropdown {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.dropdown-menu {
+  height: 35vh;
+  width: 15rem;
+  overflow-x: auto;
+}
+
+ul > li {
+  margin-left: 0.8rem;
+  margin-right: 0.4rem;
+}
+
+label > input {
+  margin-left: 0.2rem;
+}
+
+.drop-btn {
+  font-size: 14px;
+}
+
+.header-area {
+  gap: 1rem;
+}
+
+.card-area {
+  margin-top: 2.4rem;
+  transition: 0.3s;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: transparent;
+}
+
+.card-area:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 20px 10px rgba(113, 203, 255, 0.7);
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.card-area .nft-card {
+  display: none;
+}
+
+.card-area:hover .nft-card {
+  display: block;
+  animation: fade_in_show 1s;
+}
+
+@keyframes fade_in_show {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade_out_show {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.card-area .nft-card {
+  display: none;
+  animation: fade_out_show 1s;
 }

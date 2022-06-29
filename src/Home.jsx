@@ -289,121 +289,64 @@ function Home() {
   return (
     <>
       <div className="App">
-        <div
-          className={`pre-loader d-flex justify-content-center align-items-center ${preLoad}`}
-        >
-          <div className="login-form">
-            <div className="xspectar-image">
-              <img src={logo} className="thelogoX" alt="The Logo"></img>
-            </div>
-            <div className="login-area">
-              <div className="mb-3">
-                <label
-                  htmlFor="exampleFormControlInput1"
-                  className={`form-label ${passStyle}`}
-                >
-                  {passText}
-                </label>
-                <input
-                  onChange={handlePass}
-                  type="password"
-                  className="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="Enter Password"
-                  value={pass}
-                />
-                <div className="enter-button d-flex justify-content-center mt-5">
-                  <button
-                    onClick={checkPassword}
-                    type="button"
-                    className="btn btn-secondary align-content-center"
-                  >
-                    Enter
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className={`row ${mainLoad}`}>
-          <div className="col-xl-3 col-lg-4 sidebar padding-0">
+          <div className="col-12 sidebar padding-0">
             <div className="logo-area d-flex justify-content-center">
               <img src={logo} className="thelogo" alt="The Logo"></img>
             </div>
-            <div className="liked-images-link d-flex justify-content-center">
-              <Link to="/liked_images" className="navigation-button">
-                Liked Images
-              </Link>
-            </div>
-            <div className="traits-area traits-area-md">
-              <div className="accordion" id="accordionExample">
-                {traits &&
-                  traits.map((item) => (
-                    <div className="accordion-item" key={item.trait_type}>
-                      <h2
-                        className="accordion-header"
-                        id={`headingOne${item.trait_type}`}
-                      >
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target={`#collapseOne${item.trait_type}`}
-                          aria-expanded="false"
-                          aria-controls={`collapseOne${item.trait_type}`}
-                        >
-                          {`${item.trait_type} (${item.attributes.length})`}
-                        </button>
-                      </h2>
-                      <div
-                        id={`collapseOne${item.trait_type}`}
-                        className="accordion-collapse collapse"
-                        aria-labelledby={`headingOne${item.trait_type}`}
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          <div className="row">
-                            {item.attributes &&
-                              item.attributes.map((att) => (
-                                <div className="col-md-12 attrs-list" key={att}>
-                                  <div className="form-check mt-3">
-                                    <label
-                                      className="form-check-label"
-                                      htmlFor={`flexCheckDefault${att}`}
-                                    >
-                                      {att}
+            <div className="trait-filters container">
+              {traits &&
+                traits.map((item) => (
+                  <div className="dropdown" key={item.trait_type}>
+                    <button
+                      className="btn btn-secondary dropdown-toggle drop-btn"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      {`${item.trait_type}`}
+                    </button>
+                    <ul
+                      className="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      {item.attributes &&
+                        item.attributes.map((att) => (
+                          <li key={att}>
+                            <label
+                              className="form-check-label"
+                              htmlFor={`flexCheckDefault${att}`}
+                            >
+                              {att}
 
-                                      <input
-                                        className="form-check-input"
-                                        type="checkbox"
-                                        defaultValue
-                                        id={`flexCheckDefault${att}`}
-                                        checked={
-                                          filterArr.indexOf(
-                                            item.trait_type + " : " + att
-                                          ) === -1
-                                            ? ""
-                                            : "checked"
-                                        }
-                                        onChange={() =>
-                                          addDropFilterList(
-                                            item.trait_type + " : " + att
-                                          )
-                                        }
-                                      />
-                                    </label>
-                                  </div>
-                                </div>
-                              ))}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-              </div>
+                              <input
+                                className="form-check-input"
+                                type="checkbox"
+                                defaultValue
+                                id={`flexCheckDefault${att}`}
+                                checked={
+                                  filterArr.indexOf(
+                                    item.trait_type + " : " + att
+                                  ) === -1
+                                    ? ""
+                                    : "checked"
+                                }
+                                onChange={() =>
+                                  addDropFilterList(
+                                    item.trait_type + " : " + att
+                                  )
+                                }
+                              />
+                            </label>
+                          </li>
+                        ))}
+                    </ul>
+                  </div>
+                ))}
             </div>
           </div>
-          <div className="col-xl-9 col-lg-8 content padding-0">
+          <div className="col-12 content padding-0">
             <div className="go-top-area">
               <button
                 className="cstm-btn"
@@ -503,7 +446,16 @@ function Home() {
               </div>
             </div>
             <div className="col-lg-12 main-area container">
-              <div className="main-area-header">{imageCount} Items Listed</div>
+              <div className="header-area d-flex align-items-center justify-content-start">
+                <div className="main-area-header">
+                  {imageCount} Items Listed
+                </div>
+                <div className="liked-images-link d-flex justify-content-center">
+                  <Link to="/liked_images" className="navigation-button">
+                    Liked Images
+                  </Link>
+                </div>
+              </div>
               <div className="list-buttons d-none">
                 <button
                   className="btn list-button"
@@ -552,7 +504,7 @@ function Home() {
                         key={item.name}
                         id={item.name}
                       >
-                        <div className="nft-card">
+                        <div className="card-area">
                           <div className="nft-image-area">
                             <img
                               onClick={() => openNewModal(item.name)}
@@ -578,26 +530,28 @@ function Home() {
                               </button>
                             </div>
                           </div>
-                          <div className="nft-info">
-                            <div className="nft-image-description">
-                              {/*Description : {METADATA[item.name].description}*/}
-                              <div className="each-attribute">
-                                <ul className="trait-lists">
-                                  {METADATA[item.name].attributes
-                                    .filter(
-                                      (attri) => attri.value !== "Nothing"
-                                    )
-                                    .map((attr) => (
-                                      <li>
-                                        <span className="trait-name">
-                                          {attr.trait_type}
-                                        </span>
-                                        <span className="trait-attr">
-                                          : {attr.value}
-                                        </span>
-                                      </li>
-                                    ))}
-                                </ul>
+                          <div className="nft-card">
+                            <div className="nft-info">
+                              <div className="nft-image-description">
+                                {/*Description : {METADATA[item.name].description}*/}
+                                <div className="each-attribute">
+                                  <ul className="trait-lists">
+                                    {METADATA[item.name].attributes
+                                      .filter(
+                                        (attri) => attri.value !== "Nothing"
+                                      )
+                                      .map((attr) => (
+                                        <li>
+                                          <span className="trait-name">
+                                            {attr.trait_type}
+                                          </span>
+                                          <span className="trait-attr">
+                                            : {attr.value}
+                                          </span>
+                                        </li>
+                                      ))}
+                                  </ul>
+                                </div>
                               </div>
                             </div>
                           </div>
