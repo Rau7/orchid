@@ -10,6 +10,7 @@ import axios from "axios";
 import LikedImages from "./LikedImages";
 import MODAL_ARR from "./modal_arr";
 import Modals from "./components/Modals";
+import ATRAITS from "./attrs_traits";
 
 function Home() {
   const [preLoad, setPreLoad] = useState("d-none");
@@ -70,19 +71,19 @@ function Home() {
   setFilteredImages (all_images as default)
   */
   useEffect(() => {
-    axios
+    setImages(METADATA.slice(1));
+    setFilteredImages(METADATA.slice(1));
+    setImageCount(METADATA.length - 1);
+    /*axios
       .get(`https://admin.reblium.com/get_xspectar_images_info`)
       .then((res) => {
         const imgs = res.data;
         setImages(imgs);
         setFilteredImages(imgs);
         setImageCount(imgs.length);
-      });
+      });*/
 
-    axios.get(`https://admin.reblium.com/attrs_traits`).then((res) => {
-      const trts = res.data;
-      setTraits(trts);
-    });
+    setTraits(ATRAITS);
   }, []);
 
   /* 
@@ -504,7 +505,7 @@ function Home() {
                 <div className="liked-images-link d-flex justify-content-center">
                   <button
                     type="button"
-                    class="btn btn-primary"
+                    className="btn btn-primary"
                     onClick={() => {
                       showAll();
                     }}
@@ -515,7 +516,7 @@ function Home() {
                 <div className="liked-images-link d-flex justify-content-center">
                   <button
                     type="button"
-                    class="btn btn-primary"
+                    className="btn btn-primary"
                     onClick={() => {
                       showFemale();
                     }}
@@ -526,7 +527,7 @@ function Home() {
                 <div className="liked-images-link d-flex justify-content-center">
                   <button
                     type="button"
-                    class="btn btn-primary"
+                    className="btn btn-primary"
                     onClick={() => {
                       showMale();
                     }}
