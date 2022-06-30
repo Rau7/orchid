@@ -566,7 +566,7 @@ function Home() {
                 <div className="row">
                   {filterArr &&
                     filterArr.map((item) => (
-                      <div className="" key={item}>
+                      <div className="filters-item" key={item}>
                         <div className="filter-item d-flex justify-content-between align-items-center">
                           {item}
                           <div className="filter-remove-button">

@@ -771,3 +771,13 @@ label > input {
   margin-top: 2rem;
   margin-left: 1rem;
 }
+
+.filters-item {
+  width: auto;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+.filter-item {
+  gap: 0.5rem;
+}
