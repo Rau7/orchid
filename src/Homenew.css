@@ -28,3 +28,7 @@
 .page-area {
   gap: 1rem;
 }
+
+.modal {
+  z-index: 101;
+}

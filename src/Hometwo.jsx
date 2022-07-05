@@ -23,8 +23,8 @@ function Hometwo() {
   const [clickedImage, setClickedImage] = useState("");
 
   const [startIndex, setStartIndex] = useState(0);
-  const [endIndex, setEndIndex] = useState(40);
-  const [loadDis, setLoadDis] = useState("d-none");
+  const [endIndex, setEndIndex] = useState(20);
+  const [loadDis, setLoadDis] = useState("");
   const [loadBeforeDis, setLoadBeforeDis] = useState("d-none");
   const [coloring, setColoring] = useState("");
 
@@ -37,9 +37,7 @@ function Hometwo() {
   */
   useEffect(() => {
     axios
-      .get(
-        `https://admin.reblium.com/get_xspectar_images_info_by_page?page_number=${pageNo}`
-      )
+      .get(`https://admin.reblium.com/get_xspectar_images_info`)
       .then((res) => {
         const imgs = res.data;
         setImages(imgs);
@@ -47,13 +45,11 @@ function Hometwo() {
         setImageCount(imgs.length);
       });
 
-    axios
-      .get(`https://admin.reblium.com/attrs_traits?page_number=${pageNo}`)
-      .then((res) => {
-        const trts = res.data;
-        setTraits(trts);
-      });
-  }, [pageNo]);
+    axios.get(`https://admin.reblium.com/attrs_traits`).then((res) => {
+      const trts = res.data;
+      setTraits(trts);
+    });
+  }, []);
 
   /* 
     LIKE IMAGE OR DISLIKE THE IMAGE
@@ -414,7 +410,7 @@ function Hometwo() {
                     </button>
                   </div>
                 </div>
-                <div className="liked-images-link d-flex justify-content-end">
+                <div className="liked-images-link d-flex justify-content-end d-none">
                   <div className="page-area d-flex align-items-center justify-content-between">
                     <button
                       type="button"
