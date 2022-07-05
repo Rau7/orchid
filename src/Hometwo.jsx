@@ -206,6 +206,7 @@ function Hometwo() {
   }
 
   function showAll() {
+    setFilterArr([]);
     setFilteredImages(images);
     setImageCount(images.length);
   }
@@ -365,7 +366,7 @@ function Hometwo() {
                 />
               </div>
             </div>
-            <div className="col-12 sidebar padding-0">
+            <div className="col-12 sidebar container">
               <div className="header-area container d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center justify-content-start cont">
                   <div className="main-area-header">
