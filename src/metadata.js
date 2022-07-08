@@ -1,5 +1,4 @@
 const METADATA = [
-  0,
   {
     dna: "",
     name: 1,
