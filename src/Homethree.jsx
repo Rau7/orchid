@@ -508,7 +508,7 @@ function Homethree() {
                                 {/*Description : {METADATA[item.name].description}*/}
                                 <div className="each-attribute">
                                   <ul className="trait-lists">
-                                    {METADATA[item.name].attributes
+                                    {METADATA[item.name - 1].attributes
                                       .filter(
                                         (attri) => attri.value !== "Nothing"
                                       )
