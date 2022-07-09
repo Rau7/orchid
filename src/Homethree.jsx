@@ -458,7 +458,7 @@ function Homethree() {
                 Top
               </button>
             </div>
-            <div className="col-lg-12 main-area container">
+            <div className="col-lg-12 main-area">
               <div
                 className={`load-area d-flex justify-content-center mt-5 ${loadBeforeDis}`}
               >
@@ -472,7 +472,7 @@ function Homethree() {
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.slice(startIndex, endIndex).map((item) => (
                       <div
-                        className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 d-flex"
+                        className="col-xxl-2 col-xl-3 col-lg-4 col-md-6 d-flex"
                         key={item.name}
                         id={item.name}
                       >
