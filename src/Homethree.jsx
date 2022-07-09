@@ -480,7 +480,7 @@ function Homethree() {
                           <div className="nft-image-area">
                             <img
                               onClick={() => openNewModal(item.name)}
-                              src={IMAGES[item.name]}
+                              src={IMAGES[item.name - 1]}
                               className={`nft-image ${
                                 coloring + "-" + item.name
                               }`}
