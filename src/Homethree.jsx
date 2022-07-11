@@ -10,6 +10,7 @@ import _ from "lodash";
 import axios from "axios";
 import Modals from "./components/Modals";
 import ATRAITS from "./attrs_traits";
+import MultiRangeSlider from "multi-range-slider-react";
 
 function Homethree() {
   const [images, setImages] = useState(METADATA);
@@ -40,6 +41,9 @@ function Homethree() {
   const [rangeVal, setRangeVal] = useState(12);
 
   const [trt, setTrt] = useState("two");
+
+  const [minValue, set_minValue] = useState(25);
+  const [maxValue, set_maxValue] = useState(75);
 
   /* 1st PAGE IS LANDED
   get images metadata
@@ -327,6 +331,13 @@ function Homethree() {
     }
   };
 
+  const handleInput = (e) => {
+    set_minValue(e.minValue);
+    set_maxValue(e.maxValue);
+    setStartIndex(e.minValue);
+    setEndIndex(e.maxValue);
+  };
+
   return (
     <>
       <div className="App">
@@ -511,6 +522,21 @@ function Homethree() {
                   id="customRange2"
                   onChange={(e) => {
                     handleRange(e);
+                  }}
+                />
+              </div>
+              <div className="col-md-6">
+                <MultiRangeSlider
+                  min={1}
+                  max={8888}
+                  step={1}
+                  ruler={true}
+                  label={true}
+                  preventWheel={false}
+                  minValue={minValue}
+                  maxValue={maxValue}
+                  onInput={(e) => {
+                    handleInput(e);
                   }}
                 />
               </div>

@@ -28,6 +28,7 @@
 
 .range-area {
   margin: auto;
+  margin-top: 2rem;
 }
 
 .page-area {
@@ -138,4 +139,8 @@
   .nft-like-area .one {
     display: none;
   }
+}
+
+.ruler {
+  display: none !important;
 }
