@@ -154,13 +154,20 @@ function Homethree() {
     return s;
   }
 
+  window.addEventListener("scroll", loadMore);
+
   function loadMore() {
-    var newIndex = endIndex + 20;
-    if (newIndex >= 800) {
-      newIndex = 800;
-      setLoadDis("d-none");
+    if (
+      window.innerHeight + document.documentElement.scrollTop ===
+      document.scrollingElement.scrollHeight
+    ) {
+      var newIndex = endIndex + 20;
+      if (newIndex >= 8888) {
+        newIndex = 8888;
+        setLoadDis("d-none");
+      }
+      setEndIndex(newIndex);
     }
-    setEndIndex(newIndex);
   }
 
   function loadBefore() {
@@ -535,7 +542,7 @@ function Homethree() {
                   )}
                 </div>
                 <div
-                  className={`load-area d-flex justify-content-center mt-5 ${loadDis}`}
+                  className={`load-area d-flex justify-content-center mt-5 d-none`}
                 >
                   <button className="load-more" onClick={() => loadMore()}>
                     Load More

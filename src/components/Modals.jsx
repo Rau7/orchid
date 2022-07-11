@@ -11,7 +11,7 @@ function Modals({ image_id, faved, faving, click_img_fn }) {
   const [imageID, setImageID] = useState(image_id);
   const [imageFaved, setImageFaved] = useState(0);
   const [favState, setFavState] = useState();
-
+  document.onkeydown = skip;
   useEffect(() => {
     if (typeof faved === "undefined") {
       setImageFaved(0);
@@ -37,18 +37,46 @@ function Modals({ image_id, faved, faving, click_img_fn }) {
     faving(imageID);
   }
 
+  function skip(e) {
+    if (e.keyCode == "37") {
+      if (imageID <= 1) {
+        setImageID(1);
+      } else {
+        let imgd = imageID;
+        setImageID(imgd - 1);
+      }
+    } else if (e.keyCode == "39") {
+      if (imageID >= 8888) {
+        setImageID(8888);
+      } else {
+        let imgd = imageID;
+        setImageID(imgd + 1);
+      }
+    } else if (e.keyCode == "27") {
+      closeModal();
+    }
+  }
+
   return (
     <div>
       <div
+        onClick={() => {
+          closeModal();
+        }}
         className={`modal d-flex justify-content-center align-items-center ${
           imageID === "" || typeof imageID === "undefined" ? "d-none" : ""
         }`}
       >
-        <div className="modal-area">
+        <div
+          className="modal-area"
+          onKeyPress={(e) => {
+            skip(e);
+          }}
+        >
           <div className="modal-card">
             <div className="nft-image-area">
               <img
-                src={IMAGES[imageID]}
+                src={IMAGES[imageID - 1]}
                 className="modal-image"
                 alt="NFT Text"
               ></img>
