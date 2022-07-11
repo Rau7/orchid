@@ -191,6 +191,8 @@ function Homethree() {
         newIndex = 8888;
         setLoadDis("d-none");
       }
+      setMin(0);
+      setMax(newIndex);
       setEndIndex(newIndex);
     }
   }
@@ -231,7 +233,7 @@ function Homethree() {
     setFilteredImages(images);
     setImageCount(images.length);
     setMin(0);
-    setMax(images.length);
+    setMax(19);
     setStartIndex(min);
     setEndIndex(max);
   }
@@ -253,9 +255,9 @@ function Homethree() {
       }
     }
     setFilteredImages(lastArr);
-    setImageCount(lastArr.length);
+    setImageCount(19);
     setMin(0);
-    setMax(lastArr.length);
+    setMax(19);
     setStartIndex(min);
     setEndIndex(max);
   }
@@ -277,7 +279,7 @@ function Homethree() {
       }
     }
     setMin(0);
-    setMax(lastArr.length);
+    setMax(19);
     setStartIndex(min);
     setEndIndex(max);
     setFilteredImages(lastArr);
@@ -295,7 +297,7 @@ function Homethree() {
       }
     }
     setMin(0);
-    setMax(lastArr.length);
+    setMax(19);
     setStartIndex(min);
     setEndIndex(max);
     setFilteredImages(lastArr);
@@ -313,7 +315,7 @@ function Homethree() {
       }
     }
     setMin(0);
-    setMax(lastArr.length);
+    setMax(19);
     setStartIndex(min);
     setEndIndex(max);
     setFilteredImages(lastArr);
