@@ -42,8 +42,8 @@ function Homethree() {
 
   const [trt, setTrt] = useState("two");
 
-  const [minValue, set_minValue] = useState(25);
-  const [maxValue, set_maxValue] = useState(75);
+  const [minValue, set_minValue] = useState(1);
+  const [maxValue, set_maxValue] = useState(20);
 
   const [starter, setStarter] = useState(1);
   const [ender, setEnder] = useState(8888);
