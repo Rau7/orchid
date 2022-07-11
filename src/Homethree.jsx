@@ -48,6 +48,9 @@ function Homethree() {
   const [starter, setStarter] = useState(1);
   const [ender, setEnder] = useState(8888);
 
+  const [min, setMin] = useState(1);
+  const [max, setMax] = useState(20);
+
   /* 1st PAGE IS LANDED
   get images metadata
   setImages 
@@ -131,6 +134,10 @@ function Homethree() {
     if (searchText === "") {
       setFilteredImages(images);
       setImageCount(images.length);
+      setMin(1);
+      setMax(images.length);
+      setStartIndex(min);
+      setEndIndex(max);
     } else {
       let lastArr = [];
       let normal_counter = 0;
@@ -158,6 +165,10 @@ function Homethree() {
       const uniqueArray = lastArr.filter(
         (v, i, a) => a.findIndex((t) => t.name === v.name) === i
       );
+      setMin(1);
+      setMax(uniqueArray.length);
+      setStartIndex(min);
+      setEndIndex(max);
       setFilteredImages(uniqueArray);
       setStartIndex(0);
       setLoadBeforeDis("d-none");
@@ -222,8 +233,10 @@ function Homethree() {
     setFilterArr([]);
     setFilteredImages(images);
     setImageCount(images.length);
-    setStarter(1);
-    setEnder(images.length);
+    setMin(1);
+    setMax(images.length);
+    setStartIndex(min);
+    setEndIndex(max);
   }
 
   function showFemale() {
@@ -244,8 +257,10 @@ function Homethree() {
     }
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
-    setStarter(1);
-    setEnder(lastArr.length);
+    setMin(1);
+    setMax(lastArr.length);
+    setStartIndex(min);
+    setEndIndex(max);
   }
 
   function showMale() {
@@ -264,8 +279,10 @@ function Homethree() {
         }
       }
     }
-    setStarter(1);
-    setEnder(lastArr.length);
+    setMin(1);
+    setMax(lastArr.length);
+    setStartIndex(min);
+    setEndIndex(max);
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
   }
@@ -329,6 +346,19 @@ function Homethree() {
     set_maxValue(e.maxValue);
     setStartIndex(e.minValue);
     setEndIndex(e.maxValue);
+  };
+
+  const handleStart = (e) => {
+    setMin(e.target.value);
+  };
+
+  const handleEnd = (e) => {
+    setMax(e.target.value);
+  };
+
+  const showRange = () => {
+    setStartIndex(min);
+    setEndIndex(max);
   };
 
   return (
@@ -518,20 +548,47 @@ function Homethree() {
                   }}
                 />
               </div>
-              <div className="col-md-6">
-                <MultiRangeSlider
-                  min={starter}
-                  max={ender}
-                  step={1}
-                  ruler={true}
-                  label={true}
-                  preventWheel={false}
-                  minValue={minValue}
-                  maxValue={maxValue}
-                  onInput={(e) => {
-                    handleInput(e);
-                  }}
-                />
+              <div className="col-md-6 d-none"></div>
+              <div className="col-md-6 d-flex align-items-center justify-content-center">
+                <div className="row ranger">
+                  <div className="col-3">
+                    <div className="start-area">
+                      <input
+                        type="number"
+                        className="range-input"
+                        value={min}
+                        onChange={(e) => {
+                          handleStart(e);
+                        }}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div className="end-area">
+                      <input
+                        type="number"
+                        className="range-input"
+                        value={max}
+                        onChange={(e) => {
+                          handleEnd(e);
+                        }}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-3">
+                    <div className="sbmt-btn">
+                      <button
+                        type="button"
+                        className="btn btn-primary apply"
+                        onClick={() => {
+                          showRange();
+                        }}
+                      >
+                        Apply
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

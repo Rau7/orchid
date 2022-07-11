@@ -144,3 +144,16 @@
 .ruler {
   display: none !important;
 }
+
+.ranger {
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.range-input {
+  width: 5rem;
+}
+
+.apply {
+  margin-top: -0.35rem;
+}
