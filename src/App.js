@@ -11,7 +11,7 @@ function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Homethree />} />
-      <Route exact path="/liked_images" element={<LikedImages />} />
+      <Route exact path="/approved_images" element={<LikedImages />} />
     </Routes>
   );
 }

@@ -348,105 +348,88 @@ function Homethree() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-12 searchbar container">
-              <div className="input-group mb-3">
-                <FaSearch className="search-icon" />
-                <input
-                  onChange={handleTextChange}
-                  type="text"
-                  className="form-control search-input"
-                  placeholder="Search by item number or trait.."
-                  aria-label="Search some"
-                  aria-describedby="button-addon2"
-                  value={searchText}
-                />
-              </div>
-            </div>
-            <div className="col-12 sidebar container">
-              <div className="header-area container d-flex align-items-center justify-content-between">
-                <div className="d-flex align-items-center justify-content-start cont">
-                  <div className="main-area-header">
-                    {imageCount} Items Listed
-                  </div>
-                  <div className="liked-images-link d-flex justify-content-center">
-                    <Link to="/liked_images" className="navigation-button">
-                      Liked Images
-                    </Link>
-                  </div>
-                  <div className="liked-images-link d-flex justify-content-center">
-                    <button
-                      type="button"
-                      className="btn btn-primary"
-                      onClick={() => {
-                        showAll();
-                      }}
-                    >
-                      All
-                    </button>
-                  </div>
-                  <div className="liked-images-link d-flex justify-content-center">
-                    <button
-                      type="button"
-                      className="btn btn-primary"
-                      onClick={() => {
-                        showFemale();
-                      }}
-                    >
-                      Female
-                    </button>
-                  </div>
-                  <div className="liked-images-link d-flex justify-content-center">
-                    <button
-                      type="button"
-                      className="btn btn-primary"
-                      onClick={() => {
-                        showMale();
-                      }}
-                    >
-                      Male
-                    </button>
-                  </div>
-                </div>
-                <div className="liked-images-link d-flex justify-content-end d-none">
-                  <div className="page-area d-flex align-items-center justify-content-between">
-                    <button
-                      type="button"
-                      className="btn btn-primary"
-                      onClick={() => {
-                        decreasePageNumber();
-                      }}
-                    >
-                      {`<`}
-                    </button>
-                    <div className="page-num">{pageNo}</div>
-                    <button
-                      type="button"
-                      className="btn btn-primary"
-                      onClick={() => {
-                        increasePageNumber();
-                      }}
-                    >
-                      {`>`}
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div className="filter-section">
-                <div className="row">
-                  {filterArr &&
-                    filterArr.map((item) => (
-                      <div className="filters-item" key={item}>
-                        <div className="filter-item d-flex justify-content-between align-items-center">
-                          {item}
-                          <div className="filter-remove-button">
-                            <FaPlusCircle
-                              className="filter-close-button"
-                              onClick={() => addDropFilterList(item)}
-                            />
-                          </div>
+            <div className="filter-section container">
+              <div className="row">
+                {filterArr &&
+                  filterArr.map((item) => (
+                    <div className="filters-item" key={item}>
+                      <div className="filter-item d-flex justify-content-between align-items-center">
+                        {item}
+                        <div className="filter-remove-button">
+                          <FaPlusCircle
+                            className="filter-close-button"
+                            onClick={() => addDropFilterList(item)}
+                          />
                         </div>
                       </div>
-                    ))}
+                    </div>
+                  ))}
+              </div>
+            </div>
+            <div className="row d-flex align-items-center justify-content-center container cont">
+              <div className="col-md-6 searchbar">
+                <div className="input-group mb-3">
+                  <FaSearch className="search-icon" />
+                  <input
+                    onChange={handleTextChange}
+                    type="text"
+                    className="form-control search-input"
+                    placeholder="Search by item number or trait.."
+                    aria-label="Search some"
+                    aria-describedby="button-addon2"
+                    value={searchText}
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 col-sm-3 col-6">
+                <div className="main-area-header text-center">
+                  {imageCount} Items Listed
+                </div>
+              </div>
+              <div className="col-md-2 col-sm-3 col-6">
+                <div className="liked-images-link d-flex justify-content-center">
+                  <Link to="/approved_images" className="navigation-button">
+                    Approved Images
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-2 col-sm-3 col-6">
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={() => {
+                      showAll();
+                    }}
+                  >
+                    All
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-2 col-sm-3 col-6">
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={() => {
+                      showFemale();
+                    }}
+                  >
+                    Female
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-2 col-sm-3 col-6">
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={() => {
+                      showMale();
+                    }}
+                  >
+                    Male
+                  </button>
                 </div>
               </div>
             </div>
