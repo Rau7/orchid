@@ -42,11 +42,8 @@ function Homethree() {
 
   const [trt, setTrt] = useState("two");
 
-  const [minValue, set_minValue] = useState(1);
-  const [maxValue, set_maxValue] = useState(20);
-
-  const [starter, setStarter] = useState(1);
-  const [ender, setEnder] = useState(8888);
+  const [minValue, set_minValue] = useState(0);
+  const [maxValue, set_maxValue] = useState(19);
 
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(20);
@@ -134,8 +131,8 @@ function Homethree() {
     if (searchText === "") {
       setFilteredImages(images);
       setImageCount(images.length);
-      setMin(1);
-      setMax(images.length);
+      setMin(0);
+      setMax(19);
       setStartIndex(min);
       setEndIndex(max);
     } else {
@@ -165,7 +162,7 @@ function Homethree() {
       const uniqueArray = lastArr.filter(
         (v, i, a) => a.findIndex((t) => t.name === v.name) === i
       );
-      setMin(1);
+      setMin(0);
       setMax(uniqueArray.length);
       setStartIndex(min);
       setEndIndex(max);
@@ -233,7 +230,7 @@ function Homethree() {
     setFilterArr([]);
     setFilteredImages(images);
     setImageCount(images.length);
-    setMin(1);
+    setMin(0);
     setMax(images.length);
     setStartIndex(min);
     setEndIndex(max);
@@ -257,7 +254,7 @@ function Homethree() {
     }
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
-    setMin(1);
+    setMin(0);
     setMax(lastArr.length);
     setStartIndex(min);
     setEndIndex(max);
@@ -279,7 +276,61 @@ function Homethree() {
         }
       }
     }
-    setMin(1);
+    setMin(0);
+    setMax(lastArr.length);
+    setStartIndex(min);
+    setEndIndex(max);
+    setFilteredImages(lastArr);
+    setImageCount(lastArr.length);
+  }
+
+  function showUnique() {
+    let normal_counter = 0;
+    let filter_counter = 0;
+    let lastArr = [];
+    for (let i = 0; i < images.length; i++) {
+      if (images[i]["description"] === "Unique") {
+        lastArr[normal_counter] = images[i];
+        normal_counter++;
+      }
+    }
+    setMin(0);
+    setMax(lastArr.length);
+    setStartIndex(min);
+    setEndIndex(max);
+    setFilteredImages(lastArr);
+    setImageCount(lastArr.length);
+  }
+
+  function showRare() {
+    let normal_counter = 0;
+    let filter_counter = 0;
+    let lastArr = [];
+    for (let i = 0; i < images.length; i++) {
+      if (images[i]["description"] === "Rare") {
+        lastArr[normal_counter] = images[i];
+        normal_counter++;
+      }
+    }
+    setMin(0);
+    setMax(lastArr.length);
+    setStartIndex(min);
+    setEndIndex(max);
+    setFilteredImages(lastArr);
+    setImageCount(lastArr.length);
+  }
+
+  function showCommon() {
+    let normal_counter = 0;
+    let filter_counter = 0;
+    let lastArr = [];
+    for (let i = 0; i < images.length; i++) {
+      if (images[i]["description"] === "Common") {
+        lastArr[normal_counter] = images[i];
+        normal_counter++;
+      }
+    }
+    setMin(0);
     setMax(lastArr.length);
     setStartIndex(min);
     setEndIndex(max);
@@ -527,6 +578,45 @@ function Homethree() {
                     }}
                   >
                     Male
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-2 col-sm-3 col-6">
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={() => {
+                      showUnique();
+                    }}
+                  >
+                    Unique
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-2 col-sm-3 col-6">
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={() => {
+                      showRare();
+                    }}
+                  >
+                    Rare
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-2 col-sm-3 col-6">
+                <div className="liked-images-link d-flex justify-content-center">
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={() => {
+                      showCommon();
+                    }}
+                  >
+                    Common
                   </button>
                 </div>
               </div>
