@@ -45,6 +45,9 @@ function Homethree() {
   const [minValue, set_minValue] = useState(25);
   const [maxValue, set_maxValue] = useState(75);
 
+  const [starter, setStarter] = useState(1);
+  const [ender, setEnder] = useState(8888);
+
   /* 1st PAGE IS LANDED
   get images metadata
   setImages 
@@ -219,6 +222,8 @@ function Homethree() {
     setFilterArr([]);
     setFilteredImages(images);
     setImageCount(images.length);
+    setStarter(1);
+    setEnder(images.length);
   }
 
   function showFemale() {
@@ -239,6 +244,8 @@ function Homethree() {
     }
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
+    setStarter(1);
+    setEnder(lastArr.length);
   }
 
   function showMale() {
@@ -257,24 +264,10 @@ function Homethree() {
         }
       }
     }
+    setStarter(1);
+    setEnder(lastArr.length);
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
-  }
-
-  function decreasePageNumber() {
-    if (pageNo <= 1) {
-      setPageNo(1);
-    } else {
-      setPageNo(pageNo - 1);
-    }
-  }
-
-  function increasePageNumber() {
-    if (pageNo >= 23) {
-      setPageNo(23);
-    } else {
-      setPageNo(pageNo + 1);
-    }
   }
 
   const handleRange = (e) => {
@@ -527,8 +520,8 @@ function Homethree() {
               </div>
               <div className="col-md-6">
                 <MultiRangeSlider
-                  min={1}
-                  max={8888}
+                  min={starter}
+                  max={ender}
                   step={1}
                   ruler={true}
                   label={true}
