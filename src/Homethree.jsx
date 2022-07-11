@@ -31,6 +31,16 @@ function Homethree() {
 
   const [pageNo, setPageNo] = useState(1);
 
+  const [range, setRange] = useState(2);
+  const [rangeValxxl, setRangeValxxl] = useState(2);
+  const [rangeValxl, setRangeValxl] = useState(3);
+  const [rangeVallg, setRangeVallg] = useState(4);
+  const [rangeValmd, setRangeValmd] = useState(6);
+  const [rangeValsm, setRangeValsm] = useState(12);
+  const [rangeVal, setRangeVal] = useState(12);
+
+  const [trt, setTrt] = useState("two");
+
   /* 1st PAGE IS LANDED
   get images metadata
   setImages 
@@ -263,6 +273,60 @@ function Homethree() {
     }
   }
 
+  const handleRange = (e) => {
+    setRange(e.target.value);
+
+    if (e.target.value == 1) {
+      setRangeValxxl(1);
+      setRangeValxl(1);
+      setRangeVallg(2);
+      setRangeValmd(2);
+      setRangeValsm(3);
+      setRangeVal(3);
+      setTrt("one");
+    } else if (e.target.value == 2) {
+      setRangeValxxl(2);
+      setRangeValxl(2);
+      setRangeVallg(2);
+      setRangeValmd(2);
+      setRangeValsm(3);
+      setRangeVal(3);
+      setTrt("two");
+    } else if (e.target.value == 3) {
+      setRangeValxxl(3);
+      setRangeValxl(3);
+      setRangeVallg(3);
+      setRangeValmd(3);
+      setRangeValsm(3);
+      setRangeVal(3);
+      setTrt("three");
+    } else if (e.target.value == 4) {
+      setRangeValxxl(4);
+      setRangeValxl(4);
+      setRangeVallg(4);
+      setRangeValmd(4);
+      setRangeValsm(4);
+      setRangeVal(4);
+      setTrt("four");
+    } else if (e.target.value == 5) {
+      setRangeValxxl(6);
+      setRangeValxl(6);
+      setRangeVallg(6);
+      setRangeValmd(6);
+      setRangeValsm(6);
+      setRangeVal(6);
+      setTrt("five");
+    } else if (e.target.value == 6) {
+      setRangeValxxl(12);
+      setRangeValxl(12);
+      setRangeVallg(12);
+      setRangeValmd(12);
+      setRangeValsm(12);
+      setRangeVal(12);
+      setTrt("six");
+    }
+  };
+
   return (
     <>
       <div className="App">
@@ -433,6 +497,24 @@ function Homethree() {
                 </div>
               </div>
             </div>
+            <div className="row container range-area">
+              <div className="col-md-6">
+                <label htmlFor="customRange2" className="form-label">
+                  Column Range
+                </label>
+                <input
+                  type="range"
+                  className="form-range"
+                  min={1}
+                  max={6}
+                  value={range}
+                  id="customRange2"
+                  onChange={(e) => {
+                    handleRange(e);
+                  }}
+                />
+              </div>
+            </div>
           </div>
 
           <div className="col-12 content padding-0">
@@ -462,7 +544,7 @@ function Homethree() {
                   {filteredImgs.length !== 0 ? (
                     filteredImgs.slice(startIndex, endIndex).map((item) => (
                       <div
-                        className="col-xxl-2 col-xl-3 col-lg-4 col-md-6 d-flex"
+                        className={`col-xxl-${rangeValxxl} col-xl-${rangeValxl} col-lg-${rangeVallg} col-md-${rangeValmd} col-sm-${rangeValsm} col-${rangeVal} d-flex`}
                         key={item.name}
                         id={item.name}
                       >
@@ -476,10 +558,10 @@ function Homethree() {
                               }`}
                               alt="NFT Text"
                             ></img>
-                            <div className="nft-image-name">
+                            <div className={`nft-image-name ${trt}`}>
                               #{padLeadingZeros(item.name, 4)}
                             </div>
-                            <div className="nft-like-area">
+                            <div className={`nft-like-area ${trt}`}>
                               <button
                                 className="btn like-button"
                                 onClick={() => addDropFav(item.name)}
@@ -492,7 +574,7 @@ function Homethree() {
                               </button>
                             </div>
                           </div>
-                          <div className="nft-card">
+                          <div className={`nft-card ${trt}`}>
                             <div className="nft-info">
                               <div className="nft-image-description">
                                 {/*Description : {METADATA[item.name].description}*/}
