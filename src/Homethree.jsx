@@ -55,6 +55,7 @@ function Homethree() {
   */
   useEffect(() => {
     axios.get(`https://admin.reblium.com/get_xspectar_favs`).then((res) => {
+      console.log(res.data);
       setFavs(res.data);
     });
     setImageCount(images.length - 1);
@@ -744,7 +745,7 @@ function Homethree() {
                               >
                                 <FaHeart
                                   className={`like-icon ${
-                                    favs && favs[item.name - 1].faved === "1"
+                                    favs[item.name - 1]?.faved === "1"
                                       ? "faved"
                                       : "not-faved"
                                   } ${favs}`}
