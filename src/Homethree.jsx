@@ -55,7 +55,6 @@ function Homethree() {
   */
   useEffect(() => {
     axios.get(`https://admin.reblium.com/get_xspectar_favs`).then((res) => {
-      console.log(res.data);
       setFavs(res.data);
     });
     setImageCount(images.length - 1);
