@@ -1,7 +1,6 @@
 import "./App.css";
 import IMAGES from "./photos";
 import METADATA from "./metadata";
-import logo from "./images/xspectar.png";
 import { FaHeart, FaPlusCircle, FaSearch, FaBars, FaTh } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -9,6 +8,7 @@ import _ from "lodash";
 import axios from "axios";
 import MODAL_ARR from "./modal_arr";
 import Modals from "./components/Modals";
+import logo1 from "./images/1.png";
 
 function LikedImages() {
   const [preLoad, setPreLoad] = useState("d-none");
@@ -327,7 +327,7 @@ function LikedImages() {
           <div className="col-12 sidebar padding-0">
             <div className="logo-area d-flex justify-content-center">
               <a href="https://xspectar.com/" target="_blank">
-                <img src={logo} className="thelogo" alt="The Logo"></img>
+                <img src={logo1} className="thelogo" alt="The Logo"></img>
               </a>
             </div>
             <div className="trait-filters container">
@@ -492,7 +492,7 @@ function LikedImages() {
                           <div className="nft-image-area">
                             <img
                               onClick={() => openNewModal(item.name)}
-                              src={IMAGES[item.name]}
+                              src={IMAGES[item.name - 1]}
                               className={`nft-image ${
                                 coloring + "-" + item.name
                               }`}

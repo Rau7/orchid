@@ -9,7 +9,7 @@
   top: 0;
   z-index: 99;
   background-color: black;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .go-top-area,
@@ -27,8 +27,9 @@
 }
 
 .range-area {
-  margin: auto;
-  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
 }
 
 .page-area {
@@ -156,4 +157,20 @@
 
 .apply {
   margin-top: -0.35rem;
+}
+
+.btn {
+  font-size: 0.75rem;
+}
+
+.filterz {
+  margin-top: 1rem;
+}
+
+.filter-btnz {
+  margin-top: 0.5rem;
+}
+
+.sbmt-btn {
+  margin-top: 0.25rem;
 }

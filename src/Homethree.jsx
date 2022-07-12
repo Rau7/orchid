@@ -2,7 +2,7 @@ import "./App.css";
 import "./Homenew.css";
 import IMAGES from "./photos";
 import METADATA from "./metadata";
-import logo from "./images/xspectar.png";
+import logo1 from "./images/1.png";
 import { FaHeart, FaPlusCircle, FaSearch, FaBars, FaTh } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -10,12 +10,12 @@ import _ from "lodash";
 import axios from "axios";
 import Modals from "./components/Modals";
 import ATRAITS from "./attrs_traits";
-import MultiRangeSlider from "multi-range-slider-react";
 
 function Homethree() {
   const [images, setImages] = useState(METADATA);
   const [traits, setTraits] = useState(ATRAITS);
   const [imageCount, setImageCount] = useState(0);
+  const [favs, setFavs] = useState([]);
 
   const [filterArr, setFilterArr] = useState([]);
   const [filteredImgs, setFilteredImages] = useState(METADATA);
@@ -54,6 +54,9 @@ function Homethree() {
   setFilteredImages (all_images as default)
   */
   useEffect(() => {
+    axios.get(`https://admin.reblium.com/get_xspectar_favs`).then((res) => {
+      setFavs(res.data);
+    });
     setImageCount(images.length - 1);
   }, []);
 
@@ -131,8 +134,8 @@ function Homethree() {
     if (searchText === "") {
       setFilteredImages(images);
       setImageCount(images.length);
-      setMin(0);
-      setMax(19);
+      setMin(1);
+      setMax(20);
       setStartIndex(min);
       setEndIndex(max);
     } else {
@@ -162,7 +165,7 @@ function Homethree() {
       const uniqueArray = lastArr.filter(
         (v, i, a) => a.findIndex((t) => t.name === v.name) === i
       );
-      setMin(0);
+      setMin(1);
       setMax(uniqueArray.length);
       setStartIndex(min);
       setEndIndex(max);
@@ -191,7 +194,7 @@ function Homethree() {
         newIndex = 8888;
         setLoadDis("d-none");
       }
-      setMin(0);
+      setMin(1);
       setMax(newIndex);
       setEndIndex(newIndex);
     }
@@ -232,8 +235,8 @@ function Homethree() {
     setFilterArr([]);
     setFilteredImages(images);
     setImageCount(images.length);
-    setMin(0);
-    setMax(19);
+    setMin(1);
+    setMax(20);
     setStartIndex(min);
     setEndIndex(max);
   }
@@ -256,8 +259,8 @@ function Homethree() {
     }
     setFilteredImages(lastArr);
     setImageCount(19);
-    setMin(0);
-    setMax(19);
+    setMin(1);
+    setMax(20);
     setStartIndex(min);
     setEndIndex(max);
   }
@@ -278,8 +281,8 @@ function Homethree() {
         }
       }
     }
-    setMin(0);
-    setMax(19);
+    setMin(1);
+    setMax(20);
     setStartIndex(min);
     setEndIndex(max);
     setFilteredImages(lastArr);
@@ -296,8 +299,8 @@ function Homethree() {
         normal_counter++;
       }
     }
-    setMin(0);
-    setMax(19);
+    setMin(1);
+    setMax(20);
     setStartIndex(min);
     setEndIndex(max);
     setFilteredImages(lastArr);
@@ -314,8 +317,8 @@ function Homethree() {
         normal_counter++;
       }
     }
-    setMin(0);
-    setMax(19);
+    setMin(1);
+    setMax(20);
     setStartIndex(min);
     setEndIndex(max);
     setFilteredImages(lastArr);
@@ -332,7 +335,7 @@ function Homethree() {
         normal_counter++;
       }
     }
-    setMin(0);
+    setMin(1);
     setMax(lastArr.length);
     setStartIndex(min);
     setEndIndex(max);
@@ -420,7 +423,7 @@ function Homethree() {
         <div className={`row`}>
           <div className="logo-area d-flex justify-content-center">
             <a href="https://xspectar.com/" target="_blank">
-              <img src={logo} className="thelogo" alt="The Logo"></img>
+              <img src={logo1} className="thelogo" alt="The Logo"></img>
             </a>
           </div>
           <div className="filterarea">
@@ -544,104 +547,27 @@ function Homethree() {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-2 col-sm-3 col-6">
-                <div className="liked-images-link d-flex justify-content-center">
-                  <button
-                    type="button"
-                    className="btn btn-primary"
-                    onClick={() => {
-                      showAll();
-                    }}
-                  >
-                    All
-                  </button>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-3 col-6">
-                <div className="liked-images-link d-flex justify-content-center">
-                  <button
-                    type="button"
-                    className="btn btn-primary"
-                    onClick={() => {
-                      showFemale();
-                    }}
-                  >
-                    Female
-                  </button>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-3 col-6">
-                <div className="liked-images-link d-flex justify-content-center">
-                  <button
-                    type="button"
-                    className="btn btn-primary"
-                    onClick={() => {
-                      showMale();
-                    }}
-                  >
-                    Male
-                  </button>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-3 col-6">
-                <div className="liked-images-link d-flex justify-content-center">
-                  <button
-                    type="button"
-                    className="btn btn-primary"
-                    onClick={() => {
-                      showUnique();
-                    }}
-                  >
-                    Unique
-                  </button>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-3 col-6">
-                <div className="liked-images-link d-flex justify-content-center">
-                  <button
-                    type="button"
-                    className="btn btn-primary"
-                    onClick={() => {
-                      showRare();
-                    }}
-                  >
-                    Rare
-                  </button>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-3 col-6">
-                <div className="liked-images-link d-flex justify-content-center">
-                  <button
-                    type="button"
-                    className="btn btn-primary"
-                    onClick={() => {
-                      showCommon();
-                    }}
-                  >
-                    Common
-                  </button>
-                </div>
-              </div>
             </div>
-            <div className="row container range-area">
-              <div className="col-md-6">
-                <label htmlFor="customRange2" className="form-label">
-                  Column Range
-                </label>
-                <input
-                  type="range"
-                  className="form-range"
-                  min={1}
-                  max={6}
-                  value={range}
-                  id="customRange2"
-                  onChange={(e) => {
-                    handleRange(e);
-                  }}
-                />
+            <div className="row range-area">
+              <div className="col-md-2 col-sm-6 d-flex justify-content-start align-items-center">
+                <div className="range">
+                  <label htmlFor="customRange2" className="form-label">
+                    Zoom
+                  </label>
+                  <input
+                    type="range"
+                    className="form-range"
+                    min={1}
+                    max={6}
+                    value={range}
+                    id="customRange2"
+                    onChange={(e) => {
+                      handleRange(e);
+                    }}
+                  />
+                </div>
               </div>
-              <div className="col-md-6 d-none"></div>
-              <div className="col-md-6 d-flex align-items-center justify-content-center">
+              <div className="col-md-3 col-sm-6 d-flex align-items-center justify-content-start">
                 <div className="row ranger">
                   <div className="col-3">
                     <div className="start-area">
@@ -682,6 +608,88 @@ function Homethree() {
                   </div>
                 </div>
               </div>
+              <div className="col-md-6 filterz">
+                <div className="row">
+                  <div className="col-sm-2 col-3 filter-btnz">
+                    <div className="liked-images-link d-flex justify-content-center">
+                      <button
+                        type="button"
+                        className="btn btn-primary"
+                        onClick={() => {
+                          showAll();
+                        }}
+                      >
+                        All
+                      </button>
+                    </div>
+                  </div>
+                  <div className="col-sm-2 col-3 filter-btnz">
+                    <div className="liked-images-link d-flex justify-content-center">
+                      <button
+                        type="button"
+                        className="btn btn-primary"
+                        onClick={() => {
+                          showFemale();
+                        }}
+                      >
+                        Female
+                      </button>
+                    </div>
+                  </div>
+                  <div className="col-sm-2 col-3 filter-btnz">
+                    <div className="liked-images-link d-flex justify-content-center">
+                      <button
+                        type="button"
+                        className="btn btn-primary"
+                        onClick={() => {
+                          showMale();
+                        }}
+                      >
+                        Male
+                      </button>
+                    </div>
+                  </div>
+                  <div className="col-sm-2 col-3 filter-btnz">
+                    <div className="liked-images-link d-flex justify-content-center">
+                      <button
+                        type="button"
+                        className="btn btn-primary"
+                        onClick={() => {
+                          showUnique();
+                        }}
+                      >
+                        Unique
+                      </button>
+                    </div>
+                  </div>
+                  <div className="col-sm-2 col-3 filter-btnz">
+                    <div className="liked-images-link d-flex justify-content-center">
+                      <button
+                        type="button"
+                        className="btn btn-primary"
+                        onClick={() => {
+                          showRare();
+                        }}
+                      >
+                        Rare
+                      </button>
+                    </div>
+                  </div>
+                  <div className="col-sm-2 col-3 filter-btnz">
+                    <div className="liked-images-link d-flex justify-content-center">
+                      <button
+                        type="button"
+                        className="btn btn-primary"
+                        onClick={() => {
+                          showCommon();
+                        }}
+                      >
+                        Common
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -710,7 +718,7 @@ function Homethree() {
               <div className="main-area-content">
                 <div className={`row`}>
                   {filteredImgs.length !== 0 ? (
-                    filteredImgs.slice(startIndex, endIndex).map((item) => (
+                    filteredImgs.slice(startIndex - 1, endIndex).map((item) => (
                       <div
                         className={`col-xxl-${rangeValxxl} col-xl-${rangeValxl} col-lg-${rangeVallg} col-md-${rangeValmd} col-sm-${rangeValsm} col-${rangeVal} d-flex`}
                         key={item.name}
@@ -736,8 +744,10 @@ function Homethree() {
                               >
                                 <FaHeart
                                   className={`like-icon ${
-                                    item.faved === "1" ? "faved" : "not-faved"
-                                  }`}
+                                    favs && favs[item.name - 1].faved === "1"
+                                      ? "faved"
+                                      : "not-faved"
+                                  } ${favs}`}
                                 />
                               </button>
                             </div>

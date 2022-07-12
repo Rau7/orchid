@@ -144,10 +144,9 @@ textarea.md-textarea:focus:not([readonly]) {
 
 /* ---- SIDEBAR FIELD ---- */
 .thelogo {
-  height: 14rem;
+  height: 4rem;
   width: auto;
-  margin-top: -3.2rem;
-  margin-left: 5px;
+  margin-top: 0.5rem;
 }
 
 /* ---- ACCORDION ---- */
@@ -344,7 +343,7 @@ body.modal-open .modal .modal-dialog {
   margin: 10px;
   font-size: 14px;
   font-weight: 600;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
