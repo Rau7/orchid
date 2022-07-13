@@ -10,10 +10,12 @@ import _ from "lodash";
 import axios from "axios";
 import Modals from "./components/Modals";
 import ATRAITS from "./attrs_traits";
+import PERCS from "./percentages";
 
 function Homethree() {
   const [images, setImages] = useState(METADATA);
   const [traits, setTraits] = useState(ATRAITS);
+  const [percs, setPercs] = useState(PERCS);
   const [imageCount, setImageCount] = useState(0);
   const [favs, setFavs] = useState([]);
 
@@ -770,6 +772,14 @@ function Homethree() {
                                           </span>
                                           <span className="trait-attr">
                                             : {attr.value}
+                                          </span>
+                                          <span className="trait-perc">
+                                            %
+                                            {
+                                              percs[attr.trait_type].attributes[
+                                                attr.value
+                                              ]
+                                            }
                                           </span>
                                         </li>
                                       ))}

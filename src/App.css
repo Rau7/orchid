@@ -422,6 +422,13 @@ body.modal-open .modal .modal-dialog {
   font-size: 10px !important;
 }
 
+.trait-perc {
+  margin-left: 0.25rem;
+  font-weight: 400;
+  font-size: 10px !important;
+  color: #f5189e;
+}
+
 .list-icon {
   padding: 10px 5px 10px 7px;
   font-size: 3rem;
