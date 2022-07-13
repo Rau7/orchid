@@ -12,6 +12,7 @@ function Modals({ image_id, faved, faving, click_img_fn }) {
   const [imageFaved, setImageFaved] = useState(0);
   const [favState, setFavState] = useState();
   document.onkeydown = skip;
+
   useEffect(() => {
     if (typeof faved === "undefined") {
       setImageFaved(0);
@@ -60,9 +61,6 @@ function Modals({ image_id, faved, faving, click_img_fn }) {
   return (
     <div>
       <div
-        onClick={() => {
-          closeModal();
-        }}
         className={`modal d-flex justify-content-center align-items-center ${
           imageID === "" || typeof imageID === "undefined" ? "d-none" : ""
         }`}

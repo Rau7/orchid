@@ -718,7 +718,7 @@ label > input {
 
 .card-area {
   margin-top: 2.4rem;
-  transition: 0.3s;
+  transition: 2s;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
   background-color: transparent;
@@ -735,6 +735,7 @@ label > input {
 
 .card-area .nft-card {
   display: none;
+  transform: 2s;
 }
 
 .card-area:hover .nft-card {

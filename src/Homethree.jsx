@@ -67,12 +67,9 @@ function Homethree() {
     axios
       .post(`https://admin.reblium.com/add_drop_image_fav/?image_id=${imageId}`)
       .then((response) => {
-        let newArr = [...images];
-        let b = _.findIndex(newArr, function (el) {
-          return el.name === imageId;
-        });
-        newArr[b].faved = response.data;
-        setImages(newArr);
+        let newArr = [...favs];
+        newArr[imageId - 1].faved = response.data;
+        setFavs(newArr);
       })
       .catch((error) => {
         this.setState({ errorMessage: error.message });
@@ -797,7 +794,7 @@ function Homethree() {
         </div>
         <Modals
           image_id={clickedImage}
-          faved={images[clickedImage - 1]}
+          faved={favs[clickedImage - 1]}
           faving={() => addDropFav(clickedImage)}
           click_img_fn={() => setClickedImage()}
         />
