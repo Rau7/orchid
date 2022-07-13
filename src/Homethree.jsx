@@ -95,7 +95,8 @@ function Homethree() {
   useEffect(() => {
     let normal_counter = 0;
     let filter_counter = 0;
-    let lastArr = [];
+    let lastArr = filterArr;
+    lastArr = [];
     for (let i = 0; i < images.length; i++) {
       filter_counter = 0;
       for (let j = 0; j < images[i]["attributes"].length; j++) {
@@ -117,7 +118,10 @@ function Homethree() {
     }
     setFilteredImages(lastArr);
     setImageCount(lastArr.length);
-    setStartIndex(0);
+    setMin(1);
+    setMax(20);
+    setStartIndex(min);
+    setEndIndex(max);
     setLoadBeforeDis("d-none");
   }, [filterArr, images]);
 
@@ -755,7 +759,7 @@ function Homethree() {
                                 {/*Description : {METADATA[item.name].description}*/}
                                 <div className="each-attribute">
                                   <ul className="trait-lists">
-                                    {METADATA[item.name - 1].attributes
+                                    {METADATA[item.name - 1]?.attributes
                                       .filter(
                                         (attri) => attri.value !== "Nothing"
                                       )
