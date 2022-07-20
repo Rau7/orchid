@@ -773,14 +773,14 @@ function Homethree() {
                                           <span className="trait-attr">
                                             : {attr.value}
                                           </span>
-                                          <span className="trait-perc">
+                                          {/*<span className="trait-perc">
                                             %
                                             {
                                               percs[attr.trait_type].attributes[
                                                 attr.value
                                               ]
                                             }
-                                          </span>
+                                          </span>*/}
                                         </li>
                                       ))}
                                   </ul>

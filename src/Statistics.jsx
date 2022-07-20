@@ -1,5 +1,6 @@
 import IMAGES from "./photos";
 import METADATA from "./metadata";
+import METAS from "./newmeta";
 import logo1 from "./images/1.png";
 import { FaHeart, FaPlusCircle, FaSearch, FaBars, FaTh } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
@@ -10,7 +11,7 @@ import Modals from "./components/Modals";
 import ATRAITS from "./attrs_traits_many";
 
 function Statistics() {
-  const [metadata, setMetadata] = useState(METADATA);
+  const [metadata, setMetadata] = useState(METAS);
   const [traits, setTraits] = useState();
   const [attrs, setAttrs] = useState();
   const [reals, setReals] = useState(ATRAITS);
@@ -19,7 +20,13 @@ function Statistics() {
     let traits = [];
     let attrs = [];
     let attrs_many = [];
+    let newMeta = [];
+
     metadata.forEach((element) => {
+      newMeta.push(element);
+    });
+
+    newMeta.forEach((element) => {
       element.attributes.forEach((attr) => {
         traits.push(attr.trait_type);
       });
@@ -30,7 +37,7 @@ function Statistics() {
 
     let ctr = 0;
     let trait_ctr = 0;
-    metadata.forEach((element) => {
+    newMeta.forEach((element) => {
       traits.forEach((trt) => {
         trait_ctr = 0;
         ctr = 0;
@@ -48,7 +55,7 @@ function Statistics() {
       let at = e.substring(0, e.indexOf("+"));
       let tr = e.substring(e.indexOf("+") + 1);
       counter = 0;
-      metadata.forEach((element) => {
+      newMeta.forEach((element) => {
         element.attributes.forEach((attr) => {
           if (attr.trait_type === tr && attr.value === at) {
             counter++;
@@ -76,7 +83,6 @@ function Statistics() {
     });
     attrs_many = [...new Set(attrs_many)];
     setAttrs(attrs_many);
-
     setReals(temp_rl);
   }, []);
 

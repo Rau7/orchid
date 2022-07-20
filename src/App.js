@@ -6,12 +6,15 @@ import Home from "./Home";
 import Hometwo from "./Hometwo";
 import Homethree from "./Homethree";
 import LikedImages from "./LikedImages";
+import Statistics from "./Statistics";
 
 function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Homethree />} />
       <Route exact path="/approved_images" element={<LikedImages />} />
+
+      <Route exact path="/statistics" element={<Statistics />} />
     </Routes>
   );
 }
