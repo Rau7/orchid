@@ -11,7 +11,7 @@ import Modals from "./components/Modals";
 import ATRAITS from "./attrs_traits_many";
 
 function Statistics() {
-  const [metadata, setMetadata] = useState(METAS);
+  const [metadata, setMetadata] = useState(METADATA);
   const [traits, setTraits] = useState();
   const [attrs, setAttrs] = useState();
   const [reals, setReals] = useState(ATRAITS);
