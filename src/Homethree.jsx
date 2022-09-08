@@ -55,6 +55,8 @@ function Homethree() {
   setImages 
   setFilteredImages (all_images as default)
   */
+
+  /*
   useEffect(() => {
     axios.get(`https://admin.reblium.com/get_xspectar_favs`).then((res) => {
       setFavs(res.data);
@@ -62,9 +64,8 @@ function Homethree() {
     setImageCount(images.length - 1);
   }, []);
 
-  /* 
-    LIKE IMAGE OR DISLIKE THE IMAGE
   */
+
   function addDropFav(imageId) {
     axios
       .post(`https://admin.reblium.com/add_drop_image_fav/?image_id=${imageId}`)
@@ -78,7 +79,6 @@ function Homethree() {
         console.error("There was an error!", error);
       });
   }
-
   /*
   SET FILTER ARRAY ADD AND DROP
   */
@@ -543,13 +543,13 @@ function Homethree() {
                   {imageCount} Items Listed
                 </div>
               </div>
-              <div className="col-md-2 col-sm-3 col-6">
+              {/* <div className="col-md-2 col-sm-3 col-6">
                 <div className="liked-images-link d-flex justify-content-center">
                   <Link to="/approved_images" className="navigation-button">
                     Approved Images
                   </Link>
                 </div>
-              </div>
+              </div>*/}
             </div>
             <div className="row range-area">
               <div className="col-md-2 col-sm-6 d-flex justify-content-start align-items-center">
@@ -740,7 +740,7 @@ function Homethree() {
                             <div className={`nft-image-name ${trt}`}>
                               #{padLeadingZeros(item.name, 4)}
                             </div>
-                            <div className={`nft-like-area ${trt}`}>
+                            {/* LIKE AREA  <div className={`nft-like-area ${trt}`}>
                               <button
                                 className="btn like-button"
                                 onClick={() => addDropFav(item.name)}
@@ -753,7 +753,7 @@ function Homethree() {
                                   } ${favs}`}
                                 />
                               </button>
-                            </div>
+                            </div>*/}
                           </div>
                           <div className={`nft-card ${trt}`}>
                             <div className="nft-info">
