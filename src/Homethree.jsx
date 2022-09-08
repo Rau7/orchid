@@ -412,7 +412,13 @@ function Homethree() {
   };
 
   const handleEnd = (e) => {
-    setMax(e.target.value);
+    const maxi = e.target.value;
+
+    if (maxi > filteredImgs.length) {
+      setMax(filteredImgs.length);
+    } else {
+      setMax(maxi);
+    }
   };
 
   const showRange = () => {
@@ -593,6 +599,7 @@ function Homethree() {
                         onChange={(e) => {
                           handleEnd(e);
                         }}
+                        max={filteredImgs.length}
                       />
                     </div>
                   </div>
