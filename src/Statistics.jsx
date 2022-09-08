@@ -23,8 +23,14 @@ function Statistics() {
     let newMeta = [];
 
     metadata.forEach((element) => {
-      newMeta.push(element);
+      element.attributes.forEach((attr) => {
+        if (attr.trait_type == "Gender" && attr.value == "Male") {
+          newMeta.push(element);
+        }
+      });
     });
+
+    console.log(newMeta);
 
     newMeta.forEach((element) => {
       element.attributes.forEach((attr) => {
